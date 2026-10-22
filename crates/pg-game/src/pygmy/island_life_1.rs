@@ -842,6 +842,8 @@ pub fn start_staring_at_kidnapping(world: &mut World, this: Entity) -> bool {
     // Face the statue: left when Kong is further left than the pygmy.
     set_x_scale(world, this, 1.0);
 
+    // PORT: with a nil kongStatueLogic: the original reads through a NULL pos pointer; the facing
+    // comparison is skipped and xScale stays 1.
     if let Some(kong_statue) = kong_statue {
         let kong_display = pg_engine::logic::display_object(world, kong_statue);
         let kong_x_pos = pg_engine::display::object(world, kong_display).pos.x;
@@ -1243,7 +1245,9 @@ pub fn seq_choose_rainbow_animation(world: &mut World, this: Entity, call: &mut 
     let random_index = world.resource_mut::<Random>().arc4random_mod(pool_count);
     let index = random_index as i32;
 
-    // An index outside the pool (only possible with an empty list) raises in the original.
+    // PORT: the original raises on objectAtIndex: (with the raw arc4random value) when the pool is
+    // still empty, which needs an absent `list` parameter (an empty string adds one empty id, as
+    // componentsSeparatedByString: does); the item finishes (2) without playing.
     let pool = &world.resource::<PygmyIslandLifeStatics>().rainbow_animation_pool;
     let pool_index = usize::try_from(index).ok();
     let animation_id = pool_index.and_then(|pool_index| pool.get(pool_index)).cloned();

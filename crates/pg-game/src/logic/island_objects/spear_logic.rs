@@ -2,6 +2,7 @@
 
 use crate::prelude::*;
 
+use crate::logic::island_core::coconut_logic;
 use crate::logic::island_core::sprite_logic::{self, SpriteLogic};
 use crate::logic::monsters::{spider_logic, t_rex_logic};
 use crate::logic::sky_powers::hurricane_logic;
@@ -733,15 +734,7 @@ pub fn refresh_tilt_state(world: &mut World, this: Entity) {
         return;
     }
 
-    let raw_roll = world.resource::<BcView>().raw_accel_rot_degrees.z;
-    let mut tilt_state = 0;
-    if -130.0 <= raw_roll && raw_roll <= 130.0 {
-        tilt_state = 1;
-        if raw_roll <= 90.0 && -90.0 <= raw_roll {
-            tilt_state = 2;
-        }
-    }
-
+    let tilt_state = coconut_logic::throwable_tilt_state(world);
     if tilt_state != world.obj::<SpearLogic>(this).tilt_state {
         if tilt_state == 0 {
             pg_engine::logic::logic_mut(world, this).pos_vel.x = 0.0;
@@ -754,8 +747,7 @@ pub fn refresh_tilt_state(world: &mut World, this: Entity) {
         }
     }
 
-    let roll = world.resource::<BcView>().accel_rot_degrees.z;
-    if -90.0 < roll && roll < 90.0 {
+    if coconut_logic::is_island_tipped_over(world) {
         {
             let mut spear = world.obj_mut::<SpearLogic>(this);
             spear.falling = true;
@@ -791,7 +783,8 @@ pub fn seq_slide(world: &mut World, this: Entity, call: &mut SequenceCall) -> It
 
     let display_object = pg_engine::logic::display_object(world, this);
     let pos_y = pg_engine::display::object(world, display_object).pos.y;
-    if WATER_Y_POS <= pos_y {
+    let below_water_line = pos_y < WATER_Y_POS;
+    if !below_water_line {
         return ItemResult::Pending;
     }
 
@@ -882,7 +875,8 @@ pub fn seq_fall(world: &mut World, this: Entity, call: &mut SequenceCall) -> Ite
         world.obj_mut::<SpearLogic>(this).falling = false;
         return ItemResult::Done;
     }
-    if WATER_Y_POS <= pos_y {
+    let below_water_line = pos_y < WATER_Y_POS;
+    if !below_water_line {
         return ItemResult::Pending;
     }
 
@@ -923,7 +917,8 @@ pub fn seq_fall_from_hurricane(world: &mut World, this: Entity, call: &mut Seque
     } else {
         WATER_Y_POS
     };
-    if floor_y <= pos.y {
+    let below_floor = pos.y < floor_y;
+    if !below_floor {
         return ItemResult::Pending;
     }
 

@@ -7,7 +7,6 @@ use pg_engine::display;
 use pg_engine::display::model::SPRITE_Z;
 
 use crate::logic::ice_island::ice_hole_logic;
-use crate::logic::ice_island::ice_hole_logic::IceHoleLogic;
 use crate::logic::island_core::sprite_logic::SpriteLogic;
 use crate::logic::monsters::zombie_grave_logic;
 use crate::logic::moronpests_chase::moron_snake_logic;
@@ -346,13 +345,11 @@ fn is_ice_hole_calling(world: &mut World, this: Entity, listener: Option<Entity>
 }
 
 /// `[hole tentaclePos]`: the position of the ice hole's tentacle display object.
-fn ice_hole_tentacle_pos(world: &World, ice_hole: Option<Entity>) -> Vec4 {
-    let tentacle = ice_hole.and_then(|ice_hole| world.obj::<IceHoleLogic>(ice_hole).tentacle_display_object);
-
-    match tentacle {
-        Some(tentacle) => display::object(world, tentacle).pos,
-        // PORT: the original reads through the NULL pointer a nil hole or tentacle returns; both
-        // exist whenever the squid holds a pygmy.
+fn ice_hole_tentacle_pos(world: &mut World, ice_hole: Option<Entity>) -> Vec4 {
+    match ice_hole {
+        Some(ice_hole) => ice_hole_logic::tentacle_pos(world, ice_hole),
+        // PORT: the original reads through the NULL pointer `[nil tentaclePos]` returns; the hole
+        // exists whenever the squid holds a pygmy.
         None => Vec4::ZERO,
     }
 }

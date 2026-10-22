@@ -18,6 +18,14 @@ use crate::managers::skin_pack_manager;
 
 use super::*;
 
+/// `PTR_PTR_100569a68`: the `BCSkinTextureBitsDef` array of the episode alert's icon slot, as an
+/// index into [`SKIN_TEXTURE_BITS_DEF_ARRAYS`].
+pub const EPISODE_ALERT_ICON_SLOT_BITS: usize = 0;
+
+/// `PTR_PTR_100569a98`: the `BCSkinTextureBitsDef` array of the episode alert's (and the award
+/// screen's) idol slot, as an index into [`SKIN_TEXTURE_BITS_DEF_ARRAYS`].
+pub const EPISODE_ALERT_IDOL_SLOT_BITS: usize = 1;
+
 /// `PTR_PTR_100569ac8` … `PTR_PTR_100569c48`: the `BCSkinTextureBitsDef` arrays of the episode
 /// icon slots 1–9, as indices into [`SKIN_TEXTURE_BITS_DEF_ARRAYS`].
 pub const EPISODE_ICON_SLOT_BITS: [usize; 9] = [2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -446,13 +454,14 @@ pub fn update_idol_icon_logics(world: &mut World, this: Entity) {
             continue;
         };
 
-        // An icon whose position is NaN counts as below the list, as with the original's
-        // `b.le`.
+        // Only an ordered "greater than" removes the icon: the original's `fcmp` / `fccmp …, le`
+        // / `b.le` treat an unordered result as LE, so a NaN position (the icon's or the list's)
+        // keeps it.
         let icon_bottom = -100.0 - node.idol_icon_pos.y;
         let icon_top = -node.idol_icon_pos.y;
-        let reaches_list = icon_bottom <= bottom_limit;
+        let below_list = icon_bottom > bottom_limit;
         let above_list = top_limit > icon_top;
-        if !reaches_list || above_list {
+        if below_list || above_list {
             world.obj_mut::<IdolScreenLogic>(this).available_idol_icon_logic_array.push(idol_icon);
             idol_icon_logic::deactivate(world, idol_icon);
             idol_manager::episode_table_mut(world).nodes[episode].idol_icon_logic = None;
@@ -1290,9 +1299,7 @@ pub fn manage_idol_battle_realm_effect_logics(world: &mut World, this: Entity, m
             continue;
         }
 
-        let Some(node) = idol_battle_state.struct_xml_episode_node_def else {
-            continue;
-        };
+        let node = required_node(idol_battle_state.struct_xml_episode_node_def);
         let realm_powers = &episode_def(world, node).realm_powers;
         if realm_powers.is_empty() {
             continue;
@@ -1344,11 +1351,8 @@ fn remove_realm_effect(world: &mut World, this: Entity, side: BattleSide, realm_
 /// `if (![array containsObject:logic]) { [array addObject:logic]; [logic activate:node
 /// isBuffEffect:buff]; }` on a realm-effect logic array.
 fn add_realm_effect(world: &mut World, this: Entity, side: BattleSide, realm_effect: Option<Entity>, node: usize, buff_effect: bool) {
-    // Every idol's realm-effect logic is set by `openIdolBattleScreen` before the HUD updates
-    // (`[array addObject:nil]` would raise).
-    let Some(realm_effect) = realm_effect else {
-        return;
-    };
+    // `openIdolBattleScreen` gives every idol its realm-effect logic before the HUD updates.
+    let realm_effect = realm_effect.expect("IdolScreenLogic: the realm-effect logic is nil ([array addObject:nil] raises)");
     let screen_logic = world.obj::<IdolScreenLogic>(this);
     let contains = realm_effect_logic_array(screen_logic, side).contains(&realm_effect);
     if contains {

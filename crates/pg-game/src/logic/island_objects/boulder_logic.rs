@@ -2,6 +2,7 @@
 
 use crate::prelude::*;
 
+use crate::logic::island_core::coconut_logic;
 use crate::logic::island_core::sprite_logic::{self, SpriteLogic};
 use pg_engine::touch::BcTouch;
 use pg_engine::view::BcView;
@@ -514,15 +515,7 @@ pub fn refresh_tilt_state(world: &mut World, this: Entity) {
     };
 
     if !dragging && !falling && on_island {
-        let raw_roll = world.resource::<BcView>().raw_accel_rot_degrees.z;
-        let mut tilt_state = 0;
-        if -130.0 <= raw_roll && raw_roll <= 130.0 {
-            tilt_state = 1;
-            if raw_roll <= 90.0 && -90.0 <= raw_roll {
-                tilt_state = 2;
-            }
-        }
-
+        let tilt_state = coconut_logic::throwable_tilt_state(world);
         if tilt_state != world.obj::<BoulderLogic>(this).tilt_state {
             if tilt_state == 0 {
                 pg_engine::logic::logic_mut(world, this).pos_vel.x = 0.0;
@@ -535,8 +528,7 @@ pub fn refresh_tilt_state(world: &mut World, this: Entity) {
             }
         }
 
-        let roll = world.resource::<BcView>().accel_rot_degrees.z;
-        if roll <= -90.0 || 90.0 <= roll {
+        if !coconut_logic::is_island_tipped_over(world) {
             return;
         }
         {
@@ -545,11 +537,8 @@ pub fn refresh_tilt_state(world: &mut World, this: Entity) {
             boulder.tilt_state = 0;
         }
         pg_engine::logic::set_behavior(world, this, Some("BoulderFall"));
-    } else {
-        let roll = world.resource::<BcView>().accel_rot_degrees.z;
-        if roll <= -90.0 || 90.0 <= roll {
-            return;
-        }
+    } else if !coconut_logic::is_island_tipped_over(world) {
+        return;
     }
 
     let crushed = world.obj::<BoulderLogic>(this).crushed_pygmy_logic;
@@ -585,7 +574,8 @@ pub fn seq_slide(world: &mut World, this: Entity, call: &mut SequenceCall) -> It
 
     let display_object = pg_engine::logic::display_object(world, this);
     let pos_y = pg_engine::display::object(world, display_object).pos.y;
-    if WATER_Y_POS <= pos_y {
+    let below_water_line = pos_y < WATER_Y_POS;
+    if !below_water_line {
         return ItemResult::Pending;
     }
 
@@ -676,7 +666,8 @@ pub fn seq_fall(world: &mut World, this: Entity, call: &mut SequenceCall) -> Ite
         world.obj_mut::<BoulderLogic>(this).falling = false;
         return ItemResult::Done;
     }
-    if WATER_Y_POS <= pos_y {
+    let below_water_line = pos_y < WATER_Y_POS;
+    if !below_water_line {
         return ItemResult::Pending;
     }
 

@@ -31,8 +31,10 @@ pub struct PygmyPygmyTouchDrag {
     pub konkey_dong_ladder_touch: Option<Entity>,
 }
 
-/// The `allTouches` argument the touch handlers forward to the mini-game and ghost handlers.
-/// The port's touch slots carry no touch set and none of those handlers reads it.
+/// The `allTouches` set that `touchBeganInside:` and `touchMovedOutside:` forward to
+/// `touchBeganInsideGhost:allTouches:` and `touchMovedGhost:allTouches:`.
+// PORT: those two still take the generated `Entity`, which cannot carry the set, so this stands
+// in for it until their parameter becomes `&[Entity]` (neither handler reads it).
 const NO_ALL_TOUCHES: Entity = Entity::PLACEHOLDER;
 
 /// `[[display displayGroup] viewToDisplayObject:&point]`; outside any group the message goes
