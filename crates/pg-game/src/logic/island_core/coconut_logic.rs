@@ -400,7 +400,10 @@ pub fn check_pygmy_collision(world: &mut World, this: Entity) {
     let y_pos = pos.y;
 
     let listener = world.obj::<CoconutLogic>(this).coconut_logic_listener;
-    let pygmy_logic_array = listener_pygmy_logic_array(world, listener);
+    let pygmy_logic_array = match listener {
+        Some(listener) => crate::controller::pygmy_logic_array(world, listener, this),
+        None => Vec::new(),
+    };
     for pygmy in pygmy_logic_array {
         let vel_y = logic::logic(world, this).pos_vel.y;
         let moving_down = vel_y < 0.0;
@@ -1058,8 +1061,10 @@ pub fn throwable_hurricane_water_line_y(z_pos: f32) -> f32 {
     THROWABLE_HURRICANE_WATER_LINE_Y[behind_island as usize]
 }
 
-/// The offset of `drag:::`: the display position minus the touch point in the display group's
-/// space (`viewToDisplayObject:`; a nil group answers the zero point), keeping `pos.w`.
+/// The offset of `drag:::`: x and y are the display position minus the touch point in the
+/// display group's space (`viewToDisplayObject:`; a nil group answers the zero point), z is
+/// `pos.z − pos.z` (0 for any finite depth, so the drag spring has no z stretch), and w is
+/// `pos.w`.
 pub fn throwable_drag_offset(world: &World, display_object: Entity, touch_screen_pos: Vec4) -> Vec4 {
     let display = display::object(world, display_object);
     let pos = display.pos;
@@ -1072,7 +1077,9 @@ pub fn throwable_drag_offset(world: &World, display_object: Entity, touch_screen
 
     let offset_x = pos.x - touch_pos.x;
     let offset_y = pos.y - touch_pos.y;
-    let offset_z = pos.z - touch_pos.z;
+    // Original bug, kept: drag::: reloads pos.z over the touch z (ldr s2,[x20,#8]), so the z
+    // offset is pos.z - pos.z.
+    let offset_z = pos.z - pos.z;
     Vec4::new(offset_x, offset_y, offset_z, pos.w)
 }
 
@@ -1084,7 +1091,8 @@ pub fn throwable_drag_z_rot(offset: Vec4) -> f32 {
 }
 
 /// The drag spring of `drag:::` (`mSpringForce`): `((length·−stiffness) / length)·offset −
-/// damping·vel` for x, y and z, with w taken from the offset.
+/// damping·vel` for x, y and z, with w taken from the offset. With the offset of
+/// `throwable_drag_offset`, z is only the damping `−damping·vel.z`.
 pub fn throwable_spring_force(offset: Vec4, length: f32, pos_vel: Vec4, stiffness: f32, damping: f32) -> Vec4 {
     let stretch = (length * -stiffness) / length;
 
@@ -1096,17 +1104,4 @@ pub fn throwable_spring_force(offset: Vec4, length: f32, pos_vel: Vec4, stiffnes
     let spring_y = damping_y + stretch * offset.y;
     let spring_z = damping_z + stretch * offset.z;
     Vec4::new(spring_x, spring_y, spring_z, offset.w)
-}
-
-/// `[listener pygmyLogicArray:self]` for a listener that is the view controller: its
-/// `mPygmyLogicArray`. A nil listener answers no pygmies.
-pub fn listener_pygmy_logic_array(world: &World, listener: Option<Entity>) -> Vec<Entity> {
-    let Some(listener) = listener else {
-        return Vec::new();
-    };
-
-    match world.get::<crate::controller::ControllerPygmies>(listener) {
-        Some(pygmies) => pygmies.pygmy_logic_array.clone(),
-        None => Vec::new(),
-    }
 }

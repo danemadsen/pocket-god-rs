@@ -502,6 +502,8 @@ pub fn swallowed_by_spider(world: &mut World, this: Entity, _spider_logic: Entit
 
 /// `-[PygmyLogic (Island) eatenBySpider:]` @ 0x1000a3898
 pub fn eaten_by_spider(world: &mut World, this: Entity, _spider_logic: Entity) -> bool {
+    // Only a normal pygmy (`mTimeTemplePygmyType == 0`): unlike `eatenByTRex:`, the spider
+    // never takes a baby pygmy.
     if !is_free_without_shark_on_head(world, this) {
         return false;
     }

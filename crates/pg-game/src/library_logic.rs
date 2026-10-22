@@ -181,9 +181,14 @@ fn apply_listener(world: &mut World, logic: Entity, listener_def: &ListenerDef) 
     let ListenerTarget::Singleton { class, .. } = &listener_def.target;
     let listener = singleton_instance(world, class);
 
-    // `+instance` is never nil here: the logic singletons are earlier table entries and
-    // `loadGame` creates the managers before `initLogicListeners`. The game's setters take an
-    // object, so a missing singleton leaves the listener as it is instead of storing nil.
+    // `+instance` is never nil here in the original: the logic singletons are earlier table
+    // entries, `loadGame` creates the managers before `initLogicListeners`, and every one of these
+    // classes' `init`s writes its static. A nil here means the port of that `init` does not store
+    // `Some(this)` in `Singletons`, which would silently drop every listener link to it.
+    debug_assert!(listener.is_some(), "initLogicListeners: +[{class} instance] is nil");
+
+    // The game's setters take an object, so a nil listener is not sent: the logic keeps the
+    // listener it has instead of storing nil, which for a freshly created logic is the same.
     let Some(listener) = listener else {
         return;
     };

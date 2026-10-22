@@ -539,9 +539,8 @@ pub fn init_with_display_object(world: &mut World, this: Entity, display_object:
     insert_components(world, this);
     crate::logic::island_core::sprite_logic::init_with_display_object(world, this, display_object);
 
-    // `DAT_100816200`, the dialog dictionary of `checkPygmyDialog:::`, is created once.
-    world.get_resource_or_insert_with(PygmyPygmyBehaviourItemsStatics::default);
-
+    // The one-time `DAT_100816200` dictionary allocation is
+    // `PygmyPygmyBehaviourItemsStatics::dialog_start_times`, created on first use.
     let random = world.resource_mut::<Random>().arc4random();
     let friction_step = (random % 401) as f32;
     {
@@ -846,7 +845,11 @@ pub fn is_accel_enabled(world: &mut World, this: Entity) -> bool {
 }
 
 /// `-[PygmyLogic translateAndMoveToDisplayMarker:]` @ 0x100129894
-pub fn translate_and_move_to_display_marker(world: &mut World, this: Entity, marker: Entity) {
+///
+/// The original never checks the marker: a nil marker has a nil group, whose
+/// `viewToDisplayObject:` answers a zero vector, so the pygmy moves to x = y = 0, the
+/// `insertAfter:` does nothing and the labels are still re-layered.
+pub fn translate_and_move_to_display_marker(world: &mut World, this: Entity, marker: Option<Entity>) {
     let display = pg_engine::logic::display_object(world, this);
     let display_object = pg_engine::display::object(world, display);
     let pos = display_object.pos;
@@ -857,7 +860,10 @@ pub fn translate_and_move_to_display_marker(world: &mut World, this: Entity, mar
         Some(display_group) => pg_engine::display::display_object_to_view(world, display_group, pos),
         None => Vec4::ZERO,
     };
-    let marker_group = pg_engine::display::object(world, marker).display_group;
+    let marker_group = match marker {
+        Some(marker) => pg_engine::display::object(world, marker).display_group,
+        None => None,
+    };
     let marker_point = match marker_group {
         Some(marker_group) => pg_engine::display::view_to_display_object(world, marker_group, view_point),
         None => Vec4::ZERO,
@@ -869,7 +875,9 @@ pub fn translate_and_move_to_display_marker(world: &mut World, this: Entity, mar
         display_object.pos.y = marker_point.y;
     }
 
-    pg_engine::display::insert_after(world, marker, Some(display));
+    if let Some(marker) = marker {
+        pg_engine::display::insert_after(world, marker, Some(display));
+    }
     update_label_layer(world, this);
 }
 
@@ -1313,9 +1321,7 @@ pub fn on_game_frame(world: &mut World, this: Entity, dt: f32) {
             if !on_fail_boat {
                 world.obj_mut::<PygmyPygmyCoreFrame>(this).on_fail_boat = true;
                 let marker = pg_engine::library::display_marker(world, "FailBoatPygmyDisplayMarker");
-                if let Some(marker) = marker {
-                    translate_and_move_to_display_marker(world, this, marker);
-                }
+                translate_and_move_to_display_marker(world, this, marker);
             }
             0.0
         } else {

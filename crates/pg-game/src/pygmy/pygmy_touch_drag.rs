@@ -531,9 +531,7 @@ pub fn touch_began_inside(world: &mut World, this: Entity, touch: Entity) {
             world.obj_mut::<PygmyPygmyTouchDrag>(this).touch_screen_pos = touch_pos;
 
             let marker = listener.and_then(|listener| crate::controller::pygmy_drag_display_marker(world, listener));
-            if let Some(marker) = marker {
-                translate_and_move_to_display_marker(world, this, marker);
-            }
+            translate_and_move_to_display_marker(world, this, marker);
 
             start_drag(world, this);
             return;

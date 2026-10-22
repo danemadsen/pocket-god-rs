@@ -4,12 +4,17 @@
 //! main texture, or `Rgba16Float` on WebGL2), but bevy_egui 0.43 always builds its pipeline
 //! for `Rgba8UnormSrgb` and fails validation when it draws into such a texture. egui
 //! therefore gets a camera of its own that draws nothing else and is composited over the game.
+//!
+//! That camera renders only while egui shows something (the game's only egui piece is the
+//! text field of `pg-ui`): with a second camera compositing onto the window every frame,
+//! Android presented a fully black frame every second or so.
 
 use bevy::camera::CameraOutputMode;
 use bevy::camera::visibility::RenderLayers;
 use bevy::prelude::*;
 use bevy::render::render_resource::BlendState;
 use bevy_egui::{EguiGlobalSettings, EguiPlugin, PrimaryEguiContext};
+use pg_engine::platform::TextField;
 
 /// Above pg-render's game camera (order 0).
 const EGUI_CAMERA_ORDER: isize = 1;
@@ -27,6 +32,17 @@ impl Plugin for EguiOverlayPlugin {
 
         app.add_plugins(EguiPlugin::default());
         app.add_systems(Startup, spawn_egui_camera);
+        app.add_systems(PostUpdate, activate_while_shown);
+    }
+}
+
+/// Renders the overlay only while the text field is open.
+fn activate_while_shown(field: Res<TextField>, mut cameras: Query<&mut Camera, With<PrimaryEguiContext>>) {
+    let shown = field.first_responder;
+    for mut camera in &mut cameras {
+        if camera.is_active != shown {
+            camera.is_active = shown;
+        }
     }
 }
 
@@ -41,6 +57,7 @@ fn spawn_egui_camera(mut commands: Commands) {
         order: EGUI_CAMERA_ORDER,
         output_mode,
         clear_color: ClearColorConfig::Custom(Color::NONE),
+        is_active: false,
         ..default()
     };
 

@@ -1,6 +1,20 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
 }
+
+/** Reads a properties file (any line endings). */
+fun loadProperties(file: File): Properties {
+    val properties = Properties()
+    file.reader().use { reader -> properties.load(reader) }
+    return properties
+}
+
+// Release signing: android/keystore.properties (never committed, see keystore.properties.example)
+// points at a key bundle outside the repository. Without it, release builds are unsigned.
+val keystorePointer = rootProject.file("keystore.properties")
+val releaseKey: Properties? = if (keystorePointer.exists()) loadProperties(keystorePointer) else null
 
 android {
     namespace = "com.boltcreative.pocketgod.port"
@@ -13,6 +27,24 @@ android {
         targetSdk = 36
         versionCode = 1
         versionName = "1.48.2"
+    }
+
+    signingConfigs {
+        if (releaseKey != null) {
+            val secrets = loadProperties(file(releaseKey.getProperty("keyProperties")))
+            create("release") {
+                storeFile = file(releaseKey.getProperty("storeFile"))
+                storePassword = secrets.getProperty("storePassword")
+                keyAlias = secrets.getProperty("releaseAlias")
+                keyPassword = secrets.getProperty("releasePassword")
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.findByName("release")
+        }
     }
 
     packaging {

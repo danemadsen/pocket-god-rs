@@ -13,3 +13,10 @@ android/build/
 android/app/build/
 android/app/src/main/jniLibs/
 android/local.properties
+
+# Signing secrets never enter the repo (android/keystore.properties points at them).
+android/keystore.properties
+*.jks
+*.keystore
+*.p12
+key.properties

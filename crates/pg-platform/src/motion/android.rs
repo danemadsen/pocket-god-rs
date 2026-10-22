@@ -1,8 +1,9 @@
 //! The Android accelerometer through the NDK sensor API.
 //!
-//! The event queue sits on the main thread's looper (the one android-activity polls) with a
-//! callback, so readings are drained as they arrive and the latest one waits for the next
-//! frame. The display rotation comes from JNI every frame, since turning the device from one
+//! The event queue lives on a thread of its own with its own looper and a callback, so readings
+//! are drained as they arrive and the latest one waits for the next frame. (On the main
+//! thread's looper every delivery made android-activity's poll report a spurious
+//! `ALOOPER_POLL_CALLBACK`, dozens of error lines a second.) The display rotation comes from JNI every frame, since turning the device from one
 //! landscape to the other changes no configuration: a stale rotation would read the device as
 //! upside down after the display flipped. The sensor is off while the app is in the background,
 //! like the suspended original's motion manager.
@@ -10,12 +11,12 @@
 use std::ffi::{c_int, c_void};
 use std::ptr;
 use std::sync::Mutex;
-use std::sync::atomic::{AtomicPtr, Ordering};
+use std::sync::atomic::{AtomicBool, AtomicPtr, Ordering};
 
 use bevy::ecs::system::NonSendMarker;
 use bevy::prelude::*;
 use ndk_sys::{
-    ALOOPER_POLL_CALLBACK, ALooper_forThread, ASENSOR_TYPE_ACCELEROMETER, ASensor, ASensorEvent, ASensorEventQueue,
+    ALOOPER_POLL_CALLBACK, ALooper_pollOnce, ALooper_prepare, ASENSOR_TYPE_ACCELEROMETER, ASensor, ASensorEvent, ASensorEventQueue,
     ASensorEventQueue_disableSensor, ASensorEventQueue_enableSensor, ASensorEventQueue_getEvents,
     ASensorEventQueue_setEventRate, ASensorManager_createEventQueue, ASensorManager_getDefaultSensor,
     ASensorManager_getInstanceForPackage,
@@ -34,9 +35,13 @@ const SENSOR_PERIOD_US: i32 = 16_667;
 /// Readings fetched per `ASensorEventQueue_getEvents` call.
 const EVENT_BATCH: usize = 8;
 
-/// The accelerometer's queue and sensor, set once on the main thread.
+/// The accelerometer's queue and sensor, set once by the sensor thread.
 static EVENT_QUEUE: AtomicPtr<ASensorEventQueue> = AtomicPtr::new(ptr::null_mut());
 static SENSOR: AtomicPtr<ASensor> = AtomicPtr::new(ptr::null_mut());
+
+/// Whether the game wants readings (the app is in the foreground). The sensor thread applies it
+/// once its queue exists, so a change made before that is not lost.
+static WANTED: AtomicBool = AtomicBool::new(false);
 
 /// The latest reading in the device's natural axes, m/s².
 static LATEST_READING: Mutex<Option<[f32; 3]>> = Mutex::new(None);
@@ -64,7 +69,7 @@ pub(super) fn build(app: &mut App) {
     app.add_systems(Update, poll);
 }
 
-/// Drains the queue (called by the looper on the main thread); keeps the latest reading.
+/// Drains the queue (called by the sensor thread's looper); keeps the latest reading.
 unsafe extern "C" fn on_sensor_events(_fd: c_int, _events: c_int, _data: *mut c_void) -> c_int {
     let queue = EVENT_QUEUE.load(Ordering::Acquire);
     if queue.is_null() {
@@ -99,12 +104,19 @@ unsafe extern "C" fn on_sensor_events(_fd: c_int, _events: c_int, _data: *mut c_
 }
 
 fn set_sensor_enabled(enabled: bool) {
+    WANTED.store(enabled, Ordering::Release);
+    apply_sensor_state();
+}
+
+/// Turns the sensor on or off as [`WANTED`] says, once the queue exists.
+fn apply_sensor_state() {
+    let enabled = WANTED.load(Ordering::Acquire);
     let queue = EVENT_QUEUE.load(Ordering::Acquire);
     let sensor = SENSOR.load(Ordering::Acquire);
     if queue.is_null() || sensor.is_null() {
         return;
     }
-    // SAFETY: both were created by `start_accelerometer` and live for the whole run.
+    // SAFETY: both were created by the sensor thread and live for the whole run.
     unsafe {
         if enabled {
             ASensorEventQueue_enableSensor(queue, sensor);
@@ -115,9 +127,17 @@ fn set_sensor_enabled(enabled: bool) {
     }
 }
 
-/// Creates the accelerometer's event queue on the main thread's looper.
-fn start_accelerometer(_main_thread: NonSendMarker) {
-    // SAFETY: plain NDK calls; every pointer is checked before use.
+/// Starts the sensor thread, which owns the accelerometer's looper and event queue.
+fn start_accelerometer() {
+    let spawned = std::thread::Builder::new().name("accelerometer".to_owned()).spawn(run_sensor_thread);
+    if let Err(error) = spawned {
+        warn!("could not start the accelerometer thread ({error}); the device rests in landscape-right");
+    }
+}
+
+/// Creates the event queue on this thread's own looper, then serves it for the rest of the run.
+fn run_sensor_thread() {
+    // SAFETY: plain NDK calls on this thread; every pointer is checked before use.
     unsafe {
         let manager = ASensorManager_getInstanceForPackage(PACKAGE_NAME.as_ptr());
         if manager.is_null() {
@@ -129,9 +149,9 @@ fn start_accelerometer(_main_thread: NonSendMarker) {
             warn!("no accelerometer; the device rests in landscape-right");
             return;
         }
-        let looper = ALooper_forThread();
+        let looper = ALooper_prepare(0);
         if looper.is_null() {
-            warn!("the main thread has no looper; the accelerometer is off");
+            warn!("the accelerometer thread has no looper; the accelerometer is off");
             return;
         }
         let queue = ASensorManager_createEventQueue(
@@ -148,6 +168,12 @@ fn start_accelerometer(_main_thread: NonSendMarker) {
 
         SENSOR.store(sensor.cast_mut(), Ordering::Release);
         EVENT_QUEUE.store(queue, Ordering::Release);
+        apply_sensor_state();
+
+        // Each poll runs `on_sensor_events` for whatever arrived.
+        loop {
+            ALooper_pollOnce(-1, ptr::null_mut(), ptr::null_mut(), ptr::null_mut());
+        }
     }
 }
 

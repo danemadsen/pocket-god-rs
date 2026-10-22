@@ -2,7 +2,7 @@
 
 use crate::prelude::*;
 
-use crate::logic::island_core::coconut_logic::{is_island_tipped_over, listener_pygmy_logic_array};
+use crate::logic::island_core::coconut_logic::is_island_tipped_over;
 use crate::logic::island_core::sprite_logic;
 use crate::logic::island_core::wood_logic;
 use pg_engine::display;
@@ -396,7 +396,10 @@ pub fn touch_began_inside(world: &mut World, this: Entity, _touch: Entity) {
 
     let display_object = logic::display_object(world, this);
     let x_pos = display::object(world, display_object).pos.x;
-    let pygmy_logic_array = listener_pygmy_logic_array(world, listener);
+    let pygmy_logic_array = match listener {
+        Some(listener) => crate::controller::pygmy_logic_array(world, listener, this),
+        None => Vec::new(),
+    };
     for pygmy in pygmy_logic_array {
         let pygmy_display_object = logic::display_object(world, pygmy);
         let pygmy_x_pos = display::object(world, pygmy_display_object).pos.x;

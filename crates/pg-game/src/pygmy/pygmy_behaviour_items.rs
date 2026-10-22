@@ -6,7 +6,6 @@ use super::*;
 use crate::logic::island_core::sprite_logic::SpriteLogic;
 use pg_engine::display;
 use pg_engine::display::model::SPRITE_Z;
-use pg_engine::view::BcView;
 
 /// `PygmyLogic` ivars owned by this unit.
 #[derive(Component, Clone, Debug, Default)]
@@ -73,17 +72,11 @@ pub struct PygmyPygmyBehaviourItemsStatics {
     /// `CFAbsoluteTimeGetCurrent()` it started at). `initWithDisplayObject:` creates it once per
     /// process; this resource is created on first use instead.
     pub dialog_start_times: HashMap<String, f64>,
-
-    /// The game time [`absolute_time_get_current`] read last.
-    pub clock_last_view_time: f32,
-
-    /// The game time that passed before the last render-loop restart.
-    pub clock_elapsed_before_restart: f64,
 }
 
-/// What [`absolute_time_get_current`] reads at game time zero. The original's clock (seconds
-/// since 2001) is never near zero, which `checkPygmyDialog:::` relies on when its dictionary is
-/// empty (the newest start time is then 0).
+/// What [`absolute_time_get_current`] adds to the shared clock, which may start at zero. The
+/// original's clock (seconds since 2001) is never near zero, which `checkPygmyDialog:::` relies
+/// on when its dictionary is empty (the newest start time is then 0).
 const ABSOLUTE_TIME_ORIGIN: f64 = 1.0e9;
 
 /// `checkForTigerBlood` is first (Charlie only); then these interrupt `walk:::`, in order.
@@ -169,26 +162,10 @@ fn notify_sacrifice_event(world: &mut World, listener: Option<Entity>, sacrifice
     }
 }
 
-/// `CFAbsoluteTimeGetCurrent()`.
-// PORT: the engine has no wall clock (and `std::time` panics on the web), so this reads the game
-// time, carried across render-loop restarts and offset by `ABSOLUTE_TIME_ORIGIN`. Unlike the
-// original's clock it stands still while the game is paused.
-fn absolute_time_get_current(world: &mut World) -> f64 {
-    let view_time = match world.get_resource::<BcView>() {
-        Some(view) => view.time,
-        None => 0.0,
-    };
-
-    let mut statics = world.get_resource_or_insert_with(PygmyPygmyBehaviourItemsStatics::default);
-    if view_time < statics.clock_last_view_time {
-        // `startRenderLoop` restarted the game time.
-        let elapsed = f64::from(statics.clock_last_view_time);
-        statics.clock_elapsed_before_restart += elapsed;
-    }
-    statics.clock_last_view_time = view_time;
-
-    let elapsed = statics.clock_elapsed_before_restart + f64::from(view_time);
-    ABSOLUTE_TIME_ORIGIN + elapsed
+/// `CFAbsoluteTimeGetCurrent()`: the shared wall clock, offset by [`ABSOLUTE_TIME_ORIGIN`].
+fn absolute_time_get_current(world: &World) -> f64 {
+    let wall_clock_seconds = crate::controller::cf_absolute_time_get_current(world);
+    ABSOLUTE_TIME_ORIGIN + wall_clock_seconds
 }
 
 /// The parameter for disease `D` of a selection item: `purification` when D is 2, `plague` when
@@ -645,7 +622,8 @@ fn release_containers_on_death(world: &mut World, this: Entity, listener: Option
     }
 }
 
-/// The ash pile of `explode:::` leaves the display tree; this was the last owner of its logic.
+/// The ash pile of `explode:::` leaves the display tree; the pygmy created its display object and
+/// logic and was the last owner of both.
 fn release_ash_pile(world: &mut World, this: Entity) {
     let ash_pile_display_object = world.obj::<PygmyPygmyCoreFrame>(this).ash_pile_display_object;
     let Some(ash_pile_display_object) = ash_pile_display_object else {
@@ -658,6 +636,7 @@ fn release_ash_pile(world: &mut World, this: Entity) {
         pg_engine::logic::shutdown(world, ash_pile_logic);
         pg_engine::logic::dealloc(world, ash_pile_logic);
     }
+    world.despawn(ash_pile_display_object);
 
     world.obj_mut::<PygmyPygmyCoreFrame>(this).ash_pile_display_object = None;
     world.obj_mut::<PygmyPygmyBehaviourItems>(this).ash_pile_logic = None;
@@ -1877,6 +1856,10 @@ pub fn on_multi_model_event(world: &mut World, this: Entity, _logic: Entity, eve
         // The pygmy held the last reference: the light's logic is deallocated.
         pg_engine::logic::shutdown(world, light_logic);
         pg_engine::logic::dealloc(world, light_logic);
+    }
+    if let Some(light_display_object) = light_display_object {
+        // The pygmy created it, and its logic was its last other owner.
+        world.despawn(light_display_object);
     }
     {
         let mut ghost = world.obj_mut::<PygmyGhostZombieVampire>(this);

@@ -12,7 +12,7 @@ directory; `cargo run -p pocket-god` is the quickest way to run the desktop vers
 |---|---|---|
 | Desktop | `scripts/build-desktop.sh` (`--run` to start it) | `target/release/pocket-god` |
 | Web | `scripts/build-web.sh` (`--serve` to serve it at http://localhost:8080) | `web/`, with the generated `web/pkg/` |
-| Android | `scripts/build-android.sh` (`--install` to install and launch it with adb) | `android/app/build/outputs/apk/debug/app-debug.apk` |
+| Android | `scripts/build-android.sh` (`--release` for a signed release APK, `--install` to install and launch it with adb) | `android/app/build/outputs/apk/{debug,release}/app-*.apk` |
 
 Besides the toolchain from `rust-toolchain.toml`:
 
@@ -22,7 +22,9 @@ Besides the toolchain from `rust-toolchain.toml`:
 - **Android:** `rustup target add aarch64-linux-android` (and `x86_64-linux-android` for
   `ANDROID_ABIS="arm64-v8a x86_64"`), `cargo install cargo-ndk`, a JDK 17+ and
   `ANDROID_HOME` pointing at an SDK with platform 36 and an NDK. Gradle comes from the
-  wrapper in `android/`.
+  wrapper in `android/`. Release builds are signed with the key named in
+  `android/keystore.properties`, which stays out of git: copy
+  `android/keystore.properties.example` and point it at your keystore and its passwords file.
 
 ## Playing
 
