@@ -1,7 +1,6 @@
 # Pocket God
 
-A Rust and Bevy port of Bolt Creative's Pocket God 1.48.2 for iOS. See
-[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+A Rust and Bevy port of Bolt Creative's Pocket God 1.48.2 for iOS.
 
 ## Building
 
