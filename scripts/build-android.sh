@@ -51,7 +51,7 @@ done
 
 # Start from an empty jniLibs so ABIs that are no longer built don't end up in the APK.
 rm -rf "$JNI_LIBS"
-cargo ndk "${target_args[@]}" -P "$API_LEVEL" -o "$JNI_LIBS" build --release -p pocket-god-android
+cargo ndk "${target_args[@]}" -P "$API_LEVEL" -o "$JNI_LIBS" build --locked --release -p pocket-god-android
 
 (cd android && ./gradlew "$GRADLE_TASK")
 

@@ -25,6 +25,36 @@ Besides the toolchain from `rust-toolchain.toml`:
   `android/keystore.properties`, which stays out of git: copy
   `android/keystore.properties.example` and point it at your keystore and its passwords file.
 
+## Continuous integration
+
+GitHub Actions builds web, Android, Windows (x86-64), macOS (Apple silicon and Intel), and
+Linux (x86-64) on pushes and pull requests. Each build uploads downloadable artifacts to
+its workflow run. The workflows can also be started manually from the Actions tab.
+Desktop archives contain the executable with all game assets embedded; Linux needs ALSA,
+udev, and an X11 or Wayland desktop at runtime.
+
+The web workflow deploys successful builds from the default branch to
+[GitHub Pages](https://danemadsen.github.io/pocket-god-rs/). In repository Settings → Pages,
+the build source must be **GitHub Actions**. The web loader uses relative URLs, so it works
+under the repository's `/pocket-god-rs/` path.
+
+The Android workflow builds both `arm64-v8a` and `x86_64` into one APK. Default-branch builds
+produce a signed release when these repository Actions secrets are configured:
+
+| Secret | Value |
+|---|---|
+| `ANDROID_KEYSTORE_BASE64` | Base64-encoded release keystore (JKS or PKCS12) |
+| `ANDROID_KEYSTORE_PROPERTIES` | Contents of the key's properties file: `storePassword`, `releaseAlias`, and `releasePassword` |
+
+The workflow reconstructs `android/keystore.properties` with temporary runner paths and
+removes the signing files after building. Pull requests and builds without signing secrets
+produce debug APKs.
+
+The test workflow runs the existing unit, integration, and documentation tests with
+`cargo test --locked --workspace --exclude pocket-god-android` on Linux. The Android entry
+point is checked by the Android build instead. All builds use `Cargo.lock` and the Rust
+version in `rust-toolchain.toml`.
+
 ## Playing
 
 The game keeps the original's landscape screen. Windows wider than 568:320 (the 4-inch

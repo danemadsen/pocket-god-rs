@@ -1,0 +1,101 @@
+name: Build desktop
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  CARGO_INCREMENTAL: "0"
+
+jobs:
+  build:
+    name: Build ${{ matrix.platform }}
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: linux-x86_64
+            runner: ubuntu-24.04
+            archive_extension: tar.gz
+          - platform: windows-x86_64
+            runner: windows-2025
+            archive_extension: zip
+          - platform: macos-aarch64
+            runner: macos-15
+            archive_extension: tar.gz
+          - platform: macos-x86_64
+            runner: macos-15-intel
+            archive_extension: tar.gz
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install Linux dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends --yes \
+            g++ pkg-config libasound2-dev libudev-dev libx11-dev \
+            libxkbcommon-dev libxkbcommon-x11-0 libwayland-dev
+
+      - name: Install repository Rust toolchain
+        run: |
+          rustup set profile minimal
+          rustc --version
+          cargo --version
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
+        with:
+          key: desktop-${{ matrix.platform }}
+          save-if: ${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
+
+      - name: Build release executable
+        run: bash scripts/build-desktop.sh
+
+      # All game assets are embedded in the executable by pg-assets/build.rs.
+      # Tar preserves the executable bit when the artifact is downloaded.
+      - name: Package Linux and macOS executable
+        if: runner.os != 'Windows'
+        env:
+          ARTIFACT_PLATFORM: ${{ matrix.platform }}
+        run: |
+          mkdir -p dist
+          tar -czf "dist/pocket-god-${ARTIFACT_PLATFORM}.tar.gz" \
+            -C target/release pocket-god
+
+      - name: Package Windows executable
+        if: runner.os == 'Windows'
+        shell: pwsh
+        env:
+          ARTIFACT_PLATFORM: ${{ matrix.platform }}
+        run: |
+          New-Item -ItemType Directory -Path dist -Force | Out-Null
+          $archive_path = "dist/pocket-god-$env:ARTIFACT_PLATFORM.zip"
+          Compress-Archive -Path target/release/pocket-god.exe -DestinationPath $archive_path
+
+      - name: Upload release executable
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          path: dist/pocket-god-${{ matrix.platform }}.${{ matrix.archive_extension }}
+          archive: false
+          if-no-files-found: error
+          retention-days: 14

@@ -54,16 +54,25 @@ pub struct LogicObjectDef {
 #[serde(tag = "kind", rename_all = "snake_case")]
 pub enum DisplayRef {
     /// `[[class alloc] initWithId:id]` (always `BCMultiModel`).
-    NewModel { class: String, id: String },
+    NewModel {
+        class: String,
+        id: String,
+        /// Informational: whether the reference resolves in the extracted asset data.
+        resolved: bool,
+    },
 
     /// `[library getDisplayGroupById:group]`.
-    DisplayGroup { group: String },
+    DisplayGroup { group: String, resolved: bool },
 
     /// `[[library getDisplayGroupById:group] getDisplayObject:object]`.
-    GroupObject { group: String, object: String },
+    GroupObject {
+        group: String,
+        object: String,
+        resolved: bool,
+    },
 
     /// The `displayObject` of table entry `index` (tweenables only).
-    LogicDisplayObject { index: usize },
+    LogicDisplayObject { index: usize, resolved: bool },
 }
 
 /// One initialization step; `None` coordinates are not written.
@@ -142,11 +151,17 @@ mod tests {
         assert_eq!(entry.class, "IslandObjectLogic");
         assert_eq!(entry.display_marker_id.as_deref(), Some("MidOceanMarker"));
 
-        let DisplayRef::NewModel { class, id } = &entry.binding else {
+        let DisplayRef::NewModel {
+            class,
+            id,
+            resolved,
+        } = &entry.binding
+        else {
             panic!("entry 49 binds a new model");
         };
         assert_eq!(class, "BCMultiModel");
         assert_eq!(id, "MisfitOceanRock");
+        assert!(resolved);
 
         let InitStep::SetPos { x, y, z } = &entry.init_steps[1] else {
             panic!("second step of entry 49 is set_pos");

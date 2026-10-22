@@ -7,7 +7,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
-cargo build --release -p pocket-god
+cargo build --locked --release -p pocket-god
 
 echo "Built target/release/pocket-god"
 

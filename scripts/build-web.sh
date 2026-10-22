@@ -22,7 +22,7 @@ if [[ "$installed_version" != "$locked_version" ]]; then
     exit 1
 fi
 
-cargo build --release --target wasm32-unknown-unknown -p pocket-god
+cargo build --locked --release --target wasm32-unknown-unknown -p pocket-god
 
 # The name section (function names for wasm stack traces) is about a third of the module;
 # panic messages are still logged without it.

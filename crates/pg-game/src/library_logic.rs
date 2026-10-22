@@ -210,19 +210,19 @@ fn apply_tweenable(world: &mut World, logic: Entity, tweenable_def: &TweenableDe
 /// of an earlier table entry.
 fn display_ref_object(world: &mut World, display_ref: &DisplayRef) -> Option<Entity> {
     match display_ref {
-        DisplayRef::NewModel { class, id } => {
+        DisplayRef::NewModel { class, id, .. } => {
             if class != "BCMultiModel" {
                 panic!("createLogicClasses has no display object class {class}");
             }
             let model = pg_engine::display::multi_model::spawn(world, Some(id.as_str()));
             Some(model)
         }
-        DisplayRef::DisplayGroup { group } => pg_engine::library::display_group(world, group),
-        DisplayRef::GroupObject { group, object } => {
+        DisplayRef::DisplayGroup { group, .. } => pg_engine::library::display_group(world, group),
+        DisplayRef::GroupObject { group, object, .. } => {
             let display_group = pg_engine::library::display_group(world, group)?;
             pg_engine::display::group::get_display_object(world, display_group, object)
         }
-        DisplayRef::LogicDisplayObject { index } => {
+        DisplayRef::LogicDisplayObject { index, .. } => {
             let logic = pg_engine::library::logic(world, *index);
             let display_object = pg_engine::logic::display_object(world, logic);
             Some(display_object)
