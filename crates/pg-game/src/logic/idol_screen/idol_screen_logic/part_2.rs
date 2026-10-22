@@ -25,6 +25,9 @@ const BATTLE_IDOL_COUNT: usize = 4;
 /// `0.5`: the pause before the next realm-effect result (`mTimeForNextRealmEffectResult`).
 const REALM_EFFECT_RESULT_DELAY: f32 = 0.5;
 
+/// Movement in screen points before a tap becomes a panel drag.
+const PANEL_DRAG_THRESHOLD: f32 = 10.0;
+
 /// An `IdolBattleState *` as the `Option<usize>` the generated signatures carry
 /// (`setIdolBattleState:`, `idolBattleState`, `showBattleRealmEffectResult:battleState:
 /// opponentBattleState:`): `&battleState->mIdolBattleStateArray[slot]` is `4 * side + slot`, side
@@ -1598,7 +1601,18 @@ pub fn touch_moved_outside(world: &mut World, this: Entity, touch: Entity) {
     }
 
     let touch_pos = touch_pos_in_screen_group(world, this, touch);
-    let idol_screen_mode = world.obj::<IdolScreenLogic>(this).idol_screen_mode;
+    let screen_logic = world.obj::<IdolScreenLogic>(this);
+    if !screen_logic.drag_panel {
+        // Android reports small movements during taps. Keep the initial position until a
+        // drag starts so several small moves still accumulate into a deliberate scroll.
+        let touch_delta = touch_pos - screen_logic.last_display_group_touch_pos;
+        let distance_squared = touch_delta.x * touch_delta.x + touch_delta.y * touch_delta.y;
+        if distance_squared <= PANEL_DRAG_THRESHOLD * PANEL_DRAG_THRESHOLD {
+            return;
+        }
+    }
+
+    let idol_screen_mode = screen_logic.idol_screen_mode;
     match idol_screen_mode {
         5 => {
             let mut screen_logic = world.obj_mut::<IdolScreenLogic>(this);
