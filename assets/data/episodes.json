@@ -1,0 +1,2230 @@
+{
+  "episodes": [
+    {
+      "id": "Episode1",
+      "episode_number": "1",
+      "idol_id": "AbyssGod",
+      "idol_name": "Abyss God",
+      "idol_title": "God of the Abyss",
+      "power_description": "[PrimaryValue] Defense Against Attacks for [TurnCount]",
+      "power_short_description": "Attack Defense - [TurnCount]",
+      "icon_texture": "EpisodeIcon1",
+      "idol_texture": "EpisodeIdol1",
+      "realm": "oceanus",
+      "attack": "strong",
+      "attack_style": "energy",
+      "episode_title": "Nowhere To Go, Nothin' To Do",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode1", "level": 0},
+        {"episode_id": "Episode5", "level": 0},
+        {"episode_id": "Episode13", "level": 0},
+        {"episode_id": "Episode16", "level": 0}
+      ],
+      "realm_powers": [
+        {"power": "attack_defense", "base_value": 0.4, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "DropPygmyInWater", "sacrifice_id": "DroppedDrown", "gift_id": null, "gem_id": 0, "description": "Drop Pygmy in water.", "hint": "Into the abyss."},
+        {"event_id": "FlickPygmyInWater", "sacrifice_id": "FlickDrown", "gift_id": null, "gem_id": 0, "description": "Flick Pygmy behind island.", "hint": "Show the Pygmy new horizons."}
+      ],
+      "level_ups": [
+        {"event_id": "DropPygmyInWater", "sacrifice_id": "DroppedDrown", "gift_id": null, "description": "Drop Pygmy in water.", "max_points": 20000},
+        {"event_id": "FlickPygmyInWater", "sacrifice_id": "FlickDrown", "gift_id": null, "description": "Flick Pygmy behind island.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode2",
+      "episode_number": "2",
+      "idol_id": "FatAssGod",
+      "idol_name": "God of the Bloated",
+      "idol_title": "God of the Fat Ass",
+      "power_description": "[PrimaryValue] Defense against all Damage for [TurnCount]",
+      "power_short_description": "Attack Defense - [TurnCount]",
+      "icon_texture": "EpisodeIcon2",
+      "idol_texture": "EpisodeIdol2",
+      "realm": "pax",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "Does This Megabyte Make My App Look Fat?",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode2", "level": 0},
+        {"episode_id": "Episode8", "level": 0},
+        {"episode_id": "Episode4", "level": 0},
+        {"episode_id": "Episode20", "level": 0}
+      ],
+      "realm_powers": [
+        {"power": "total_defense", "base_value": 0.1, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "UnlockEpisode1", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Unlock Episode 1", "hint": "Try a different one first."}
+      ],
+      "level_ups": [
+        {"event_id": "DropPygmyInWater", "sacrifice_id": "DroppedDrown", "gift_id": null, "description": "Drop Pygmy in water.", "max_points": 20000},
+        {"event_id": "FlickPygmyInWater", "sacrifice_id": "FlickDrown", "gift_id": null, "description": "Flick Pygmy behind island.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode3",
+      "episode_number": "3",
+      "idol_id": "VolcanoGod",
+      "idol_name": "Volcano God",
+      "idol_title": "God of the Volcano",
+      "power_description": "[PrimaryValue] Extra Fire Damage for [TurnCount]",
+      "power_short_description": "Fire Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon3",
+      "idol_texture": "EpisodeIdol3",
+      "realm": "infernis",
+      "attack": "strong",
+      "attack_style": "energy",
+      "episode_title": "You Always Hurt the One You Lava",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode3", "level": 1},
+        {"episode_id": "Episode1", "level": 1},
+        {"episode_id": "Episode4", "level": 1},
+        {"episode_id": "Episode17", "level": 1}
+      ],
+      "realm_powers": [
+        {"power": "realm_damage", "base_value": 13.0, "value_per_level": 13.0}
+      ],
+      "challenges": [
+        {"event_id": "FlickPygmyIntoVolcano", "sacrifice_id": "ThrownInVolcano", "gift_id": null, "gem_id": 0, "description": "Flick Pygmy into volcano.", "hint": "Once in the mouth."},
+        {"event_id": "VolcanoOverflow", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make volcano overflow with lava.", "hint": "Two before the spew."},
+        {"event_id": "VolcanoErupt", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make volcano erupt.", "hint": "Three time's a charm."},
+        {"event_id": "BurnPygmyWithLava", "sacrifice_id": "Lava", "gift_id": null, "gem_id": 0, "description": "Burn Pygmy with lava.", "hint": "You're on fire now!"}
+      ],
+      "level_ups": [
+        {"event_id": "FlickPygmyIntoVolcano", "sacrifice_id": "ThrownInVolcano", "gift_id": null, "description": "Flick Pygmy into volcano.", "max_points": 10000},
+        {"event_id": "BurnPygmyWithLava", "sacrifice_id": "Lava", "gift_id": null, "description": "Burn Pygmy with lava.", "max_points": 8000}
+      ]
+    },
+    {
+      "id": "Episode4",
+      "episode_number": "4",
+      "idol_id": "GravityGod",
+      "idol_name": "Gravity God",
+      "idol_title": "God of Gravity",
+      "power_description": "[PrimaryValue] Defense against all Damage for [TurnCount]",
+      "power_short_description": "Total Defense - [TurnCount]",
+      "icon_texture": "EpisodeIcon4",
+      "idol_texture": "EpisodeIdol4",
+      "realm": "aeris",
+      "attack": "counter",
+      "attack_style": "energy",
+      "episode_title": "Shake That App!",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 2,
+      "enemy_idols": [
+        {"episode_id": "Episode4", "level": 1},
+        {"episode_id": "Episode8", "level": 1},
+        {"episode_id": "Episode3", "level": 1},
+        {"episode_id": "Episode17", "level": 1}
+      ],
+      "realm_powers": [
+        {"power": "total_defense", "base_value": 0.3, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "PygmyUnsteady", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Pygmy unsteady.", "hint": "Tip it!"},
+        {"event_id": "PygmyLoseBalance", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Pygmy lose balance.", "hint": "Bound for the floor."},
+        {"event_id": "PygmySlide", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Pygmy slide.", "hint": "Hungry for a \"slider?\""},
+        {"event_id": "PygmySlideAsleep", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Pygmy slide while sleeping.", "hint": "Have a \"slider\" under the stars."},
+        {"event_id": "SlideOffIsland", "sacrifice_id": "SlideDrown", "gift_id": null, "gem_id": 0, "description": "Make Pygmy slide off island and drown.", "hint": "Make a splash!"},
+        {"event_id": "Earthquake", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Generate earthquake.", "hint": "Shake your groove thing."},
+        {"event_id": "UpsideDownFall", "sacrifice_id": "FallUpsideDown", "gift_id": null, "gem_id": 0, "description": "Turn upside down, Pygmy fall into sky.", "hint": "Down is the new up."},
+        {"event_id": "PygmyHangUpsideDown", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Pygmy hang upside-down.", "hint": "Hang in there!"},
+        {"event_id": "UpsideDownFallLoseGrip", "sacrifice_id": "UpsideDownLoseGrip", "gift_id": null, "gem_id": 0, "description": "Turn upside-down and tap Pygmy to lose grip and fall into sky.", "hint": "Poke 'em when they're up!"},
+        {"event_id": "UpsideDownFallFromEarthquake", "sacrifice_id": "LoseGripUpsideDownFromEarthquake", "gift_id": null, "gem_id": 0, "description": "Turn upside down, Pygmies lose grip from earthquake.", "hint": "Shake it off!"}
+      ],
+      "level_ups": [
+        {"event_id": "SlideOffIsland", "sacrifice_id": "SlideDrown", "gift_id": null, "description": "Make Pygmy slide off island and drown.", "max_points": 30000},
+        {"event_id": "Earthquake", "sacrifice_id": null, "gift_id": null, "description": "Generate earthquake.", "max_points": 8000}
+      ]
+    },
+    {
+      "id": "Episode5",
+      "episode_number": "5",
+      "idol_id": "ZeusGod",
+      "idol_name": "God of Thunder",
+      "idol_title": "God of Thunder",
+      "power_description": "[PrimaryValue] Boost Attack Damage and Ignore Defense of Opponent for [TurnCount]",
+      "power_short_description": "Attack Defense + Extra Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon5",
+      "idol_texture": "EpisodeIdol5",
+      "realm": "aeris",
+      "attack": "fast",
+      "attack_style": "energy",
+      "episode_title": "A Storm is Coming",
+      "initial_selection_slot": -1,
+      "damage_per_level": 30.0,
+      "health_per_level": 35.0,
+      "power_turn_count": 2,
+      "enemy_idols": [
+        {"episode_id": "Episode5", "level": 2},
+        {"episode_id": "Episode1", "level": 2},
+        {"episode_id": "Episode13", "level": 2},
+        {"episode_id": "Episode29", "level": 2}
+      ],
+      "realm_powers": [
+        {"power": "attack_boost_damage", "base_value": 0.3, "value_per_level": 0.04},
+        {"power": "ignore_attack_defense", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "StormClouds", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bring out storm clouds.", "hint": "Something dark is hanging over your head."},
+        {"event_id": "CastLightning", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Generate lightning.", "hint": "Cracks in the sky."},
+        {"event_id": "Lightning", "sacrifice_id": "Lightning", "gift_id": null, "gem_id": 0, "description": "Zap Pygmies with lightning.", "hint": "A shocking development."},
+        {"event_id": "ThrownFromExplosion", "sacrifice_id": "ThrownExplosionDrown", "gift_id": null, "gem_id": 0, "description": "Lightning blast causes Pygmy to drown.", "hint": "Make a splash with some flash."}
+      ],
+      "level_ups": [
+        {"event_id": "Lightning", "sacrifice_id": "Lightning", "gift_id": null, "description": "Zap Pygmies with lightning.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode6",
+      "episode_number": "6",
+      "idol_id": "Owl",
+      "idol_name": "Owl God",
+      "idol_title": "Owl of Wisdom",
+      "power_description": "[PrimaryValue] Heal for [TurnCount]",
+      "power_short_description": "Healing - [TurnCount]",
+      "icon_texture": "EpisodeIcon6",
+      "idol_texture": "EpisodeIdol6",
+      "realm": "aeris",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "And on the 7th Day, Rest!",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode6", "level": 2},
+        {"episode_id": "Episode2", "level": 2},
+        {"episode_id": "Episode1", "level": 2},
+        {"episode_id": "Episode13", "level": 2}
+      ],
+      "realm_powers": [
+        {"power": "realm_heal", "base_value": 4.0, "value_per_level": 4.0}
+      ],
+      "challenges": [
+        {"event_id": "Night", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Change from day to night.", "hint": "Come to the dark side."},
+        {"event_id": "Sunset", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Cause sun to set or rise.", "hint": "Color the sky."},
+        {"event_id": "PygmySunsetGaze", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Dazzle pygmies with sunset.", "hint": "Whooooaaaaa."},
+        {"event_id": "PygmySleep", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Pygmies sleep.", "hint": "Sweet dreams are made of this."}
+      ],
+      "level_ups": [
+        {"event_id": "VampireKillPygmy", "sacrifice_id": "Vampire", "gift_id": null, "description": "Vampire Pygmy knocks Pygmies off island.", "max_points": 50000},
+        {"event_id": "BurnVampire", "sacrifice_id": "VampireInSunlight", "gift_id": null, "description": "Burn Vampire Pygmy with sunlight.", "max_points": 5000}
+      ]
+    },
+    {
+      "id": "Episode7",
+      "episode_number": "7",
+      "idol_id": "DrumGod",
+      "idol_name": "God of Dance",
+      "idol_title": "God of Dance",
+      "power_description": "Cancel Enemy Powerups and prevent them from activating for [TurnCount]",
+      "power_short_description": "Cancel Enemy Powerups - [TurnCount]",
+      "icon_texture": "EpisodeIcon7",
+      "idol_texture": "EpisodeIdol7",
+      "realm": "pax",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Just Give Us 5 Minutes",
+      "initial_selection_slot": -1,
+      "damage_per_level": 35.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode7", "level": 3},
+        {"episode_id": "Episode16", "level": 3},
+        {"episode_id": "Episode9", "level": 3},
+        {"episode_id": "Episode20", "level": 3}
+      ],
+      "realm_powers": [
+        {"power": "cancel_enemy_powerups", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "Dance", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Pygmies dance.", "hint": "Feel the rythym."},
+        {"event_id": "CoconutBounce", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bounce coconut on Pygmy's head.", "hint": "Crack that 'nut."},
+        {"event_id": "CoconutBounceAsleep", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bounce coconut on sleeping Pygmy's head.", "hint": "Don't let sleeping Pygmy's lie."},
+        {"event_id": "TrapPygmyWithBoulder", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pin Pygmy with meteor.", "hint": "Between a rock and a hard place."},
+        {"event_id": "BowlPygmie", "sacrifice_id": "BoulderDrown", "gift_id": null, "gem_id": 0, "description": "Bowl Pygmies with meteor.", "hint": "Meteor \"strike!\""},
+        {"event_id": "EatCoconut", "sacrifice_id": null, "gift_id": "Coconut", "gem_id": 0, "description": "Pygmy eats coconut.", "hint": "Lunch time!"}
+      ],
+      "level_ups": [
+        {"event_id": "Dance", "sacrifice_id": null, "gift_id": null, "description": "Make Pygmies dance.", "max_points": 20000},
+        {"event_id": "EatCoconut", "sacrifice_id": null, "gift_id": "Coconut", "description": "Pygmy eats coconut.", "max_points": 10000},
+        {"event_id": "BowlPygmie", "sacrifice_id": "BoulderDrown", "gift_id": null, "description": "Bowl Pygmies with meteor.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode8",
+      "episode_number": "8",
+      "idol_id": "SharkGod",
+      "idol_name": "Shark God",
+      "idol_title": "God of Sharks - and their teeth",
+      "power_description": "[PrimaryValue] Boost Attack Damage for [TurnCount]",
+      "power_short_description": "Boost Attack Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon8",
+      "idol_texture": "EpisodeIdol8",
+      "realm": "oceanus",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Jump the Shark",
+      "initial_selection_slot": -1,
+      "damage_per_level": 30.0,
+      "health_per_level": 35.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode8", "level": 3},
+        {"episode_id": "Episode13", "level": 3},
+        {"episode_id": "Episode5", "level": 3},
+        {"episode_id": "Episode2", "level": 3}
+      ],
+      "realm_powers": [
+        {"power": "attack_boost_damage", "base_value": 0.5, "value_per_level": 0.03}
+      ],
+      "challenges": [
+        {"event_id": "SharkEatPygmie", "sacrifice_id": "FedToShark", "gift_id": null, "gem_id": 0, "description": "Feed Pygmy to shark.", "hint": "Hangin' with your best \"chum\"."},
+        {"event_id": "SharkOnPygmy", "sacrifice_id": "SharkOnHead", "gift_id": null, "gem_id": 0, "description": "Give Pygmy the shark hat.", "hint": "The latest in head wear."},
+        {"event_id": "SharkSlapPygmie", "sacrifice_id": "SharkDrown", "gift_id": null, "gem_id": 0, "description": "Drown Pygmy with a shark smack.", "hint": "The most dangerous flying fish."}
+      ],
+      "level_ups": [
+        {"event_id": "SharkEatPygmie", "sacrifice_id": "FedToShark", "gift_id": null, "description": "Feed Pygmy to shark.", "max_points": 5000},
+        {"event_id": "SharkOnPygmy", "sacrifice_id": "SharkOnHead", "gift_id": null, "description": "Give Pygmy the shark hat.", "max_points": 5000}
+      ]
+    },
+    {
+      "id": "Episode9",
+      "episode_number": "9",
+      "idol_id": "ABigHand",
+      "idol_name": "God of Hand",
+      "idol_title": "The Hand of God",
+      "power_description": "[PrimaryValue] Defense against all Damage for [TurnCount]",
+      "power_short_description": "Total Defense - [TurnCount]",
+      "icon_texture": "EpisodeIcon9",
+      "idol_texture": "EpisodeIdol9",
+      "realm": "aeris",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "Idle Hands",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 2,
+      "enemy_idols": [
+        {"episode_id": "Episode9", "level": 4},
+        {"episode_id": "Episode31", "level": 4},
+        {"episode_id": "Episode12", "level": 4},
+        {"episode_id": "Episode3", "level": 4}
+      ],
+      "realm_powers": [
+        {"power": "total_defense", "base_value": 0.2, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "PygmyIdleLookup", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy look upward.", "hint": "It's a bird, it's a plane..."},
+        {"event_id": "PygmyIdleLookdown", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy look down.", "hint": "Shoe gazer."},
+        {"event_id": "PygmyIdleFart", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch the Pygmy fart.", "hint": "Gas who?"},
+        {"event_id": "PygmyIdleScratch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy scratch butt.", "hint": "Itchy and Scratchy."},
+        {"event_id": "PygmyIdleNosePick", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy pick nose.", "hint": "Diggin' for gold."},
+        {"event_id": "PygmyIdleWave", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy wave hello.", "hint": "King of the \"air-waves\"."},
+        {"event_id": "PygmyIdleYawn", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch the Pygmy yawn.", "hint": "I'm bored."}
+      ],
+      "level_ups": [
+        {"event_id": "FishSlap", "sacrifice_id": null, "gift_id": null, "description": "Fish-slap a Pygmy.", "max_points": 20000},
+        {"event_id": "SharkSlapPygmie", "sacrifice_id": "SharkDrown", "gift_id": null, "description": "Drown Pygmy with a shark smack.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode10",
+      "episode_number": "10",
+      "idol_id": "VampireBatGod",
+      "idol_name": "Vampire Bat God",
+      "idol_title": "God of Vampires",
+      "power_description": "Drain [PrimaryValue] attack damage done to opponent for [TurnCount]",
+      "power_short_description": "Drain Health - [TurnCount]",
+      "icon_texture": "EpisodeIcon10",
+      "idol_texture": "EpisodeIdol10",
+      "realm": "infernis",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Hi, Dracula!",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 30.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode10", "level": 4},
+        {"episode_id": "Episode35", "level": 4},
+        {"episode_id": "Episode16", "level": 4},
+        {"episode_id": "Episode9", "level": 4}
+      ],
+      "realm_powers": [
+        {"power": "attack_drain_health", "base_value": 0.5, "value_per_level": 0.03}
+      ],
+      "challenges": [
+        {"event_id": "TriggerBat", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tap moon to call vampire bat.", "hint": "By the light of the moon."},
+        {"event_id": "CreateVampire", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Vampire bat bites sleeping Pygmy.", "hint": "This bites!"},
+        {"event_id": "VampireKillPygmy", "sacrifice_id": "Vampire", "gift_id": null, "gem_id": 0, "description": "Vampire Pygmy knocks Pygmies off island.", "hint": "Count Smackula."},
+        {"event_id": "BurnVampire", "sacrifice_id": "VampireInSunlight", "gift_id": null, "gem_id": 0, "description": "Burn Vampire Pygmy with sunlight.", "hint": "It burns!"},
+        {"event_id": "MakeEclipse", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Create eclipse with meteor.", "hint": "Put on some sunblock."},
+        {"event_id": "KillBat", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Knock bat out of sky.", "hint": "Batter up! I mean down!"}
+      ],
+      "level_ups": [
+        {"event_id": "VampireKillPygmy", "sacrifice_id": "Vampire", "gift_id": null, "description": "Vampire Pygmy knocks Pygmies off island.", "max_points": 50000},
+        {"event_id": "BurnVampire", "sacrifice_id": "VampireInSunlight", "gift_id": null, "description": "Burn Vampire Pygmy with sunlight.", "max_points": 5000}
+      ]
+    },
+    {
+      "id": "Episode11",
+      "episode_number": "11",
+      "idol_id": "DragonGod",
+      "idol_name": "Wind Dragon God",
+      "idol_title": "God of Dragons",
+      "power_description": "[PrimaryValue] defense against attack damage for [TurnCount]",
+      "power_short_description": "Attack Defense - [TurnCount]",
+      "icon_texture": "EpisodeIcon11",
+      "idol_texture": "EpisodeIdol11",
+      "realm": "aeris",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "A Mighty Wind",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode11", "level": 5},
+        {"episode_id": "Episode37", "level": 5},
+        {"episode_id": "Episode10", "level": 5},
+        {"episode_id": "Episode2", "level": 5}
+      ],
+      "realm_powers": [
+        {"power": "attack_defense", "base_value": 0.3, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "Hurricane", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Generate hurricane.", "hint": "Finger to the wind."},
+        {"event_id": "HurricanePygmy", "sacrifice_id": "HurricaneDrown", "gift_id": null, "gem_id": 0, "description": "Pick up Pygmy with hurricane.", "hint": "An uplifting experience."},
+        {"event_id": "HurricaneLighning", "sacrifice_id": "HurricaneLightning", "gift_id": null, "gem_id": 0, "description": "Zap Pygmy with lightning in hurricane.", "hint": "The feeling is electric."},
+        {"event_id": "HurricaneCoconut", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up coconut in hurricane.", "hint": "Blow the 'nut."},
+        {"event_id": "HurricaneFish", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up fish in hurricane.", "hint": "Flying fish."},
+        {"event_id": "HurricaneFishingPole", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up fishing pole in hurricane.", "hint": "The \"poles\" are up."},
+        {"event_id": "HurricaneSpear", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up spear in hurricane.", "hint": "Raise your weapon."},
+        {"event_id": "HurricaneWood", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up wood in a hurricane.", "hint": "Pick up some kindling."},
+        {"event_id": "HurricaneCookedPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up cooked Pygmy in hurricane.", "hint": "Cool off an overheated Pygmy."},
+        {"event_id": "HurricaneBird", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up bird in hurricane.", "hint": "Flying out of control."},
+        {"event_id": "HurricaneBirdCooked", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up cooked bird in hurricane.", "hint": "Cool down your food."},
+        {"event_id": "HurricaneBanana", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick banana up in hurricane.", "hint": "Monkey food flinging."},
+        {"event_id": "HurricaneBananaPeel", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick banana peel up in hurricane.", "hint": "What a slip up!"}
+      ],
+      "level_ups": [
+        {"event_id": "HurricanePygmy", "sacrifice_id": "HurricaneDrown", "gift_id": null, "description": "Pick up Pygmy with hurricane.", "max_points": 20000},
+        {"event_id": "HurricaneLighning", "sacrifice_id": "HurricaneLightning", "gift_id": null, "description": "Zap Pygmy with lightning in hurricane.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode12",
+      "episode_number": "12",
+      "idol_id": "FishGod",
+      "idol_name": "Fish God",
+      "idol_title": "God of Fish - and flies",
+      "power_description": "[PrimaryValue] Heal for [TurnCount]",
+      "power_short_description": "Healing - [TurnCount]",
+      "icon_texture": "EpisodeIcon12",
+      "idol_texture": "EpisodeIdol12",
+      "realm": "oceanus",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Something's Fishy",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode12", "level": 5},
+        {"episode_id": "Episode11", "level": 5},
+        {"episode_id": "Episode20", "level": 5},
+        {"episode_id": "Episode31", "level": 5}
+      ],
+      "realm_powers": [
+        {"power": "realm_heal", "base_value": 13.0, "value_per_level": 13.0}
+      ],
+      "challenges": [
+        {"event_id": "PygmyFishing", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy goes fishing.", "hint": "Cast the line."},
+        {"event_id": "CatchFish", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy catches fish.", "hint": "Hook, line and sinker."},
+        {"event_id": "EatFish", "sacrifice_id": null, "gift_id": "Fish", "gem_id": 0, "description": "Pygmy eats fish.", "hint": "You said a mouthful."},
+        {"event_id": "FishSlap", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Fish-slap a Pygmy.", "hint": "In your face!"},
+        {"event_id": "FishSlapAsleep", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Fish-slap a sleeping Pygmy.", "hint": "Rude awakening."},
+        {"event_id": "SharkPullsFishingPole", "sacrifice_id": "SharkFishingPole", "gift_id": null, "gem_id": 0, "description": "Shark pulls fishing Pygmy into water.", "hint": "The deadliest catch."}
+      ],
+      "level_ups": [
+        {"event_id": "CatchFish", "sacrifice_id": null, "gift_id": null, "description": "Pygmy catches fish.", "max_points": 20000},
+        {"event_id": "EatFish", "sacrifice_id": null, "gift_id": "Fish", "description": "Pygmy eats fish.", "max_points": 20000},
+        {"event_id": "FishSlap", "sacrifice_id": null, "gift_id": null, "description": "Fish-slap a Pygmy.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode13",
+      "episode_number": "13",
+      "idol_id": "AntGod",
+      "idol_name": "Ant God",
+      "idol_title": "God of the Ants",
+      "power_description": "Ants in the Pants, Ants cause [PrimaryValue] extra damage each turn for [TurnCount]",
+      "power_short_description": "Ant Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon13",
+      "idol_texture": "EpisodeIdol13",
+      "realm": "infernis",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "March of the Fire Ants",
+      "initial_selection_slot": -1,
+      "damage_per_level": 10.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode13", "level": 6},
+        {"episode_id": "Episode6", "level": 6},
+        {"episode_id": "Episode10", "level": 6},
+        {"episode_id": "Episode2", "level": 6}
+      ],
+      "realm_powers": [
+        {"power": "realm_damage", "base_value": 13.0, "value_per_level": 13.0}
+      ],
+      "challenges": [
+        {"event_id": "AntFrenzy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Whip ants into a frenzy.", "hint": "King of the hill."},
+        {"event_id": "AntsEat", "sacrifice_id": "FireAnts", "gift_id": null, "gem_id": 0, "description": "Make ants eat Pygmy.", "hint": "Draw the line."},
+        {"event_id": "BurnAntsWithGlass", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Burn ants with magnifying glass.", "hint": "Get a closer look at the ants."},
+        {"event_id": "BurnPygmyWithGlass", "sacrifice_id": "MagnifyingGlass", "gift_id": null, "gem_id": 0, "description": "Burn Pygmy with magnifying glass.", "hint": "Focus on the Pygmies."}
+      ],
+      "level_ups": [
+        {"event_id": "AntsEat", "sacrifice_id": "FireAnts", "gift_id": null, "description": "Make ants eat Pygmy.", "max_points": 8000},
+        {"event_id": "BurnPygmyWithGlass", "sacrifice_id": "MagnifyingGlass", "gift_id": null, "description": "Burn Pygmy with magnifying glass.", "max_points": 5000}
+      ]
+    },
+    {
+      "id": "Episode14",
+      "episode_number": "14",
+      "idol_id": "NameTag",
+      "idol_name": "Name Tag",
+      "idol_title": "The Name that Tagged Them",
+      "power_description": "Cancel Enemy Powerups for [TurnCount]",
+      "power_short_description": "Cancel Enemy Powerups - [TurnCount]",
+      "icon_texture": "EpisodeIcon14",
+      "idol_texture": "EpisodeIdol14",
+      "realm": "pax",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Say My Name!",
+      "initial_selection_slot": -1,
+      "damage_per_level": 35.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode14", "level": 6},
+        {"episode_id": "Episode17", "level": 6},
+        {"episode_id": "Episode11", "level": 6},
+        {"episode_id": "Episode8", "level": 6}
+      ],
+      "realm_powers": [
+        {"power": "cancel_enemy_powerups", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "OpenTribeScreen", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Open the tribe screen.", "hint": "Get the tribe 411."},
+        {"event_id": "ChangePygmyName", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Change the name of a Pygmy.", "hint": "A change of identity."},
+        {"event_id": "ChangeGodType", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Change god type.", "hint": "Choose your profession."}
+      ],
+      "level_ups": [
+        {"event_id": "BurnPygmyWithGlass", "sacrifice_id": "MagnifyingGlass", "gift_id": null, "description": "Burn Pygmy with magnifying glass.", "max_points": 5000},
+        {"event_id": "CookPygmyOverFire", "sacrifice_id": null, "gift_id": null, "description": "Cook Pygmy on fire.", "max_points": 10000},
+        {"event_id": "VaporizePygmies", "sacrifice_id": "LovingPocketGod", "gift_id": null, "description": "Tap Sand Island Statue to vaporize Pygmies.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode15",
+      "episode_number": "15",
+      "idol_id": "ToiletGod",
+      "idol_name": "Toilet God",
+      "idol_title": "God of the Outhouse",
+      "power_description": "Freeze random Opponent Idol for [TurnCount]",
+      "power_short_description": "Freeze Random Idol - [TurnCount]",
+      "icon_texture": "EpisodeIcon15",
+      "idol_texture": "EpisodeIdol15",
+      "realm": "infernis",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "A New Home",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode15", "level": 7},
+        {"episode_id": "Episode23", "level": 7},
+        {"episode_id": "Episode16", "level": 7},
+        {"episode_id": "Episode9", "level": 7}
+      ],
+      "realm_powers": [
+        {"power": "freeze_idol", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "RockIsland", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit Rock Island.", "hint": "Find a new nest."},
+        {"event_id": "TrapPygmyWithEgg", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pin a Pygmy with a t-rex egg.", "hint": "Egg on their face."},
+        {"event_id": "BowlPygmyWithEgg", "sacrifice_id": "TRexEggDrown", "gift_id": null, "gem_id": 0, "description": "Bowl Pygmies off island with t-rex egg.", "hint": "Let's go bowling!"},
+        {"event_id": "PygmyTakeCrap", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy enters outhouse.", "hint": "Nature calls."},
+        {"event_id": "PygmyFinishCrapping", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Call Pygmy out of outhouse.", "hint": "Occupied!"},
+        {"event_id": "PygmyOuthouseBurst", "sacrifice_id": "NotCrapping", "gift_id": null, "gem_id": 0, "description": "Pygmy waitin for outhouse explodes.", "hint": "Hold it!"},
+        {"event_id": "PygmyOuthouseInTime", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy waiting for outhouse makes it in time.", "hint": "Last minute relief."}
+      ],
+      "level_ups": [
+        {"event_id": "BowlPygmyWithEgg", "sacrifice_id": "TRexEggDrown", "gift_id": null, "description": "Bowl Pygmies off island with t-rex egg.", "max_points": 20000},
+        {"event_id": "PygmyTakeCrap", "sacrifice_id": null, "gift_id": null, "description": "Pygmy enters outhouse.", "max_points": 6000},
+        {"event_id": "PygmyOuthouseBurst", "sacrifice_id": "NotCrapping", "gift_id": null, "description": "Pygmy waitin for outhouse explodes.", "max_points": 6000}
+      ]
+    },
+    {
+      "id": "Episode16",
+      "episode_number": "16",
+      "idol_id": "TRexGod",
+      "idol_name": "T-Rex God",
+      "idol_title": "Even the T-Rex needs a God",
+      "power_description": "[PrimaryValue] Boost Attack Damage for [TurnCount]",
+      "power_short_description": "Boost Attack Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon16",
+      "idol_texture": "EpisodeIdol16",
+      "realm": "animus",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "The Tyrannosaurus Strikes Back",
+      "initial_selection_slot": -1,
+      "damage_per_level": 30.0,
+      "health_per_level": 35.0,
+      "power_turn_count": 2,
+      "enemy_idols": [
+        {"episode_id": "Episode16", "level": 7},
+        {"episode_id": "Episode37", "level": 7},
+        {"episode_id": "Episode14", "level": 7},
+        {"episode_id": "Episode10", "level": 7}
+      ],
+      "realm_powers": [
+        {"power": "attack_boost_damage", "base_value": 0.35, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "SpawnTRexBaby", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Crack egg and wake baby t-rex.", "hint": "Come out and play."},
+        {"event_id": "TRexEatPygmy", "sacrifice_id": "EatenByTRex", "gift_id": null, "gem_id": 0, "description": "T-rex eats Pygmy.", "hint": "Dinner time!"},
+        {"event_id": "PokeTRex", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Poke t-rex.", "hint": "Ouch, that tickles!"}
+      ],
+      "level_ups": [
+        {"event_id": "SpawnTRexBaby", "sacrifice_id": null, "gift_id": null, "description": "Crack egg and wake baby t-rex.", "max_points": 5000},
+        {"event_id": "TRexEatPygmy", "sacrifice_id": "EatenByTRex", "gift_id": null, "description": "T-rex eats Pygmy.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode17",
+      "episode_number": "17",
+      "idol_id": "Spear",
+      "idol_name": "Spear",
+      "idol_title": "The Skewering Spear",
+      "power_description": "[PrimaryValue] Boost attack damage and Ignore Opponent Defense for [TurnCount]",
+      "power_short_description": "Attack Defense + Extra Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon17",
+      "idol_texture": "EpisodeIdol17",
+      "realm": "animus",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Return of the Pygmy",
+      "initial_selection_slot": -1,
+      "damage_per_level": 30.0,
+      "health_per_level": 35.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode17", "level": 8},
+        {"episode_id": "Episode15", "level": 8},
+        {"episode_id": "Episode12", "level": 8},
+        {"episode_id": "Episode11", "level": 8}
+      ],
+      "realm_powers": [
+        {"power": "attack_boost_damage", "base_value": 0.4, "value_per_level": 0.04},
+        {"power": "ignore_attack_defense", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "PygmyGetSpear", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Give Pygmy the spear.", "hint": "Point of extinction."},
+        {"event_id": "PygmyHitTRexWithSpear", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit t-rex with spear.", "hint": "Does she get your point?"},
+        {"event_id": "PygmyKillTRex", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Defeat the t-rex.", "hint": "Take 'er down!"},
+        {"event_id": "VaporizePygmies", "sacrifice_id": "LovingPocketGod", "gift_id": null, "gem_id": 0, "description": "Tap Sand Island Statue to vaporize Pygmies.", "hint": "You know you like Pocket God."}
+      ],
+      "level_ups": [
+        {"event_id": "PygmyHitTRexWithSpear", "sacrifice_id": null, "gift_id": null, "description": "Hit t-rex with spear.", "max_points": 20000},
+        {"event_id": "PygmyKillTRex", "sacrifice_id": null, "gift_id": null, "description": "Defeat the t-rex.", "max_points": 2000}
+      ]
+    },
+    {
+      "id": "Episode18",
+      "episode_number": "18",
+      "idol_id": "TsunamiGod",
+      "idol_name": "Tsunami God",
+      "idol_title": "God of the Tsunami",
+      "power_description": "[PrimaryValue] Boost all Damage and defends against all opponent damage for [TurnCount]",
+      "power_short_description": "Boost Damage + Total Defense - [TurnCount]",
+      "icon_texture": "EpisodeIcon18",
+      "idol_texture": "EpisodeIdol18",
+      "realm": "oceanus",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "Surf's Up",
+      "initial_selection_slot": -1,
+      "damage_per_level": 10.0,
+      "health_per_level": 30.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode18", "level": 8},
+        {"episode_id": "Episode7", "level": 8},
+        {"episode_id": "Episode28", "level": 8},
+        {"episode_id": "Episode4", "level": 8}
+      ],
+      "realm_powers": [
+        {"power": "total_boost_damage", "base_value": 0.1, "value_per_level": 0.01},
+        {"power": "total_defense", "base_value": 0.1, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "Underwater", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit the underwater area.", "hint": "Sink to the bottom."},
+        {"event_id": "CreateTsunami", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Create a tsunami.", "hint": "Wave...HELLO!"},
+        {"event_id": "PygmyKabob", "sacrifice_id": "Skewered", "gift_id": null, "gem_id": 0, "description": "Harpoon Pygmies with underwater statue.", "hint": "Have a Pygmy-kabob!"}
+      ],
+      "level_ups": [
+        {"event_id": "CreateWhirlpool", "sacrifice_id": null, "gift_id": null, "description": "Create whirlpool underwater.", "max_points": 10000},
+        {"event_id": "PygmyKabob", "sacrifice_id": "Skewered", "gift_id": null, "description": "Harpoon Pygmies with underwater statue.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode19",
+      "episode_number": "19",
+      "idol_id": "Trophy",
+      "idol_name": "Trophy",
+      "idol_title": "God of Rewards",
+      "power_description": "Prevent idols from being frozen for [TurnCount]",
+      "power_short_description": "Unfreeze Idols - [TurnCount]",
+      "icon_texture": "EpisodeIcon19",
+      "idol_texture": "EpisodeIdol19",
+      "realm": "pax",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Fun 'n Games Until A Pygmy Gets Hurt",
+      "initial_selection_slot": -1,
+      "damage_per_level": 35.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode19", "level": 9},
+        {"episode_id": "Episode34", "level": 9},
+        {"episode_id": "Episode32", "level": 9},
+        {"episode_id": "Episode28", "level": 9}
+      ],
+      "realm_powers": [
+        {"power": "unfreeze_idols", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "OpenChallengeScreen", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Open the challenge screen.", "hint": "Rise to the challenge."},
+        {"event_id": "PlayCoconutBounce", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play the coconut bounce mini-game.", "hint": "Getting 'nutty in the head again!"},
+        {"event_id": "PlaySharkSnap", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play the shark snap mini-game.", "hint": "Taunt the toothy fish."},
+        {"event_id": "PlayHurricaneLighning", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play the hurricane zap mini-game.", "hint": "Air-shocks."}
+      ],
+      "level_ups": [
+        {"event_id": "CoconutBounceScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the coconut bounce mini-game.", "max_points": 50000},
+        {"event_id": "SharkSnapScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the shark snap mini-game.", "max_points": 25000},
+        {"event_id": "HurricaneLighningScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the hurricane zap mini-game.", "max_points": 18000}
+      ]
+    },
+    {
+      "id": "Episode20",
+      "episode_number": "20",
+      "idol_id": "FireGod",
+      "idol_name": "Fire God",
+      "idol_title": "God of Fire",
+      "power_description": "[PrimaryValue] Extra Fire Damage for [TurnCount]",
+      "power_short_description": "Fire Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon20",
+      "idol_texture": "EpisodeIdol20",
+      "realm": "infernis",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Stop! My App is On Fire!",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 15.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode20", "level": 9},
+        {"episode_id": "Episode38", "level": 9},
+        {"episode_id": "Episode30", "level": 9},
+        {"episode_id": "Episode14", "level": 9}
+      ],
+      "realm_powers": [
+        {"power": "realm_damage", "base_value": 4.0, "value_per_level": 4.0}
+      ],
+      "challenges": [
+        {"event_id": "PygmyCarryLog", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy carries log to fire pit.", "hint": "Pick up and drop a log."},
+        {"event_id": "FillFirePit", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Fill fire pit.", "hint": "Third time is a charm."},
+        {"event_id": "LightFire", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Light fire with lightning.", "hint": "Electric light."},
+        {"event_id": "PygmyWarmByFire", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy warms by fire.", "hint": "Get cozy."},
+        {"event_id": "CookFish", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Cook fish with fire.", "hint": "See food grilled."},
+        {"event_id": "EatCookedFish", "sacrifice_id": null, "gift_id": "CookedFish", "gem_id": 0, "description": "Pygmy eats cooked fish.", "hint": "Sick of sushi."},
+        {"event_id": "BurnFish", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Burn fish on fire.", "hint": "Dinner is ruined!"},
+        {"event_id": "EatBurntFish", "sacrifice_id": "EatBurntFish", "gift_id": null, "gem_id": 0, "description": "Eat a burnt fish.", "hint": "Black-end fish."},
+        {"event_id": "CookPygmyOverFire", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Cook Pygmy on fire.", "hint": "Crispy Pygmy."},
+        {"event_id": "BurnPygmyNearFire", "sacrifice_id": "BonFire", "gift_id": null, "gem_id": 0, "description": "Poke fire and burn Pygmy with flames.", "hint": "Stoke the fire."}
+      ],
+      "level_ups": [
+        {"event_id": "LightFire", "sacrifice_id": null, "gift_id": null, "description": "Light fire with lightning.", "max_points": 3000},
+        {"event_id": "EatCookedFish", "sacrifice_id": null, "gift_id": "CookedFish", "description": "Pygmy eats cooked fish.", "max_points": 4000},
+        {"event_id": "CookPygmyOverFire", "sacrifice_id": null, "gift_id": null, "description": "Cook Pygmy on fire.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode21",
+      "episode_number": "21",
+      "idol_id": "DodoGod",
+      "idol_name": "Dodo God",
+      "idol_title": "God of the Dodo",
+      "power_description": "[PrimaryValue] Defend against attack damage and [SecondaryValue] heal each turn for [TurnCount]",
+      "power_short_description": "Attack Defense + Healing - [TurnCount]",
+      "icon_texture": "EpisodeIcon21",
+      "idol_texture": "EpisodeIdol21",
+      "realm": "aeris",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Flipping the Bird",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode21", "level": 10},
+        {"episode_id": "Episode15", "level": 10},
+        {"episode_id": "Episode18", "level": 10},
+        {"episode_id": "Episode17", "level": 10}
+      ],
+      "realm_powers": [
+        {"power": "attack_defense", "base_value": 0.2, "value_per_level": 0.02},
+        {"power": "realm_heal", "base_value": 7.0, "value_per_level": 7.0}
+      ],
+      "challenges": [
+        {"event_id": "MakeBirdPoo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Poke Dodo to drop bird poop.", "hint": "Bombs away!"},
+        {"event_id": "PlayBirdBomb", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play the bird-bomb mini-game.", "hint": "How many can you bulls-eye?"},
+        {"event_id": "StandingPygmyBirdBomb", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit a standing Pygmy with a bird bomb.", "hint": "Stand and deliver."},
+        {"event_id": "SleepingPygmyBirdBomb", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit a sleeping Pygmy with a bird bomb.", "hint": "Rude awakening."},
+        {"event_id": "FeedFishToBird", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Feed fish to the dodo-bird.", "hint": "The dodo is hungry."},
+        {"event_id": "FeedPygmyToBird", "sacrifice_id": "CaughtByBird", "gift_id": null, "gem_id": 0, "description": "Feed Pygmy to the bird.", "hint": "Don't steal the dodo's food."},
+        {"event_id": "DrownBird", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop the dodo in ocean.", "hint": "Avian water."},
+        {"event_id": "CookBird", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Cook the dodo on the fire.", "hint": "Your goose is cooked."},
+        {"event_id": "EatCookedBird", "sacrifice_id": null, "gift_id": "CookedBird", "gem_id": 0, "description": "Pygmy eats the cooked dodo.", "hint": "I'll take a drumstick."},
+        {"event_id": "BurnBird", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Overcook the dodo-bird.", "hint": "Extra crispy."},
+        {"event_id": "EatBurntBird", "sacrifice_id": "EatBurntBird", "gift_id": null, "gem_id": 0, "description": "Pygmy chokes on a burned dodo.", "hint": "Eat burnt bird."},
+        {"event_id": "ElectrocuteBird", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit dodo with lightning.", "hint": "Electric bird-aloo."},
+        {"event_id": "CreateWhirlpool", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Create whirlpool underwater.", "hint": "A wet tornado."}
+      ],
+      "level_ups": [
+        {"event_id": "BirdBombScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the bird-bomb mini-game.", "max_points": 25000},
+        {"event_id": "FeedPygmyToBird", "sacrifice_id": "CaughtByBird", "gift_id": null, "description": "Feed Pygmy to the bird.", "max_points": 5000}
+      ]
+    },
+    {
+      "id": "Episode22",
+      "episode_number": "22",
+      "idol_id": "DoodlerGod",
+      "idol_name": "Doodler God",
+      "idol_title": "God of the Doodler",
+      "power_description": "Freeze Idol for [TurnCount]",
+      "power_short_description": "Freeze Random Idol - [TurnCount]",
+      "icon_texture": "EpisodeIcon22",
+      "idol_texture": "EpisodeIdol22",
+      "realm": "aeris",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Ooga Jump",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode22", "level": 10},
+        {"episode_id": "Episode37", "level": 10},
+        {"episode_id": "Episode29", "level": 10},
+        {"episode_id": "Episode20", "level": 10}
+      ],
+      "realm_powers": [
+        {"power": "freeze_idol", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "PlayOogaJump", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play Ooga Jump.", "hint": "Get your head IN the clouds."},
+        {"event_id": "JumpOnIceCloud", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Jump on ice cloud.", "hint": "That's cold!"},
+        {"event_id": "JumpOnStormCloud", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Jump on storm cloud.", "hint": "Get a buzz on."},
+        {"event_id": "FallOffOggaJump", "sacrifice_id": "Flattened", "gift_id": null, "gem_id": 0, "description": "Die from falling in Ooga Jump.", "hint": "Flat on your face."}
+      ],
+      "level_ups": [
+        {"event_id": "OogaJumpScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in Ooga Jump.", "max_points": 2500000},
+        {"event_id": "JumpOnStormCloud", "sacrifice_id": null, "gift_id": null, "description": "Jump on storm cloud.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode23",
+      "episode_number": "23",
+      "idol_id": "PiranhaGod",
+      "idol_name": "Piranha God",
+      "idol_title": "God of the Piranhas",
+      "power_description": "Piranhas cause [PrimaryValue] extra damage for [TurnCount]",
+      "power_short_description": "Piranha Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon23",
+      "idol_texture": "EpisodeIdol23",
+      "realm": "oceanus",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Bait Master",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 15.0,
+      "power_turn_count": 2,
+      "enemy_idols": [
+        {"episode_id": "Episode23", "level": 11},
+        {"episode_id": "Episode19", "level": 11},
+        {"episode_id": "Episode36", "level": 11},
+        {"episode_id": "Episode27", "level": 11}
+      ],
+      "realm_powers": [
+        {"power": "realm_damage", "base_value": 20.0, "value_per_level": 20.0}
+      ],
+      "challenges": [
+        {"event_id": "FeedPygmyToPiranha", "sacrifice_id": "FedToPiranha", "gift_id": null, "gem_id": 0, "description": "Feed Pygmy to piranha.", "hint": "Draw the line."},
+        {"event_id": "PlayBaitMaster", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play Bait Master mini-game.", "hint": "Feeding frenzy."}
+      ],
+      "level_ups": [
+        {"event_id": "BaitMasterScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the Bait Master mini-game.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode24",
+      "episode_number": "24",
+      "idol_id": "CensorBar",
+      "idol_name": "Censor Bar",
+      "idol_title": "(Classified)",
+      "power_description": "freeze idol for [TurnCount]",
+      "power_short_description": "Freeze Random Idol - [TurnCount]",
+      "icon_texture": "EpisodeIcon24",
+      "idol_texture": "EpisodeIdol24",
+      "realm": "pax",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Idle Hands 2: Caught with your Pants Down",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode24", "level": 11},
+        {"episode_id": "Episode6", "level": 11},
+        {"episode_id": "Episode32", "level": 11},
+        {"episode_id": "Episode17", "level": 11}
+      ],
+      "realm_powers": [
+        {"power": "freeze_idol", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "PygmyIdleChestBeat", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy beat his chest.", "hint": "Tarzan has nuthin' on me."},
+        {"event_id": "PygmyIdleSkirtFall", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy skirt fall revealing underwear.", "hint": "I feel a slight draft."},
+        {"event_id": "PygmyIdleSkirtFallBlackBox", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy skirt fall with censor bar.", "hint": "I feel a VERY strong draft."},
+        {"event_id": "PygmyIdleFixHair", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy's hair fall.", "hint": "Bad hair day."},
+        {"event_id": "PygmyIdleSneeze", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy sneeze.", "hint": "Allergy season."},
+        {"event_id": "PygmyIdleThoughtBubbleFish", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy think of fish.", "hint": "See food thoughts."},
+        {"event_id": "PygmyIdleThoughtBubbleCoconut", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy think of a coconut.", "hint": "'Nutty thoughts."},
+        {"event_id": "PygmyIdleThoughtBubbleDodo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch Pygmy think of cooked dodo.", "hint": "Feeling chicken."}
+      ],
+      "level_ups": [
+        {"event_id": "FishSlap", "sacrifice_id": null, "gift_id": null, "description": "Fish-slap a Pygmy.", "max_points": 20000},
+        {"event_id": "SharkSlapPygmie", "sacrifice_id": "SharkDrown", "gift_id": null, "description": "Drown Pygmy with a shark smack.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode25",
+      "episode_number": "25",
+      "idol_id": "LaserShark",
+      "idol_name": "Laser Shark",
+      "idol_title": "The Wicked Laser Shark",
+      "power_description": "Cause [PrimaryValue] damage during attack tie, and ignore opponent defense for [TurnCount]",
+      "power_short_description": "Attack Defense + Tie Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon25",
+      "idol_texture": "EpisodeIdol25",
+      "realm": "oceanus",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Sharks With Frickin' Laser Beams",
+      "initial_selection_slot": -1,
+      "damage_per_level": 15.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode25", "level": 12},
+        {"episode_id": "Episode15", "level": 12},
+        {"episode_id": "Episode35", "level": 12},
+        {"episode_id": "Episode33", "level": 12}
+      ],
+      "realm_powers": [
+        {"power": "tie_damage", "base_value": 40.0, "value_per_level": 40.0},
+        {"power": "ignore_attack_defense", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "GrabChum", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Grab chum from bucket.", "hint": "Getting chummy."},
+        {"event_id": "ShootLaser", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Fire shark laser.", "hint": "Push the button!"},
+        {"event_id": "PlayLaserBlast", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play the shark blast mini-game.", "hint": "How many can you blast?"},
+        {"event_id": "ChumForPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Put chum in Pygmy's hand.", "hint": "Hold this, chum!"},
+        {"event_id": "FeedChumToShark", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Feed chum to shark.", "hint": "Shark seas food, he eats it."},
+        {"event_id": "SharkEatChumPygmy", "sacrifice_id": "FedToLaserShark", "gift_id": null, "gem_id": 0, "description": "Shark eats Pygmy holding chum.", "hint": "Bait and switch."},
+        {"event_id": "SharkZapPygmy", "sacrifice_id": "ZappedByLaserShark", "gift_id": null, "gem_id": 0, "description": "Blast Pygmy with laser shark.", "hint": "Ready, aim, fire!"}
+      ],
+      "level_ups": [
+        {"event_id": "FeedChumToShark", "sacrifice_id": null, "gift_id": null, "description": "Feed chum to shark.", "max_points": 5000},
+        {"event_id": "SharkEatChumPygmy", "sacrifice_id": "FedToLaserShark", "gift_id": null, "description": "Shark eats Pygmy holding chum.", "max_points": 5000},
+        {"event_id": "LaserBlastScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the Shark Blast mini-game.", "max_points": 75000}
+      ]
+    },
+    {
+      "id": "Episode26",
+      "episode_number": "26",
+      "idol_id": "ZombieGod",
+      "idol_name": "Zombie God",
+      "idol_title": "God of the Walking Dead",
+      "power_description": "resurrect after death",
+      "power_short_description": "Resurrect After Death!",
+      "icon_texture": "EpisodeIcon26",
+      "idol_texture": "EpisodeIdol26",
+      "realm": "infernis",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Dead Pygmy Walking",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 30.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode26", "level": 12},
+        {"episode_id": "Episode38", "level": 12},
+        {"episode_id": "Episode18", "level": 12},
+        {"episode_id": "Episode14", "level": 12}
+      ],
+      "realm_powers": [
+        {"power": "resurrect_after_death", "base_value": 0.2, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "GraveyardIsland", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit the graveyard island.", "hint": "Land of the dead."},
+        {"event_id": "DigGrave", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Dig grave.", "hint": "Can you dig it?"},
+        {"event_id": "DropPygmyInGrave", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop the Pygmy in the grave.", "hint": "A grave mistake."},
+        {"event_id": "MakeZombie", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bury the Pygmy alive and turn into zombie.", "hint": "Six feet under."},
+        {"event_id": "KillZombie", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tap and kill the zombie.", "hint": "Wake the dead."},
+        {"event_id": "ZombieEatBrains", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Zombie eats Pygmy brain.", "hint": "Brain-food."},
+        {"event_id": "ZombieEatBrainsAsleep", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Zombie eats sleeping Pygmy brains.", "hint": "Dead asleep."},
+        {"event_id": "ZombieDance", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make the zombie dance.", "hint": "The undead have moves!"}
+      ],
+      "level_ups": [
+        {"event_id": "MakeZombie", "sacrifice_id": null, "gift_id": null, "description": "Bury the Pygmy alive and turn into zombie.", "max_points": 10000},
+        {"event_id": "ZombieEatBrains", "sacrifice_id": null, "gift_id": null, "description": "Zombie eats Pygmy brain.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode27",
+      "episode_number": "27",
+      "idol_id": "GhostGod",
+      "idol_name": "Ghost God",
+      "idol_title": "God of Ghosts",
+      "power_description": "[PrimaryValue] defend against all damage for [TurnCount]",
+      "power_short_description": "Total Defense - [TurnCount]",
+      "icon_texture": "EpisodeIcon27",
+      "idol_texture": "EpisodeIdol27",
+      "realm": "infernis",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Good Will Haunting",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode27", "level": 13},
+        {"episode_id": "Episode7", "level": 13},
+        {"episode_id": "Episode36", "level": 13},
+        {"episode_id": "Episode30", "level": 13}
+      ],
+      "realm_powers": [
+        {"power": "total_defense", "base_value": 0.15, "value_per_level": 0.015}
+      ],
+      "challenges": [
+        {"event_id": "MakeGhost", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Turn Pygmy into a ghost.", "hint": "Get spiritual."},
+        {"event_id": "GuideToLight", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Guide the gost into the light.", "hint": "Cross over children! All are welcome!"},
+        {"event_id": "PossessPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Posess Pygmy with a ghost.", "hint": "Get the exorcist!"},
+        {"event_id": "ScareToDeath", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Scare Pygmy to death.", "hint": "Heart stopper."},
+        {"event_id": "CarryAway", "sacrifice_id": "CarriedAwayGhost", "gift_id": null, "gem_id": 0, "description": "Ghost carries Pygmy away.", "hint": "Getting carried away."},
+        {"event_id": "PullDown", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pull Pygmy into ghost dimension.", "hint": "The other side."},
+        {"event_id": "GhostScream", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make a banshee scream.", "hint": "Ghostly sounds."},
+        {"event_id": "ShatterEardrums", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make a banshee scream that shatters the eardrums of the Pygmies.", "hint": "Bang their drums."}
+      ],
+      "level_ups": [
+        {"event_id": "PossessPygmy", "sacrifice_id": null, "gift_id": null, "description": "Posess Pygmy with a ghost.", "max_points": 8000},
+        {"event_id": "ScareToDeath", "sacrifice_id": null, "gift_id": null, "description": "Scare Pygmy to death.", "max_points": 8000},
+        {"event_id": "CarryAway", "sacrifice_id": "CarriedAwayGhost", "gift_id": null, "description": "Ghost carries Pygmy away.", "max_points": 8000}
+      ]
+    },
+    {
+      "id": "Episode28",
+      "episode_number": "28",
+      "idol_id": "SpiderGod",
+      "idol_name": "Spider God",
+      "idol_title": "God of Spiders",
+      "power_description": "Freeze Idol for [TurnCount]",
+      "power_short_description": "Freeze Random Idol - [TurnCount]",
+      "icon_texture": "EpisodeIcon28",
+      "idol_texture": "EpisodeIdol28",
+      "realm": "animus",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "Barking Spider, Crouching Pygmy",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode28", "level": 13},
+        {"episode_id": "Episode26", "level": 13},
+        {"episode_id": "Episode31", "level": 13},
+        {"episode_id": "Episode25", "level": 13}
+      ],
+      "realm_powers": [
+        {"power": "freeze_idol", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "StickPygmyInWeb", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Put Pygmy in spider web.", "hint": "A sticky situation."},
+        {"event_id": "CocoonPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Wrap Pygmy in spider cocoon.", "hint": "Wrap it up, I'll take it!"},
+        {"event_id": "EatenByLittleSpiders", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Break open cocoon and release baby spiders.", "hint": "Baby food."},
+        {"event_id": "SpiderEatPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy eaten by barking spider.", "hint": "Get in my belly."},
+        {"event_id": "PokeSpider", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Poke barking spider.", "hint": "Bug the bug."},
+        {"event_id": "PygmyHitSpiderWithSpear", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit barking spider with spear.", "hint": "Spider figter."},
+        {"event_id": "PygmyKillSpider", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Defeat the barking spider.", "hint": "Arach-dead."}
+      ],
+      "level_ups": [
+        {"event_id": "EatenByLittleSpiders", "sacrifice_id": null, "gift_id": null, "description": "Break open cocoon and release baby spiders.", "max_points": 7000},
+        {"event_id": "SpiderEatPygmy", "sacrifice_id": null, "gift_id": null, "description": "Pygmy eaten by barking spider.", "max_points": 10000},
+        {"event_id": "PygmyKillSpider", "sacrifice_id": null, "gift_id": null, "description": "Defeat the barking spider.", "max_points": 2000}
+      ]
+    },
+    {
+      "id": "Episode29",
+      "episode_number": "29",
+      "idol_id": "IceMonsterGod",
+      "idol_name": "Ice Monster God",
+      "idol_title": "God of the IceMonsters",
+      "power_description": "[PrimaryValue] extra Ice Damage for [TurnCount]",
+      "power_short_description": "Ice Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon29",
+      "idol_texture": "EpisodeIdol29",
+      "realm": "animus",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "The Pyg Chill",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 25.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode29", "level": 14},
+        {"episode_id": "Episode19", "level": 14},
+        {"episode_id": "Episode6", "level": 14},
+        {"episode_id": "Episode3", "level": 14}
+      ],
+      "realm_powers": [
+        {"power": "realm_damage", "base_value": 40.0, "value_per_level": 40.0}
+      ],
+      "challenges": [
+        {"event_id": "IceIsland", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit ice island.", "hint": "Journey north."},
+        {"event_id": "DropInIgloo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop Pygmy in igloo.", "hint": "Put him on ice."},
+        {"event_id": "DropFishInIgloo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop fish in igloo", "hint": "Put fish on ice."},
+        {"event_id": "CrawlInIgloo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy crawls into igloo to eat fish.", "hint": "Eating lunch in."},
+        {"event_id": "CrawlOutOfIgloo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy crawls out of igloo.", "hint": "Knock knock."},
+        {"event_id": "EatFishInIgloo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy eats fish in igloo.", "hint": "Grilled fish."},
+        {"event_id": "EatFishBlastFromIgloo", "sacrifice_id": "IglooCannon", "gift_id": null, "gem_id": 0, "description": "Fire Pygmy from igloo.", "hint": "Interrupt the barbecue."},
+        {"event_id": "TwoPygmiesInIgloo", "sacrifice_id": "ShotOutIgloo", "gift_id": null, "gem_id": 0, "description": "Drop two pygmies in igloo to fire one Pygmy out of door.", "hint": "Two's a crowd."},
+        {"event_id": "HitByIglooDoorPygmy", "sacrifice_id": "IglooPygmy", "gift_id": null, "gem_id": 0, "description": "Pygmy hit by Pygmy flying out igloo.", "hint": "In the line of fire."},
+        {"event_id": "SpawnIceMonster", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Raise the ice monster.", "hint": "Tip of the iceberg."},
+        {"event_id": "SnowballDeath", "sacrifice_id": "HitBySnowBall", "gift_id": null, "gem_id": 0, "description": "Pygmy killed by snow ball.", "hint": "Snowballed."},
+        {"event_id": "KillIceMonster", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Defeat the ice monster.", "hint": "Shatter his defenses."},
+        {"event_id": "BounceOffIceMonster", "sacrifice_id": "BounceOffIceMonster", "gift_id": null, "gem_id": 0, "description": "Flick Pygmy and bounce off ice monster.", "hint": "Bounce it off me."},
+        {"event_id": "ExplodeOnIceMonster", "sacrifice_id": "ExplodeOnIceMonster", "gift_id": null, "gem_id": 0, "description": "Flick Pygmy and explode on ice monster.", "hint": "Fire and ice."},
+        {"event_id": "FlickInIceMonsterMouth", "sacrifice_id": "EatenByIceMonster", "gift_id": null, "gem_id": 0, "description": "Flick a Pygmy into the monster's mouth.", "hint": "Big gulp."},
+        {"event_id": "MakeIceMonsterDizzy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make the ice monster dizzy.", "hint": "Make him busy with dizzy."}
+      ],
+      "level_ups": [
+        {"event_id": "EatFishBlastFromIgloo", "sacrifice_id": "IglooCannon", "gift_id": null, "description": "Fire Pygmy from igloo.", "max_points": 6000},
+        {"event_id": "TwoPygmiesInIgloo", "sacrifice_id": "ShotOutIgloo", "gift_id": null, "description": "Drop two pygmies in igloo to fire one Pygmy out of door.", "max_points": 6000},
+        {"event_id": "KillIceMonster", "sacrifice_id": null, "gift_id": null, "description": "Defeat the ice monster.", "max_points": 2000}
+      ]
+    },
+    {
+      "id": "Episode30",
+      "episode_number": "30",
+      "idol_id": "OctopusGod",
+      "idol_name": "Octopus God",
+      "idol_title": "God of the Octopus",
+      "power_description": "freeze idol for [TurnCount]",
+      "power_short_description": "Freeze Random Idol - [TurnCount]",
+      "icon_texture": "EpisodeIcon30",
+      "idol_texture": "EpisodeIdol30",
+      "realm": "oceanus",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "Great Job Ice Hole",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode30", "level": 14},
+        {"episode_id": "Episode26", "level": 14},
+        {"episode_id": "Episode35", "level": 14},
+        {"episode_id": "Episode34", "level": 14}
+      ],
+      "realm_powers": [
+        {"power": "freeze_idol", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "BurnPygmyWithSun", "sacrifice_id": "GlobalWarming", "gift_id": null, "gem_id": 0, "description": "Overheat a Pygmy by enlarging the sun.", "hint": "The heat is spreading."},
+        {"event_id": "FreezePygmyWithSun", "sacrifice_id": "Shattered", "gift_id": null, "gem_id": 0, "description": "Freeze the Pygmy by shrinking the sun.", "hint": "It's pinching cold!"},
+        {"event_id": "BurnHoleInIce", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Burn a hole in the ice island.", "hint": "Melt the ice."},
+        {"event_id": "SquidPullsOfHead", "sacrifice_id": "LostMyHead", "gift_id": null, "gem_id": 0, "description": "Decapitate Pygmy playing tug of war with ice squid.", "hint": "Split with the squid."},
+        {"event_id": "SquidEatPygmy", "sacrifice_id": "SquidBait", "gift_id": null, "gem_id": 0, "description": "Give a whole Pygmy to ice squid.", "hint": "Give it up to the squid."},
+        {"event_id": "FishInIceHole", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Fish in the ice hole.", "hint": "Take a pole to the hole."},
+        {"event_id": "CatchSwordFish", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Catch a swordfish from the ice hole.", "hint": "Catch a stabber."},
+        {"event_id": "SwordFishSlap", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Swordfish-slap a Pygmy.", "hint": "Look out for a razor sharp flying fish."},
+        {"event_id": "SwordFishSlapAsleep", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Swordfish-slap a sleeping Pygmy.", "hint": "Rude awakening."},
+        {"event_id": "EatSwordFish", "sacrifice_id": "SwordSwallower", "gift_id": null, "gem_id": 0, "description": "Pygmy eats swordfish and gets an ulcer.", "hint": "It will give you ulcers!"},
+        {"event_id": "MakeIceGeyser", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop a burnt Pygmy into the ice hole to cause ice geyser.", "hint": "Fired Pygmy in the hole!"},
+        {"event_id": "KillPygmyWithIceGeyser", "sacrifice_id": "IciclePinCushion", "gift_id": null, "gem_id": 0, "description": "Pygmy impaled by icicles from ice geyser.", "hint": "Spike it!"}
+      ],
+      "level_ups": [
+        {"event_id": "SquidPullsOfHead", "sacrifice_id": "LostMyHead", "gift_id": null, "description": "Decapitate Pygmy playing tug of war with ice squid.", "max_points": 10000},
+        {"event_id": "EatSwordFish", "sacrifice_id": "SwordSwallower", "gift_id": null, "description": "Pygmy eats swordfish and gets an ulcer.", "max_points": 20000},
+        {"event_id": "MakeIceGeyser", "sacrifice_id": null, "gift_id": null, "description": "Drop a burnt Pygmy into the ice hole to cause ice geyser.", "max_points": 4000}
+      ]
+    },
+    {
+      "id": "Episode31",
+      "episode_number": "31",
+      "idol_id": "Book",
+      "idol_name": "Story Book",
+      "idol_title": "A Story Book",
+      "power_description": "[PrimaryValue] heal for [TurnCount]",
+      "power_short_description": "Healing - [TurnCount]",
+      "icon_texture": "EpisodeIcon31",
+      "idol_texture": "EpisodeIdol31",
+      "realm": "pax",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "What's the Story Morning Gory?",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode31", "level": 15},
+        {"episode_id": "Episode33", "level": 15},
+        {"episode_id": "Episode25", "level": 15},
+        {"episode_id": "Episode3", "level": 15}
+      ],
+      "realm_powers": [
+        {"power": "realm_heal", "base_value": 45.0, "value_per_level": 38.0}
+      ],
+      "challenges": [
+        {"event_id": "OpenTheStoryScreen", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Open the story screen.", "hint": "Look for the book."},
+        {"event_id": "WatchStory", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Watch a story in story mode.", "hint": "Boy, the Pygmies can act!"},
+        {"event_id": "CreateStory", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Create a story.", "hint": "Exercise your creativity."},
+        {"event_id": "UnplugDrain", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Unplug the drain in the underwater area.", "hint": "See if you can empty the ocean."},
+        {"event_id": "PushPygmyInDrain", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Send the Pygmy down the drain.", "hint": "A downward spiral."},
+        {"event_id": "PlayPainDrain", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play the Pain Drain mini-game.", "hint": "There's a spike in the fun!"},
+        {"event_id": "SpikePygmyInPainDrain", "sacrifice_id": "PainDrainSpikes", "gift_id": null, "gem_id": 0, "description": "Spike the Pygmy in the Pain Drain.", "hint": "Get to the point!"}
+      ],
+      "level_ups": [
+        {"event_id": "EatBurntBird", "sacrifice_id": "EatBurntBird", "gift_id": null, "description": "Pygmy chokes on a burned dodo.", "max_points": 5000},
+        {"event_id": "EatBurntFish", "sacrifice_id": "EatBurntFish", "gift_id": null, "description": "Eat a burnt fish.", "max_points": 5000},
+        {"event_id": "BurnPygmyNearFire", "sacrifice_id": "BonFire", "gift_id": null, "description": "Poke fire and burn Pygmy with flames.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode31B",
+      "episode_number": "31B",
+      "idol_id": "Globe",
+      "idol_name": "Globe",
+      "idol_title": "A Globe...",
+      "power_description": "drain [PrimaryValue] extra level points for [TurnCount]",
+      "power_short_description": "Drain Level Points - [TurnCount]",
+      "icon_texture": "EpisodeIcon31b",
+      "idol_texture": "EpisodeIdol31b",
+      "realm": "pax",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "What's the Story Morning Gory? Part II",
+      "initial_selection_slot": -1,
+      "damage_per_level": 35.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode31B", "level": 15},
+        {"episode_id": "Episode36", "level": 15},
+        {"episode_id": "Episode23", "level": 15},
+        {"episode_id": "Episode21", "level": 15}
+      ],
+      "realm_powers": [
+        {"power": "drain_level_points", "base_value": 0.3, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "LookAtNews", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Check the news.", "hint": "What's the latest?"}
+      ],
+      "level_ups": [
+        {"event_id": "PainDrainScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the Pain Drain mini-game.", "max_points": 1500000}
+      ]
+    },
+    {
+      "id": "Episode32",
+      "episode_number": "32",
+      "idol_id": "DemonGod",
+      "idol_name": "Demon God",
+      "idol_title": "God of Demons",
+      "power_description": "[PrimaryValue] extra fire damage for [TurnCount]",
+      "power_short_description": "Fire Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon32",
+      "idol_texture": "EpisodeIdol32",
+      "realm": "infernis",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "Crack is Wack",
+      "initial_selection_slot": -1,
+      "damage_per_level": 15.0,
+      "health_per_level": 25.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode32", "level": 16},
+        {"episode_id": "Episode19", "level": 16},
+        {"episode_id": "Episode38", "level": 16},
+        {"episode_id": "Episode18", "level": 16}
+      ],
+      "realm_powers": [
+        {"power": "realm_damage", "base_value": 40.0, "value_per_level": 40.0}
+      ],
+      "challenges": [
+        {"event_id": "DrawCrack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Draw a crack in the ground.", "hint": "I feel the earth move under my feet."},
+        {"event_id": "KillPygmyWithCrack", "sacrifice_id": "CrackHole", "gift_id": null, "gem_id": 0, "description": "Pygmy falls through crack and dies.", "hint": "Crack kills!"},
+        {"event_id": "PlayTheRuns", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play The Runs mini-game.", "hint": "Run Pygmy, run!"},
+        {"event_id": "HitBatPoo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy runs through bat poo.", "hint": "You've stepped in it now!"},
+        {"event_id": "HitLavaRock", "sacrifice_id": "LavaRock", "gift_id": null, "gem_id": 0, "description": "Pygmy runs into lava rock and explodes.", "hint": "Rock rock till you drop!"},
+        {"event_id": "HitLava", "sacrifice_id": "LavaDrown", "gift_id": null, "gem_id": 0, "description": "Pygmy lands in lava and sinks.", "hint": "That is one hot jacuzzi."},
+        {"event_id": "HitStalactites", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bump Pygmy head on stalactites.", "hint": "Watch your head!"}
+      ],
+      "level_ups": [
+        {"event_id": "KillPygmyWithCrack", "sacrifice_id": "CrackHole", "gift_id": null, "description": "Pygmy falls through crack and dies.", "max_points": 5000},
+        {"event_id": "TheRunsScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in The Runs mini-game.", "max_points": 20000000},
+        {"event_id": "HitBatPoo", "sacrifice_id": null, "gift_id": null, "description": "Pygmy runs through bat poo.", "max_points": 5000}
+      ]
+    },
+    {
+      "id": "Episode33",
+      "episode_number": "33",
+      "idol_id": "GiantGorillaGod",
+      "idol_name": "Giant Gorilla God",
+      "idol_title": "God of Giant Gorillas",
+      "power_description": "[PrimaryValue] boost all damage for [TurnCount]",
+      "power_short_description": "Boost Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon33",
+      "idol_texture": "EpisodeIdol33",
+      "realm": "animus",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "A Pygmy A Day Keeps the Ape Away",
+      "initial_selection_slot": -1,
+      "damage_per_level": 30.0,
+      "health_per_level": 35.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode33", "level": 16},
+        {"episode_id": "Episode31B", "level": 16},
+        {"episode_id": "Episode27", "level": 16},
+        {"episode_id": "Episode25", "level": 16}
+      ],
+      "realm_powers": [
+        {"power": "total_boost_damage", "base_value": 0.3, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "ApeMountain", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit ape mountan.", "hint": "Go go gorilla!"},
+        {"event_id": "PygmyInWinch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop Pygmy into winch.", "hint": "Take the wheel."},
+        {"event_id": "PygmyInBongos", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop Pygmy by bongos.", "hint": "Let's get a drum circle going."},
+        {"event_id": "PygmyInAltar", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop Pygmy into altar.", "hint": "Get the hang of it!"},
+        {"event_id": "TurnWinch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "turn the winch", "hint": "And the big wheel keeps on turning."},
+        {"event_id": "WindPygmyOnAltar", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Wind Pygmy up on the altar.", "hint": "It's the final stretch!"},
+        {"event_id": "LightTorch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Light the torch.", "hint": "Shed some light on the situation."},
+        {"event_id": "PlayBongos", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Pygmy play bongos.", "hint": "Feel the rythym."},
+        {"event_id": "ApeEatPygmyFromAltar", "sacrifice_id": "ApeEaten", "gift_id": null, "gem_id": 0, "description": "Play the bongos to call the giant ape.", "hint": "Once everything is in place, you can perform the ritual."},
+        {"event_id": "RescuePygmyFromApe", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pull Pygmy from ape at last minute and cause tantrum.", "hint": "Deny the gorilla his food!"},
+        {"event_id": "ApeSmashWenchPygmy", "sacrifice_id": "ApeWenchSmash", "gift_id": null, "gem_id": 0, "description": "Ape smashes Pygmy in winch.", "hint": "Crushed under the wheel."},
+        {"event_id": "ApeSmashBongoPygmy", "sacrifice_id": "ApeBongoSmash", "gift_id": null, "gem_id": 0, "description": "Ape smashes Pygmy on bongos.", "hint": "Bang the drummer."},
+        {"event_id": "WindPygmyUntilRip", "sacrifice_id": "ApeAltar", "gift_id": null, "gem_id": 0, "description": "Wind Pygmy on altar until he snaps.", "hint": "Stretched a little too thin."},
+        {"event_id": "MakeApeDance", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make giant ape dance.", "hint": "Performing primate."}
+      ],
+      "level_ups": [
+        {"event_id": "ApeEatPygmyFromAltar", "sacrifice_id": "ApeEaten", "gift_id": null, "description": "Play the bongos to call the giant ape.", "max_points": 10000},
+        {"event_id": "ApeSmashWenchPygmy", "sacrifice_id": "ApeWenchSmash", "gift_id": null, "description": "Ape smashes Pygmy in winch.", "max_points": 10000},
+        {"event_id": "WindPygmyUntilRip", "sacrifice_id": "ApeAltar", "gift_id": null, "description": "Wind Pygmy on altar until he snaps.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode34",
+      "episode_number": "34",
+      "idol_id": "MonkeyGod",
+      "idol_name": "Monkey God",
+      "idol_title": "God of Monkeys",
+      "power_description": "[PrimaryValue] boost all damage for [TurnCount]",
+      "power_short_description": "Boost Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon34",
+      "idol_texture": "EpisodeIdol34",
+      "realm": "aeris",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Monkey See, Monkey Chew",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 35.0,
+      "power_turn_count": 2,
+      "enemy_idols": [
+        {"episode_id": "Episode34", "level": 17},
+        {"episode_id": "Episode31B", "level": 17},
+        {"episode_id": "Episode29", "level": 17},
+        {"episode_id": "Episode27", "level": 17}
+      ],
+      "realm_powers": [
+        {"power": "total_boost_damage", "base_value": 1.5, "value_per_level": 0.06}
+      ],
+      "challenges": [
+        {"event_id": "GrabBananaOutOfTree", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Grab banana from tree to attract monkey.", "hint": "Forage for breakfast."},
+        {"event_id": "GetThreeMonkeys", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bring three monkeys at one time to the mountain.", "hint": "Third time's a charm."},
+        {"event_id": "MonkeyClimbTorch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Monkey climbs the torch.", "hint": "Monkey bar."},
+        {"event_id": "MonkeyClimbTree", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Monkey climbs tree.", "hint": "The monkey's home."},
+        {"event_id": "DropMonkeyOnPygmy", "sacrifice_id": "MonkeyOnBack", "gift_id": null, "gem_id": 0, "description": "Drop a monkey on Pygmy's back.", "hint": "Take monkey for a ride."},
+        {"event_id": "DropPygmyOnMonkey", "sacrifice_id": "MonkeyThrow", "gift_id": null, "gem_id": 0, "description": "Drop Pygmy on monkey and Pygmy is thrown off mountain.", "hint": "Look out below!"},
+        {"event_id": "MonkeyPlayCatch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Monkeys play catch with Pygmy.", "hint": "Let's play catch!"},
+        {"event_id": "MonkeyEatBanana", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Monkey eats banana.", "hint": "Feed the animals."},
+        {"event_id": "PygmyEatBanana", "sacrifice_id": null, "gift_id": "Banana", "gem_id": 0, "description": "Pygmy eats a banana.", "hint": "Pygmy's need their potassium."},
+        {"event_id": "PygmySlipOnPeel", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy slips on banana peel.", "hint": "It's a slippery situation."},
+        {"event_id": "ElectrocuteMonkey", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Shock the monkey with lightning.", "hint": "Shock the monkey!"},
+        {"event_id": "HumpPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Monkey bothers sleeping Pygmy.", "hint": "Sleep with one eye open."},
+        {"event_id": "MonkeyDance", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make the monkey dance.", "hint": "Performing monkeys!"},
+        {"event_id": "DropMonkeyOnLitTorch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Burn Monkey on a lit torch.", "hint": "Burn baby burn."}
+      ],
+      "level_ups": [
+        {"event_id": "DropMonkeyOnPygmy", "sacrifice_id": "MonkeyOnBack", "gift_id": null, "description": "Drop a monkey on Pygmy's back.", "max_points": 10000},
+        {"event_id": "MonkeyPlayCatch", "sacrifice_id": null, "gift_id": null, "description": "Monkeys play catch with Pygmy.", "max_points": 40000},
+        {"event_id": "MonkeyEatBanana", "sacrifice_id": null, "gift_id": null, "description": "Monkey eats banana.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode35",
+      "episode_number": "35",
+      "idol_id": "CatGod",
+      "idol_name": "Kitten God",
+      "idol_title": "God of Cats, and rainbows",
+      "power_description": "[PrimaryValue] heal for [TurnCount]",
+      "power_short_description": "Healing - [TurnCount]",
+      "icon_texture": "EpisodeIcon35",
+      "idol_texture": "EpisodeIdol35",
+      "realm": "pax",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Double Rainbow All The Way Across The Sky",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode35", "level": 17},
+        {"episode_id": "Episode30", "level": 17},
+        {"episode_id": "Episode28", "level": 17},
+        {"episode_id": "Episode21", "level": 17}
+      ],
+      "realm_powers": [
+        {"power": "realm_heal", "base_value": 35.0, "value_per_level": 45.0}
+      ],
+      "challenges": [
+        {"event_id": "DrawDoubleRainbow", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Draw a double rainbow.", "hint": "Paint the sky."},
+        {"event_id": "DoubleRainbowAllTheWay", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says 'Whoa. Double Rainbow All the Way'", "hint": "The title of this episode."},
+        {"event_id": "DoubleRainbowSoIntense", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says \"so intense\".", "hint": "Say it with intensity!"},
+        {"event_id": "DoubleRainbowAllTheWayAcrossTheSky", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says \"Double Rainbow all the way across the sky!\"", "hint": "See Pygmy cry!"},
+        {"event_id": "DoubleRainbowOhMyGod", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says \"Oh my god\"", "hint": "Watch Pygmy freak out!"},
+        {"event_id": "DoubleRainbowWhatDoesThisMean", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says \"what does this mean?\"", "hint": "Searching for meaning."},
+        {"event_id": "DoubleRainbowTripleRainbow", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says \"It's starting to look like a triple rainbow!\"", "hint": "Seeing triple."}
+      ],
+      "level_ups": [
+        {"event_id": "DoubleRainbowAllTheWayAcrossTheSky", "sacrifice_id": null, "gift_id": null, "description": "Pygmy says \"Double Rainbow all the way across the sky!\"", "max_points": 6000},
+        {"event_id": "DoubleRainbowOhMyGod", "sacrifice_id": null, "gift_id": null, "description": "Pygmy says \"Oh my god\"", "max_points": 6000},
+        {"event_id": "DoubleRainbowTripleRainbow", "sacrifice_id": null, "gift_id": null, "description": "Pygmy says \"It's starting to look like a triple rainbow!\"", "max_points": 6000}
+      ]
+    },
+    {
+      "id": "Episode36",
+      "episode_number": "36",
+      "idol_id": "Hammer",
+      "idol_name": "Hammer",
+      "idol_title": "A Hammer",
+      "power_description": "cause [PrimaryValue] damage during attack tie for [TurnCount]",
+      "power_short_description": "Tie Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon36",
+      "idol_texture": "EpisodeIdol36",
+      "realm": "animus",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "Konkey Dong",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode36", "level": 18},
+        {"episode_id": "Episode26", "level": 18},
+        {"episode_id": "Episode31", "level": 18},
+        {"episode_id": "Episode23", "level": 18}
+      ],
+      "realm_powers": [
+        {"power": "tie_damage", "base_value": 40.0, "value_per_level": 40.0}
+      ],
+      "challenges": [
+        {"event_id": "PygmyInKongStatue", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Put Pygmy in Konkey statue's grip.", "hint": "Find the statue with a firm grip."},
+        {"event_id": "KidnapPygmyFromStatue", "sacrifice_id": "KidnappedByKonkeyDong", "gift_id": null, "gem_id": 0, "description": "Pygmy kidnapped from the grip of statue.", "hint": "Witness a kidnapping."},
+        {"event_id": "PlayKonkeyDong", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play the Konkey Dong mini-game.", "hint": "Jump and climb your way."},
+        {"event_id": "KilledByBoulder", "sacrifice_id": "KonkeyDongBoulder", "gift_id": null, "gem_id": 0, "description": "Pygmy killed by boulder in Konkey Dong.", "hint": "Watch for falling rocks."},
+        {"event_id": "KilledByBeetle", "sacrifice_id": "KonkeyDongBeetle", "gift_id": null, "gem_id": 0, "description": "Pygmy killed by beetle in Konkey Dong.", "hint": "Am I bugging you?"},
+        {"event_id": "FallOffKonkeyDongLevel", "sacrifice_id": "KonkeyDongFall", "gift_id": null, "gem_id": 0, "description": "Fall off Konkey Dong level.", "hint": "It's a long way down!"},
+        {"event_id": "UseHammer", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use the pick in Konkey Dong.", "hint": "Hammer time!"},
+        {"event_id": "JumpOnBeetle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bounce on the back of the beetle in Konkey Dong.", "hint": "Get off my back!"},
+        {"event_id": "JumpBeetle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Jump over beetle in Konkey Dong.", "hint": "Pass the beetle."},
+        {"event_id": "JumpBoulder", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Jump over the boulder in Konkey Dong.", "hint": "Don't get run over."},
+        {"event_id": "PickBeetle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the beetle with the pick in Konkey Dong.", "hint": "Destroy the beetle."},
+        {"event_id": "PickBoulder", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Crush boulder with pick in Konkey Dong.", "hint": "Crush it!"}
+      ],
+      "level_ups": [
+        {"event_id": "KonkeyDongScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the Konkey Dong mini-game.", "max_points": 30000000},
+        {"event_id": "JumpOnBeetle", "sacrifice_id": null, "gift_id": null, "description": "Bounce on the back of the beetle in Konkey Dong.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode37",
+      "episode_number": "37",
+      "idol_id": "TurtleGod",
+      "idol_name": "Turtle God",
+      "idol_title": "God of Turtles",
+      "power_description": "[PrimaryValue] defense against attack damage and reflect [SecondaryValue] of it back at the opponent for [TurnCount]",
+      "power_short_description": "Attack Defense + Reflect Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon37",
+      "idol_texture": "EpisodeIdol37",
+      "realm": "oceanus",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "TheMoronPests",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 40.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode37", "level": 18},
+        {"episode_id": "Episode7", "level": 18},
+        {"episode_id": "Episode29", "level": 18},
+        {"episode_id": "Episode5", "level": 18}
+      ],
+      "realm_powers": [
+        {"power": "attack_defense", "base_value": 0.2, "value_per_level": 0.02},
+        {"power": "attack_reflect_damage", "base_value": 0.5, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "ClickOnDreamBubble", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tap dream bubble to travel to Misfit Island.", "hint": "Only in their dreams."},
+        {"event_id": "MisfitIsland", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit the island of misfit crossovers.", "hint": "Why am I such a misfit?"},
+        {"event_id": "DropSnakeOnPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop the snake on Pygmy's head.", "hint": "Not comfortable in snake skin."},
+        {"event_id": "EatenByMoronTurtles", "sacrifice_id": "EatenByMoronTurtle", "gift_id": null, "gem_id": 0, "description": "Pygmy eaten by Moron Pest turtle.", "hint": "Living a shell-tered life."},
+        {"event_id": "PlayMoronPests", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play the Moron Pests mini-game.", "hint": "Time to get tested."}
+      ],
+      "level_ups": [
+        {"event_id": "MoronPestsScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the Moron Pests mini-game.", "max_points": 30000000}
+      ]
+    },
+    {
+      "id": "Episode38",
+      "episode_number": "38",
+      "idol_id": "TigerGod",
+      "idol_name": "Tiger God",
+      "idol_title": "God of Tigers",
+      "power_description": "[PrimaryValue] heal and [SecondaryValue] boost attack damage for [TurnCount]",
+      "power_short_description": "Boost Attack Damage + Healing - [TurnCount]",
+      "icon_texture": "EpisodeIcon38",
+      "idol_texture": "EpisodeIdol38",
+      "realm": "animus",
+      "attack": "fast",
+      "attack_style": "physical",
+      "episode_title": "Two and a Half Pygmies",
+      "initial_selection_slot": -1,
+      "damage_per_level": 15.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode38", "level": 19},
+        {"episode_id": "Episode32", "level": 19},
+        {"episode_id": "Episode24", "level": 19},
+        {"episode_id": "Episode21", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "realm_heal", "base_value": 8.0, "value_per_level": 8.0},
+        {"power": "attack_boost_damage", "base_value": 0.2, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "CharlieWarlockIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says he's a vatican assasin warlock.", "hint": "Charlie finds religion."},
+        {"event_id": "CharlieBiPolarIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says he's \"bi-winning\".", "hint": "Bi Bi, Charlie!"},
+        {"event_id": "CharlieImATotalFrickinRockStarIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says he's a total frikin' rock star.", "hint": "Rock it, Charlie!"},
+        {"event_id": "CharlieDyingIsForFoolsIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says dying is for fools.", "hint": "You're dying out there, Charlie!"},
+        {"event_id": "CharlieItsOnBringItIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says it's on, bring it!", "hint": "Take it, Charlie!"},
+        {"event_id": "CharlieWowWinningIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says \"wow, winning!\"", "hint": "Charlie's catphrase and then some."},
+        {"event_id": "CharleWinningIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says \"winning!\"", "hint": "It's charlie's catchphrase."},
+        {"event_id": "CharlieOneSpeedOneGearIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says he has one speed, one gear, GO!", "hint": "You might want to pump your breaks, Charlie!"},
+        {"event_id": "CharlieDoubleRainbowIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie comments on double-rainbow.", "hint": "Look at the pretty colors, Charlie!"},
+        {"event_id": "CharlieDontSleep", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie says that only normal people need sleep.", "hint": "Charlie loves his night life."},
+        {"event_id": "CharlieEatingIsForTrolls", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie throws food away.", "hint": "You're looking too thin, Charlie!"},
+        {"event_id": "CharlieSlicePygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Charlie turns into tiger and cuts Pygmy in half.", "hint": "Nice cat-like reflexes Charlie!"},
+        {"event_id": "DropHalfPygmyOnPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop half a Pygmy on Pygmy head.", "hint": "Pygmy hats are the latest sensation."},
+        {"event_id": "DropHalfPygmyOnCharlie", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop half Pygmy on Charlie's head.", "hint": "Charlie doesn't like the new hats."},
+        {"event_id": "CharlieStrikesWithLightning", "sacrifice_id": "ZappedByWarlockAssassin", "gift_id": null, "gem_id": 0, "description": "Warlock Charlie strikes Pygmy with lightning.", "hint": "A dark cloud over Charlie's head."},
+        {"event_id": "CharlieBurnsVampirePygmy", "sacrifice_id": "BurntByWarlockAssassin", "gift_id": null, "gem_id": 0, "description": "Warlock Charlie defeats vampire Pygmy.", "hint": "Charlie vs. another creature of the night."},
+        {"event_id": "DropSharkOnCharlie", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop a shark on Charlie's head.", "hint": "Charlie doesn't like the older hats."},
+        {"event_id": "DropBoulderOnCharlie", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop a boulder on Charlie.", "hint": "Rock till you drop, Charlie!"},
+        {"event_id": "DropTRexEggOnCharlie", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop a t-rex egg on Charlie.", "hint": "Egg on your face much, Charlie?"},
+        {"event_id": "DropMonkeyOnCharlie", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drop a monkey on Charlie's back.", "hint": "Something on your back, Charlie?"}
+      ],
+      "level_ups": [
+        {"event_id": "CharlieSlicePygmy", "sacrifice_id": null, "gift_id": null, "description": "Charlie turns into tiger and cuts Pygmy in half.", "max_points": 10000},
+        {"event_id": "DropHalfPygmyOnCharlie", "sacrifice_id": null, "gift_id": null, "description": "Drop half Pygmy on Charlie's head.", "max_points": 10000},
+        {"event_id": "CharlieBurnsVampirePygmy", "sacrifice_id": "BurntByWarlockAssassin", "gift_id": null, "description": "Warlock Charlie defeats vampire Pygmy.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode39",
+      "episode_number": "39",
+      "idol_id": "GoodGod",
+      "idol_name": "Annal, God of Life",
+      "idol_title": "davecazz when relaxt",
+      "power_description": "Power up all idols for [TurnCount]",
+      "power_short_description": "Power Up All Idols!",
+      "icon_texture": "EpisodeIcon39",
+      "idol_texture": "EpisodeIdol39",
+      "realm": "pax",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Island of the Gods",
+      "initial_selection_slot": -1,
+      "damage_per_level": 5.0,
+      "health_per_level": 15.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode39", "level": 19},
+        {"episode_id": "Episode26", "level": 19},
+        {"episode_id": "Episode34", "level": 19},
+        {"episode_id": "Episode33", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "power_up_all_idols", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "GodIsland", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit the Island of the Gods.", "hint": "Journey to the temple."},
+        {"event_id": "PygmyOnPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place Pygmy on pedestal.", "hint": "Pygmies take the stage."},
+        {"event_id": "PygmySing", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy's sing.", "hint": "Pygmy's performance."},
+        {"event_id": "GodIdolOnPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place God Idol on pedestal.", "hint": "Put the fancy knick knacks in their place."},
+        {"event_id": "OpenTempleDoor", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Open the temple door.", "hint": "Four off the floor."},
+        {"event_id": "UnlockAllChallenges", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Unlock all challenges.", "hint": "Gotta get 'em all!"}
+      ],
+      "level_ups": [
+        {"event_id": "EatFish", "sacrifice_id": null, "gift_id": "Fish", "description": "Pygmy eats fish.", "max_points": 20000},
+        {"event_id": "PygmyEatBanana", "sacrifice_id": null, "gift_id": "Banana", "description": "Pygmy eats a banana.", "max_points": 10000},
+        {"event_id": "EatCoconut", "sacrifice_id": null, "gift_id": "Coconut", "description": "Pygmy eats coconut.", "max_points": 10000}
+      ]
+    },
+    {
+      "id": "Episode40",
+      "episode_number": "40",
+      "idol_id": "BadGod",
+      "idol_name": "Deva, God of Death",
+      "idol_title": "davecazz when angry",
+      "power_description": "Freeze random Opponent Idol for [TurnCount]",
+      "power_short_description": "Freeze Random Idol - [TurnCount]",
+      "icon_texture": "EpisodeIcon40",
+      "idol_texture": "EpisodeIdol40",
+      "realm": "animus",
+      "attack": "strong",
+      "attack_style": "physical",
+      "episode_title": "Battle of the Gods",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode40", "level": 19},
+        {"episode_id": "Episode26", "level": 19},
+        {"episode_id": "Episode6", "level": 19},
+        {"episode_id": "Episode39", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "freeze_idol", "base_value": 0.0, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "BattleOfTheGods", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play Battle of the Gods.", "hint": "Enter the arena!"},
+        {"event_id": "CounterAttack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use a Counter Attack.", "hint": "Shield's up!"},
+        {"event_id": "FastAttack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use a Fast Attack.", "hint": "The fast and the furious."},
+        {"event_id": "StrongAttack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use a Strong Attack.", "hint": "I've got the power!"},
+        {"event_id": "OceanusAttack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use a Oceanus Realm Attack.", "hint": "Poseidon's adventure."},
+        {"event_id": "AerisAttack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use a Aeris Realm Attack.", "hint": "Air it out!"},
+        {"event_id": "InfernisAttack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use a Infernis Realm Attack.", "hint": "Summon the power of the underworld."},
+        {"event_id": "AnimusAttack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use a Animus Realm Attack.", "hint": "Use your animal magnetism!"},
+        {"event_id": "PaxAttack", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use a Pax Realm Attack.", "hint": "Peace and Love!"},
+        {"event_id": "WinBattle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Win a battle.", "hint": "To the victor goes the spoils."},
+        {"event_id": "LoseBattle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Lose a battle.", "hint": "Can't win 'em all!"},
+        {"event_id": "BoostAttackDamage", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Boost Your attack damage.", "hint": "Get a booster shot!"},
+        {"event_id": "BoostTotalDamage", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Boost all damage types.", "hint": "Get a series of booster shots."},
+        {"event_id": "ActivateAttackDefense", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Activate defense against attack damage.", "hint": "Use protection!"},
+        {"event_id": "ActivateTotalDefense", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Activate Defense Against All Damage Types.", "hint": "The best offense..."},
+        {"event_id": "DrainHealth", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drain health from an enemy.", "hint": "Take a hint from the vampires!"},
+        {"event_id": "ReflectDamage", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Reflect damage back to the enemy.", "hint": "I'm rubber and you're glue!"},
+        {"event_id": "RealmDamage", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Inflict Realm damage on an enemy.", "hint": "You're out of your realm!"},
+        {"event_id": "RealmHealing", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Heal from a Realm effect.", "hint": "Take your medicine!"},
+        {"event_id": "TieDamage", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Cause damage during a tie.", "hint": "Tie them in knots!"},
+        {"event_id": "CancelRealmEffects", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Cancel enemy Realm effects.", "hint": "You have no effect on me!"},
+        {"event_id": "DrainLevelPoints", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drain level points.", "hint": "Get 'em off level!"},
+        {"event_id": "FreezeIdol", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Freeze an enemy's idol.", "hint": "Take away a weapon."},
+        {"event_id": "PowerUpAllIdols", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Power up all idols with a single attack.", "hint": "Fire up all engines!"},
+        {"event_id": "ResurrectAfterDeath", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Resurrect after death.", "hint": "Call it a comeback!"},
+        {"event_id": "UnfreezeIdols", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Unfreeze One of your idols.", "hint": "Thaw it out."},
+        {"event_id": "DefeatDeva", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Defeat Deva.", "hint": "Overcome all evil!"}
+      ],
+      "level_ups": [
+        {"event_id": "WinBattle", "sacrifice_id": null, "gift_id": null, "description": "Win battle.", "max_points": 20000},
+        {"event_id": "DefeatDeva", "sacrifice_id": null, "gift_id": null, "description": "Defeat Deva.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode41",
+      "episode_number": "41",
+      "idol_id": "JellyGod",
+      "idol_name": "Jellyfish God",
+      "idol_title": "God of the jellies.",
+      "power_description": "[PrimaryValue] Heal for [TurnCount]",
+      "power_short_description": "Healing - [TurnCount]",
+      "icon_texture": "EpisodeIcon41",
+      "idol_texture": "EpisodeIdol41",
+      "realm": "oceanus",
+      "attack": "counter",
+      "attack_style": "energy",
+      "episode_title": "I Sting the Body Electric",
+      "initial_selection_slot": -1,
+      "damage_per_level": 30.0,
+      "health_per_level": 15.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode41", "level": 19},
+        {"episode_id": "Episode22", "level": 19},
+        {"episode_id": "Episode31B", "level": 19},
+        {"episode_id": "Episode18", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "realm_heal", "base_value": 8.0, "value_per_level": 15.0}
+      ],
+      "challenges": [
+        {"event_id": "UnderwaterCoralReef", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit the underwater coral reef area.", "hint": "Look out for reefer madness."},
+        {"event_id": "JellyfishScubaMask", "sacrifice_id": "JellyfishScubaMask", "gift_id": null, "gem_id": 0, "description": "Suffocate Pygmy with jellyfish.", "hint": "It's a different kind of breathing mask."},
+        {"event_id": "StungByJellyfish", "sacrifice_id": "StungByJellyfish", "gift_id": null, "gem_id": 0, "description": "Sting the Pygmy with jellyfish.", "hint": "I feel SWELL!"},
+        {"event_id": "EatenByJellyfish", "sacrifice_id": "EatenByJellyfish", "gift_id": null, "gem_id": 0, "description": "Feed Pygmy to jellyfish.", "hint": "Invertibrate chow."},
+        {"event_id": "DrankByJellyfish", "sacrifice_id": "DrankByJellyfish", "gift_id": null, "gem_id": 0, "description": "Feed jellyfish a Pygmy smoothy.", "hint": "Drink up!"},
+        {"event_id": "ElectrocuteByJellyfish", "sacrifice_id": "ElectrocuteByJellyfish", "gift_id": null, "gem_id": 0, "description": "Electrocute Pygmy with jellyfish.", "hint": "Fall into the ring of fire."}
+      ],
+      "level_ups": [
+        {"event_id": "ElectrocuteByJellyfish", "sacrifice_id": "ElectrocuteByJellyfish", "gift_id": null, "description": "Electrocute Pygmy with jellyfish.", "max_points": 20000},
+        {"event_id": "EatenByJellyfish", "sacrifice_id": "EatenByJellyfish", "gift_id": null, "description": "Feed Pygmy to jellyfish.", "max_points": 20000},
+        {"event_id": "JellyfishScubaMask", "sacrifice_id": "JellyfishScubaMask", "gift_id": null, "description": "Suffocate Pygmy with jellyfish.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode42",
+      "episode_number": "42",
+      "idol_id": "PyramidGod",
+      "idol_name": "Underwater Pyramid God",
+      "idol_title": "God of Acid, Oil, Air, Heat, and Cold",
+      "power_description": "[PrimaryValue] Boost Attack Damage and Reflect [SecondaryValue] Damage back at the opponent for [TurnCount]",
+      "power_short_description": "Extra Damage + Reflect Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon42",
+      "idol_texture": "EpisodeIdol42",
+      "realm": "oceanus",
+      "attack": "strong",
+      "attack_style": "energy",
+      "episode_title": "Bone Soup",
+      "initial_selection_slot": -1,
+      "damage_per_level": 25.0,
+      "health_per_level": 35.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode42", "level": 19},
+        {"episode_id": "Episode22", "level": 19},
+        {"episode_id": "Episode31", "level": 19},
+        {"episode_id": "Episode36", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "attack_boost_damage", "base_value": 0.3, "value_per_level": 0.03},
+        {"power": "attack_reflect_damage", "base_value": 0.7, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "ToggleUnderwaterTempleSymbol", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tap temple symbol.", "hint": "The writing is on the wall."},
+        {"event_id": "EnableUnderwaterPowerCold", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Activate under water freezing power.", "hint": "Feeling blue."},
+        {"event_id": "EnableUnderwaterPowerHeat", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Activate under water heat power.", "hint": "Seeing red."},
+        {"event_id": "EnableUnderwaterPowerOil", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Activate under water oil slick power.", "hint": "Back in black."},
+        {"event_id": "EnableUnderwaterPowerAcid", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Activate under water acid power.", "hint": "It's not easy being green."},
+        {"event_id": "EnableUnderwaterPowerAir", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Activate under water air bubble power.", "hint": "The color purple."},
+        {"event_id": "UnleashUnderwaterPowerCold", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use under water freezing power.", "hint": "Thirsty for ice water."},
+        {"event_id": "UnleashUnderwaterPowerHeat", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use under water heat power.", "hint": "Turn up the heat."},
+        {"event_id": "UnleashUnderwaterPowerOil", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use under water oil power.", "hint": "Cooking oil."},
+        {"event_id": "UnleashUnderwaterPowerAcid", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use under water acid power.", "hint": "Use your acid tongue!"},
+        {"event_id": "UnleashUnderwaterPowerAir", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use under water air bubble power.", "hint": "Breathe fresh air."},
+        {"event_id": "UnderwaterPowerColdSacrifice", "sacrifice_id": "HitByUnderwaterPowerCold", "gift_id": null, "gem_id": 0, "description": "Pygmy iced under water.", "hint": "Brain freeze!"},
+        {"event_id": "UnderwaterPowerHeatSacrifice", "sacrifice_id": "HitByUnderwaterPowerHeat", "gift_id": null, "gem_id": 0, "description": "Pygmy boiled alive underwater.", "hint": "Boiling mad!"},
+        {"event_id": "UnderwaterPowerOilSacrifice", "sacrifice_id": "HitByUnderwaterPowerOil", "gift_id": null, "gem_id": 0, "description": "Pygmy drowned in oil slick.", "hint": "Feeling oily."},
+        {"event_id": "UnderwaterPowerAcidSacrifice", "sacrifice_id": "HitByUnderwaterPowerAcid", "gift_id": null, "gem_id": 0, "description": "Pygmy eaten by acid.", "hint": "What's eating at you?"},
+        {"event_id": "UnderwaterPowerAirSacrifice", "sacrifice_id": "HitByUnderwaterPowerAir", "gift_id": null, "gem_id": 0, "description": "Pygmy floats away in a bubble.", "hint": "You bubblehead!"}
+      ],
+      "level_ups": [
+        {"event_id": "UnderwaterPowerHeatSacrifice", "sacrifice_id": "HitByUnderwaterPowerHeat", "gift_id": null, "description": "Boil Pygmy alive.", "max_points": 20000},
+        {"event_id": "UnderwaterPowerOilSacrifice", "sacrifice_id": "HitByUnderwaterPowerOil", "gift_id": null, "description": "Drown Pygmy in oil slick.", "max_points": 20000},
+        {"event_id": "UnderwaterPowerAcidSacrifice", "sacrifice_id": "HitByUnderwaterPowerAcid", "gift_id": null, "description": "Pygmy eaten by acid.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode43",
+      "episode_number": "43",
+      "idol_id": "HourGlass",
+      "idol_name": "Hour Glass",
+      "idol_title": "God of Time",
+      "power_description": "Resurrect after Death and [SecondaryValue] Health for [TurnCount]",
+      "power_short_description": "Resurrect After Death! and Healing - [TurnCount]",
+      "icon_texture": "EpisodeIcon43",
+      "idol_texture": "EpisodeIdol43",
+      "realm": "aeris",
+      "attack": "counter",
+      "attack_style": "energy",
+      "episode_title": "Killing Time",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 30.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode43", "level": 19},
+        {"episode_id": "Episode18", "level": 19},
+        {"episode_id": "Episode10", "level": 19},
+        {"episode_id": "Episode38", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "resurrect_after_death", "base_value": 0.2, "value_per_level": 0.02},
+        {"power": "realm_heal", "base_value": 8.0, "value_per_level": 8.0}
+      ],
+      "challenges": [
+        {"event_id": "ApocalypseIsland", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Visit Apocalypse Island.", "hint": "The land that time remembered."},
+        {"event_id": "OpenApocalypseDoor", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Open Apocalypse Temple door.", "hint": "Knock knock!"},
+        {"event_id": "TimeTemple", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Enter the Chamber of Time.", "hint": "Just in time!"},
+        {"event_id": "DropPygmyOnPlatform", "sacrifice_id": null, "gift_id": null, "gem_id": 1, "description": "Drop Pygmy on time platform.", "hint": "You're not getting me on that!"},
+        {"event_id": "PullTheLever", "sacrifice_id": null, "gift_id": null, "gem_id": 1, "description": "Pull the time lever.", "hint": "You know what grinds my gears?"},
+        {"event_id": "ActivateTimeEnergy", "sacrifice_id": null, "gift_id": null, "gem_id": 1, "description": "Activate time energy.", "hint": "It's the pits."},
+        {"event_id": "CreateGingerPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 1, "description": "Create ginger Pygmy.", "hint": "Simply red."},
+        {"event_id": "CreateOldFartPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 1, "description": "Create old fart Pygmy.", "hint": "Respect your elders!"},
+        {"event_id": "CreateBabyPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 1, "description": "Create baby Pygmy.", "hint": "Baby it's you!"},
+        {"event_id": "CreateFastPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 1, "description": "Create fast Pygmy.", "hint": "Just another flash in the pan."},
+        {"event_id": "PlaceOldFartPygmyOnFeet", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pick up old Pygmy.", "hint": "Help a friend back to his feet."},
+        {"event_id": "OldFartPygmyFallAfterWalk", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Old Pygmy falls down.", "hint": "Watch that first step! It's a doozy!"},
+        {"event_id": "OldFartPygmyUnsatifiedWithFood", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Old Pygmy rejects dinner.", "hint": "He prefers overcooked carrots."},
+        {"event_id": "OldFartPygmyHeartAttack", "sacrifice_id": "OldFartPygmyHeartAttack", "gift_id": null, "gem_id": 0, "description": "Give old Pygmy a heart attack.", "hint": "Tap the bad ticker."},
+        {"event_id": "OldFartPygmPoopsSelf", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Old Pygmy poops himself.", "hint": "Depends!"},
+        {"event_id": "BabyPygmyEatFood", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Feed the baby.", "hint": "All growing Pygmies need this!"},
+        {"event_id": "BabyPygmyPoop", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Baby Pygmy poops diaper.", "hint": "Someone needs a change."},
+        {"event_id": "BabyPygmyRattleSnake", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Baby shakes rattle snake.", "hint": "Baby wants his rattle!"},
+        {"event_id": "BabyPygmyEatenByTrex", "sacrifice_id": "BabyPygmyEatenByTrex", "gift_id": null, "gem_id": 0, "description": "T-Rex eats baby Pygmy.", "hint": "Veal dinner for our scaly friend."},
+        {"event_id": "BabyPygmyEatenByShark", "sacrifice_id": "BabyPygmyEatenByShark", "gift_id": null, "gem_id": 0, "description": "Feed baby to shark.", "hint": "Hello, my young chum!"},
+        {"event_id": "FastPygmyFlick", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Flick fast Pygmy.", "hint": "Rapidfire."},
+        {"event_id": "FastPygmyHitIceMonster", "sacrifice_id": "FastPygmyHitIceMonster", "gift_id": null, "gem_id": 0, "description": "Hit Ice Monster with fast Pygmy.", "hint": "Fire and ice."},
+        {"event_id": "FastPygmyHitVolano", "sacrifice_id": "FastPygmyHitVolano", "gift_id": null, "gem_id": 0, "description": "Flick fast Pygmy into volcano.", "hint": "Hurry erupt!"},
+        {"event_id": "GingerPygmySunBurn", "sacrifice_id": "GingerPygmySunBurn", "gift_id": null, "gem_id": 0, "description": "Ginger Pygmy dies of sun exposure.", "hint": "Cover up or you'll burn!"},
+        {"event_id": "GingerPygmyKillVampire", "sacrifice_id": "GingerPygmyKillVampire", "gift_id": null, "gem_id": 0, "description": "Vampire dies by soul-less ginger Pygmy.", "hint": "Two with no soul."}
+      ],
+      "level_ups": [
+        {"event_id": "BabyPygmyPoop", "sacrifice_id": null, "gift_id": null, "description": "Baby Pygmy poops diaper.", "max_points": 20000},
+        {"event_id": "GingerPygmySunBurn", "sacrifice_id": "GingerPygmySunBurn", "gift_id": null, "description": "Ginger Pygmy dies of sun exposure.", "max_points": 20000},
+        {"event_id": "FastPygmyHitVolcano", "sacrifice_id": "FastPygmyHitVolano", "gift_id": null, "description": "Flick fast Pygmy into volcano.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode44",
+      "episode_number": "44",
+      "idol_id": "LocustQueen",
+      "idol_name": "Locust Queen",
+      "idol_title": "Queen of all Locusts",
+      "power_description": "cause [PrimaryValue] damage during attack tie for [TurnCount]",
+      "power_short_description": "Tie Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon44",
+      "idol_texture": "EpisodeIdol44",
+      "realm": "animus",
+      "attack": "fast",
+      "attack_style": "energy",
+      "episode_title": "The Perfect Swarm",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode44", "level": 19},
+        {"episode_id": "Episode24", "level": 19},
+        {"episode_id": "Episode18", "level": 19},
+        {"episode_id": "Episode34", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "tie_damage", "base_value": 4.0, "value_per_level": 5.0}
+      ],
+      "challenges": [
+        {"event_id": "LocustTemple", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Enter the Chamber of Locusts.", "hint": "And behind door number two..."},
+        {"event_id": "TouchQueensBelly", "sacrifice_id": null, "gift_id": null, "gem_id": 2, "description": "Poke Locust Queen in the belly.", "hint": "Do you have the stomach for it?"},
+        {"event_id": "DropPygmyIntoQueensArms", "sacrifice_id": null, "gift_id": null, "gem_id": 2, "description": "Serve Pygmy Snack to Locust Queen.", "hint": "Snack time!"},
+        {"event_id": "EatenByLocustQueen", "sacrifice_id": "EatenByLocustQueen", "gift_id": null, "gem_id": 2, "description": "Locust Queen swallows Pygmy.", "hint": "Eater's Digest."},
+        {"event_id": "BirthLocusts", "sacrifice_id": null, "gift_id": null, "gem_id": 2, "description": "Locust Queen gives birth to swarm.", "hint": "The miracle of life!"},
+        {"event_id": "PygmyLocustPanic", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Large swarm panics pygmies.", "hint": "It's getting crowded!"},
+        {"event_id": "MaxLocusts", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Spawn maximum locusts.", "hint": "The more the merrier!"},
+        {"event_id": "GatherLocusts", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Create locust cluster.", "hint": "Gather round!"},
+        {"event_id": "DrawLocustLine", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drag a line of locusts.", "hint": "Follow the leader."},
+        {"event_id": "TurnedIntoMutantLocust", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Turn Pygmy into Mutant Locust.", "hint": "Metomorphosis."},
+        {"event_id": "LocustFlyOffScreen", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Mutant Locust flies off screen.", "hint": "Fly! Be free!"},
+        {"event_id": "SquashedLikeBug", "sacrifice_id": "SquashedLikeBug", "gift_id": null, "gem_id": 0, "description": "Squash Mutant Pygmy like a bug.", "hint": "Exterminate!"},
+        {"event_id": "LocustFood", "sacrifice_id": "LocustFood", "gift_id": null, "gem_id": 0, "description": "Make Pygmy locust food.", "hint": "Flesh it out."},
+        {"event_id": "EatLocusts", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Fill Pygmy with locusts.", "hint": "Pygmies need protein too."},
+        {"event_id": "PopLocustBalloon", "sacrifice_id": "PopLocustBalloon", "gift_id": null, "gem_id": 0, "description": "Pop Pygmy like a balloon.", "hint": "Set them free!"},
+        {"event_id": "PygmyPickedUpByLocusts", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Have locusts pick Pygmy up.", "hint": "Riders of the swarm."},
+        {"event_id": "LocustsThrowPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Have locusts toss Pygmy.", "hint": "Play catch!"},
+        {"event_id": "LocustsCatchPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Locusts catch tossed Pygmy.", "hint": "Don't drop the ball."},
+        {"event_id": "SlicedByLocust", "sacrifice_id": "SlicedByLocust", "gift_id": null, "gem_id": 0, "description": "Slice Pygmy with locusts like sashimi.", "hint": "Fruit Ninja!"},
+        {"event_id": "LocustsDropPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Locusts drop Pygmy.", "hint": "Butter fingers!"},
+        {"event_id": "PushLocustsOffScreen", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Push locusts off screen.", "hint": "Go away!"},
+        {"event_id": "LocustsDropPygmyBored", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Locusts drop Pygmy from boredom.", "hint": "You stopped playing with us!"},
+        {"event_id": "LocustsLeaveBored", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Locusts get bored and leave.", "hint": "Attention defecit disorder."}
+      ],
+      "level_ups": [
+        {"event_id": "EatenByLocustQueen", "sacrifice_id": "EatenByLocustQueen", "gift_id": null, "description": "Locust Queen swallows Pygmy.", "max_points": 20000},
+        {"event_id": "TurnedIntoMutantLocust", "sacrifice_id": null, "gift_id": null, "description": "Turn Pygmy into Mutant Locust.", "max_points": 20000},
+        {"event_id": "SlicedByLocust", "sacrifice_id": "SlicedByLocust", "gift_id": null, "description": "Slice Pygmy with locusts like sashimi.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode45",
+      "episode_number": "45",
+      "idol_id": "DanceGod",
+      "idol_name": "Disco Ball Bill",
+      "idol_title": "The God of Dance",
+      "power_description": "[PrimaryValue] damage from Disco Brilliance for [TurnCount]",
+      "power_short_description": "Disco Brilliance Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon45",
+      "idol_texture": "EpisodeIdol45",
+      "realm": "pax",
+      "attack": "fast",
+      "attack_style": "energy",
+      "episode_title": "Dance Dance Execution",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 20.0,
+      "power_turn_count": 100,
+      "enemy_idols": [
+        {"episode_id": "Episode45", "level": 19},
+        {"episode_id": "Episode43", "level": 19},
+        {"episode_id": "Episode8", "level": 19},
+        {"episode_id": "Episode36", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "realm_damage", "base_value": 5.0, "value_per_level": 5.0}
+      ],
+      "challenges": [
+        {"event_id": "DanceTemple", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Enter the Dance Room.", "hint": "Let's go clubbin'."},
+        {"event_id": "DanceDanceExecutionPlacePygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Place Pygmy in Dance Dance Execution.", "hint": "Assume the position."},
+        {"event_id": "DanceDanceExecutionPlay", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Play Dance Dance Execution.", "hint": "Move your feet!"},
+        {"event_id": "DanceDanceExecutionSmashPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Smash Pygmy in Dance Dance Execution.", "hint": "That's the way the ball bounces!"},
+        {"event_id": "DanceDanceExecutionRemovePygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Remove Pygmy from Dance Dance Execution.", "hint": "Let's NOT dance."},
+        {"event_id": "PygmyFallIntoGoGoCageNormal", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Place Pygmy in go go cage.", "hint": "Acting cagey."},
+        {"event_id": "PygmyFallIntoGoGoCageBaby", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Place Baby Pygmy in go go cage.", "hint": "Baby like to rattle it."},
+        {"event_id": "PygmyFallIntoGoGoCageOld", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Place old Pygmy in go go cage.", "hint": "Despite all my rage..."},
+        {"event_id": "PygmyFallIntoGoGoCageGinger", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Place ginger Pygmy in go go cage.", "hint": "Why the caged nerd sings?"},
+        {"event_id": "PygmyFallIntoGoGoCageFast", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Place fast Pygmy in go go cage.", "hint": "Hurry up an dance!"},
+        {"event_id": "GrabBalloon", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Grab a balloon.", "hint": "Grab a party favor."},
+        {"event_id": "ReleaseBalloon", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Release a balloon.", "hint": "They all float down here!"},
+        {"event_id": "PygmyInhaleDanceBalloon", "sacrifice_id": null, "gift_id": null, "gem_id": 3, "description": "Have Pygmy inhale balloon.", "hint": "Hit the gas!"},
+        {"event_id": "PygmyDavidNotFeelAnything", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says 'I don't feel anything.'", "hint": "Comfortably numb."},
+        {"event_id": "PygmyDavidIFeelFunny", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says 'I feel funny.'", "hint": "Strange or 'haha'?"},
+        {"event_id": "PygmyDavidIsThisGonnaBeForever", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says 'Is this going to be forever?'", "hint": "From here to eternity?"},
+        {"event_id": "PygmyDavidIsThisRealLife", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says 'Is this real life?'", "hint": "Living the fantasy."},
+        {"event_id": "PygmyDavidScream", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy screams.", "hint": "Top of their lungs."},
+        {"event_id": "PygmyDavidTwoFingers", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy says 'I have two fingers.'", "hint": "No good at counting."},
+        {"event_id": "DanceDanceExecutionCorrectLeft", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the Left button on the correct time.", "hint": "To the left."},
+        {"event_id": "DanceDanceExecutionMissLeft", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the Left button on the incorrect time.", "hint": "Left of center."},
+        {"event_id": "DanceDanceExecutionCorrectDown", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the Down button on the correct time.", "hint": "Downright awesome!"},
+        {"event_id": "DanceDanceExecutionMissDown", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the Down button on the incorrect time.", "hint": "I'm not down for that."},
+        {"event_id": "DanceDanceExecutionCorrectUp", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the Up button on the correct time.", "hint": "Upright citizen."},
+        {"event_id": "DanceDanceExecutionMissUp", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the Up button on the incorrect time", "hint": "Upside-down."},
+        {"event_id": "DanceDanceExecutionCorrectRight", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the Right button on the correct time.", "hint": "That's right."},
+        {"event_id": "DanceDanceExecutionMissRight", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hit the Right button on the incorrect time.", "hint": "That's not right."}
+      ],
+      "level_ups": [
+        {"event_id": "PygmyInhaleDanceBalloon", "sacrifice_id": null, "gift_id": null, "description": "Have Pygmy inhale balloon", "max_points": 20000},
+        {"event_id": "DanceDanceExecutionScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in the Dance Dance Execution mini-game.", "max_points": 1500000}
+      ]
+    },
+    {
+      "id": "Episode46",
+      "episode_number": "46",
+      "idol_id": "GermGod",
+      "idol_name": "The Virus God",
+      "idol_title": "The God of Germs",
+      "power_description": "[PrimaryValue] extra Plague Damage for [TurnCount]",
+      "power_short_description": "Infection Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon46",
+      "idol_texture": "EpisodeIdol46",
+      "realm": "aeris",
+      "attack": "fast",
+      "attack_style": "energy",
+      "episode_title": "Germs of Endearment",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 25.0,
+      "power_turn_count": 1,
+      "enemy_idols": [
+        {"episode_id": "Episode46", "level": 19},
+        {"episode_id": "Episode18", "level": 19},
+        {"episode_id": "Episode35", "level": 19},
+        {"episode_id": "Episode26", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "realm_damage", "base_value": 40.0, "value_per_level": 40.0}
+      ],
+      "challenges": [
+        {"event_id": "PlagueTemple", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Enter the Plague Room.", "hint": "Hollah! Chamber of Squalor!"},
+        {"event_id": "PurificationTemple", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Enter the Purification Room.", "hint": "Visit the clean room."},
+        {"event_id": "DropPygmyInPlagueFountain", "sacrifice_id": null, "gift_id": null, "gem_id": 4, "description": "Drop Pygmy in Plague Fountain.", "hint": "Bathe in the filth."},
+        {"event_id": "DropTimeChamberPygmyInPlagueFountain", "sacrifice_id": null, "gift_id": null, "gem_id": 4, "description": "Drop alternate Pygmy in Plague Fountain.", "hint": "Fountain hopping is fun for all!"},
+        {"event_id": "DropPygmyInPurificationFountain", "sacrifice_id": null, "gift_id": null, "gem_id": 5, "description": "Drop Pygmy in Purification Fountain.", "hint": "Cleanse your soul!"},
+        {"event_id": "DropTimeChamberPygmyInPurificationFountain", "sacrifice_id": null, "gift_id": null, "gem_id": 5, "description": "Drop alternate pygmy in purification fountain.", "hint": "Spa open to public."},
+        {"event_id": "KilledByPlague", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy dies from plague.", "hint": "Sick to death!"},
+        {"event_id": "KilledByPurification", "sacrifice_id": "KilledByPurification", "gift_id": null, "gem_id": 0, "description": "Pygmy killed by purification.", "hint": "Disrupting natural order is deadly."},
+        {"event_id": "PickupPlagueBody", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy picks up plague corpse.", "hint": "Boy, you gotta carry that weight."},
+        {"event_id": "ThrowPlagueBodyOnFire", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy throws plague corpse on fire.", "hint": "Throw another log onto the fire."},
+        {"event_id": "PlagueBodyBurntOnFire", "sacrifice_id": "PlagueBodyBurntOnFire", "gift_id": null, "gem_id": 0, "description": "Plague corpse burned by fire.", "hint": "Heat kills microbes."},
+        {"event_id": "HurricanePlagueBody", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Hurricane picks up plague corpse.", "hint": "Illin' in the Whirlwind."},
+        {"event_id": "PlaguePygmyCoughIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Sick Pygmy coughs.", "hint": "Can you hack it?"},
+        {"event_id": "PlaguePygmyBarfIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Sick Pygmy barfs.", "hint": "Lose your lunch."},
+        {"event_id": "PlaguePygmySneezeIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Sick Pygmy sneezes.", "hint": "Disease is snot funny!"},
+        {"event_id": "BabyPlaguePygmyPoopIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Sick baby Pygmy poops.", "hint": "Slide into first, feel something burst."},
+        {"event_id": "PurificationPygmySprayIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy sprays purification.", "hint": "Spray it don't say it."},
+        {"event_id": "PurificationPygmyCleanHandsIdle", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Purified Pygmy cleans hands.", "hint": "OCD behavior."},
+        {"event_id": "infectPygmyWithGerms", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected with germs.", "hint": "Your body is their wonderland."},
+        {"event_id": "infectPygmyWithPureHell", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy becomes sprayed with purification.", "hint": "Sprayed with pure hell!"},
+        {"event_id": "InfectFishingPole", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Fishing pole infected with germs.", "hint": "Unsanitary food service."},
+        {"event_id": "InfectOutHouse", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Outhouse infected with germs.", "hint": "Germs in the house!"},
+        {"event_id": "InfectIgloo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Igloo infected with germs.", "hint": "Spew in the 'gloo."},
+        {"event_id": "InfectWood", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Firewood infected with germs.", "hint": "Sick sticks."},
+        {"event_id": "InfectApeAltar", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Ape altar infected with germs.", "hint": "Stretch germ-strong."},
+        {"event_id": "InfectApeBongos", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Ape Mountain bongos infected with germs.", "hint": "Drum with scum."},
+        {"event_id": "InfectApeWinch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Ape Mountain winch infected with germs.", "hint": "Germ turn."},
+        {"event_id": "InfectPygmyFromFishingPole", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected from fishing pole.", "hint": "Catch TWO things with this."},
+        {"event_id": "InfectPygmyFromOutHouse", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected in outhouse.", "hint": "Caught on the pot."},
+        {"event_id": "InfectPygmyFromIgloo", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected in igloo.", "hint": "New meaning for catching cold."},
+        {"event_id": "InfectPygmyFromWood", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected by firewood.", "hint": "Unkindly kindling."},
+        {"event_id": "InfectPygmyFromApeAltar", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected on ape atar.", "hint": "Tainted ape feeder."},
+        {"event_id": "InfectPygmyFromApeBongos", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected on ape bongos.", "hint": "'Beat' the infection."},
+        {"event_id": "InfectPygmyFromApeWinch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected by ape winch.", "hint": "Take a turn for the worse."},
+        {"event_id": "InfectPygmyFromPlagueBody", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Pygmy infected by plague corpse.", "hint": "Beware of the dead."},
+        {"event_id": "WashAwayAllDiseases", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Use Tsunami to clear plague.", "hint": "Wave away disease."},
+        {"event_id": "GetApeSick", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Give giant ape the plague.", "hint": "The giant killer."},
+        {"event_id": "GetSharkSick", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Give shark the plague.", "hint": "Tainted sea food."},
+        {"event_id": "GetTRexSick", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Give the T-Rex the plague.", "hint": "Make the dino sore."},
+        {"event_id": "GetMonkeySick", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Give monkey the plague.", "hint": "Don't want to be your monkey wretch."}
+      ],
+      "level_ups": [
+        {"event_id": "GetApeSick", "sacrifice_id": null, "gift_id": null, "description": "Give ape the plague.", "max_points": 20000},
+        {"event_id": "KilledByPurification", "sacrifice_id": "KilledByPurification", "gift_id": null, "description": "Pygmy killed by purification.", "max_points": 20000},
+        {"event_id": "PlagueBodyBurntOnFire", "sacrifice_id": "PlagueBodyBurntOnFire", "gift_id": null, "description": "Plague corpse burned by fire.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode47",
+      "episode_number": "47",
+      "idol_id": "XenuGod",
+      "idol_name": "Lord Xenu",
+      "idol_title": "World-destroyer, End-bringer, Life-hater, and big jerk.",
+      "power_description": "[PrimaryValue] Defend against all damage and [SecondaryValue] boost all damage for [TurnCount]",
+      "power_short_description": "Boost and Defend Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon47",
+      "idol_texture": "EpisodeIdol47",
+      "realm": "animus",
+      "attack": "counter",
+      "attack_style": "physical",
+      "episode_title": "Apocalypse Ow!",
+      "initial_selection_slot": -1,
+      "damage_per_level": 30.0,
+      "health_per_level": 30.0,
+      "power_turn_count": 3,
+      "enemy_idols": [
+        {"episode_id": "Episode47", "level": 19},
+        {"episode_id": "Episode32", "level": 19},
+        {"episode_id": "Episode45", "level": 19},
+        {"episode_id": "Episode43", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "total_defense", "base_value": 0.5, "value_per_level": 0.03},
+        {"power": "total_boost_damage", "base_value": 0.2, "value_per_level": 0.02}
+      ],
+      "challenges": [
+        {"event_id": "ClosetTemple", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Enter the Closet Room.", "hint": "Back room of the disco."},
+        {"event_id": "PlacePygmyInThetanMeter", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Drop pygmy on Thetan meter.", "hint": "Meter made."},
+        {"event_id": "PowerUpThetanMeter", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Power up Thetan meter.", "hint": "Turn it up to five and a half."},
+        {"event_id": "ExpelThetansFromPygmy", "sacrifice_id": "ExplodeFromThetanBirth", "gift_id": null, "gem_id": 6, "description": "Cause pygmy to explode Thetans.", "hint": "Turn it up to eleven."},
+        {"event_id": "DragThetan", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Drag Thetan", "hint": "Get pushy with the red guys."},
+        {"event_id": "NormalThetanPossessPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Possess Pygmy with Thetan.", "hint": "Red on the inside."},
+        {"event_id": "NormalThetanUnpossessPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Exorcise Thetan from Pygmy.", "hint": "Get the red out!"},
+        {"event_id": "PygmySuffersFromDepression", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Pygmy gets depressed.", "hint": "It's a sad sad world.'"},
+        {"event_id": "ThetansFlyOffScreen", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Thetans fly away.", "hint": "Exit stage everywhere."},
+        {"event_id": "SlideClosetDoor", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Slide closet door", "hint": "Slide to side."},
+        {"event_id": "OpenClosetDoor", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Open the closet door all the way.", "hint": "Open wide!"},
+        {"event_id": "TomSlamClosetDoor", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Tom slams closet door.", "hint": "Ham slam."},
+        {"event_id": "ThetansHoldClosetDoorOpen", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Thetan holds closet door open.", "hint": "Thetans demonstrate chivalry"},
+        {"event_id": "RemoveTomFromCloset", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Rescue Tom from Closet.", "hint": "Rescue the hero."},
+        {"event_id": "PlacePygmyInCloset", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Put Pygmy in closet.", "hint": "Put Pygmy in storage."},
+        {"event_id": "PlacePygmyOnCouch", "sacrifice_id": null, "gift_id": null, "gem_id": 6, "description": "Place Pygmy on couch.", "hint": "Couch surfing."},
+        {"event_id": "TomJumpOnCouch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom Jumps on couch.", "hint": "Mentally imbalanced bouncing"},
+        {"event_id": "TomJumpOffCouch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom jump off couch.", "hint": "Get off the furniture!"},
+        {"event_id": "TomIdleYourGlib", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom says 'your Glib!'", "hint": "Take that, Matt."},
+        {"event_id": "TomIdleYouCompleteMe", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom says 'You complete me.'", "hint": "You had me at hello."},
+        {"event_id": "TomIdleCrazyLaugh", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom's crazy crazy laugh.", "hint": "What's so funny, Tom?"},
+        {"event_id": "TomIdleShowMeTheMoney", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom says 'Show me the money'", "hint": "Maguire's fire."},
+        {"event_id": "TomIdleIWantTheTruth", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom says 'I want the truth.'", "hint": "You can't handle the truth!"},
+        {"event_id": "TomIdlePsychiatry", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom says 'psychiatry is a pseudo-science.", "hint": "Tom is a medical expert."},
+        {"event_id": "TomIdleIDoCare", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom cares 'very very very very much.'", "hint": "Scaring is caring."},
+        {"event_id": "TomIdleNeedForSpeed", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom says 'I feel the need for speed.'", "hint": "Hopefully talking about the fast kind."},
+        {"event_id": "BringTomToTempleEntrance", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom is brought to Apocalypse Temple entrance.", "hint": "Show Tom the front door!"},
+        {"event_id": "OpenClockPortal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Open Apocalypse Clock secret door.", "hint": "Tom shows YOU the secret door."},
+        {"event_id": "XenuTemple", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Enter Xenus Altar.", "hint": "Go upstairs!"},
+        {"event_id": "BringTomToXenuRoom", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bring Tom to Xenu Altar.", "hint": "Take Tom to the upper floor."},
+        {"event_id": "TomIdleWheresMyBaby", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Tom says 'where's my baby?'", "hint": "Daddy Tom!"},
+        {"event_id": "BringBabyToXenuRoom", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Bring a baby to Xenu Altar.", "hint": "Baby likes heights."},
+        {"event_id": "BabyIdleDada", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Baby wants his \"Da-Da!\"", "hint": "Baby wants daddy."},
+        {"event_id": "PlaceBabyInTomsArms", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place baby in Tom's arms.'", "hint": "Give Tom what he's asking for."},
+        {"event_id": "HaveTomDropBaby", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Make Tom drop baby.", "hint": "Whoopsie-Daisey!"},
+        {"event_id": "SpawnXenu", "sacrifice_id": "BecameXenu", "gift_id": null, "gem_id": 0, "description": "Tom transforms baby into Xenu.", "hint": "A ritual spawns angry alien god, Xenu."},
+        {"event_id": "StartApocalypse", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Set off Apocalypse!", "hint": "Begin the end."},
+        {"event_id": "PlacePygmyInXenuRightArm", "sacrifice_id": null, "gift_id": null, "gem_id": 7, "description": "Put Pygmy on Xenu's right tentacle.", "hint": "Xenu's right hand man."},
+        {"event_id": "PlacePygmyInXenuLeftArm", "sacrifice_id": null, "gift_id": null, "gem_id": 7, "description": "Put Pygmy on Xenu's left tentacle.", "hint": "Xenu left."},
+        {"event_id": "XenuEatPygmyOnRight", "sacrifice_id": "EatenByXenu", "gift_id": null, "gem_id": 7, "description": "Xenu tosses pygmy in mouth like popcorn.", "hint": "It's a toss-up."},
+        {"event_id": "XenuEatPygmyOnLeft", "sacrifice_id": "XenuStripped", "gift_id": null, "gem_id": 7, "description": "Xenu strips flesh off Pygmy.", "hint": "Deboned."},
+        {"event_id": "PlaceHalfPygmyInXenuRightArm", "sacrifice_id": null, "gift_id": null, "gem_id": 7, "description": "Place half pygmy in right tentacle.", "hint": "Right tentacle glove made by Charlie?"},
+        {"event_id": "PlaceHalfPygmyInXenuLeftArm", "sacrifice_id": null, "gift_id": null, "gem_id": 7, "description": "Place half pygmy in right tentacle.", "hint": "Left tentacle glove made by Charlie?"},
+        {"event_id": "XenuPuppetShow", "sacrifice_id": null, "gift_id": null, "gem_id": 7, "description": "Xenu performs a puppet show with half pygmies.", "hint": "Idle halves are Xenu's playthings."},
+        {"event_id": "XenuEatHalfPygmy", "sacrifice_id": "XenuPuppetShow", "gift_id": null, "gem_id": 7, "description": "Xenu eats half pygmy.", "hint": "Xenu swallows his toys!"},
+        {"event_id": "DragApocalypseThetans", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Drag apocalypse thetans!", "hint": "Get pushy with angry spirits."},
+        {"event_id": "ApocalypseThetanPossessPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Possess Pygmy with angry thetan.", "hint": "Hold the anger inside!"},
+        {"event_id": "ApocalypseThetanUnpossessPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Exorcise Angry Thetan from Pygmy.", "hint": "Now let the anger out!"},
+        {"event_id": "PossessedPygmyJumpNormalPygmy", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Possessed Pygmy jump normal pygmy.", "hint": "Predator vs. prey."},
+        {"event_id": "PossessedPygmyEatPygmyFace", "sacrifice_id": "BittenToDeath", "gift_id": null, "gem_id": 0, "description": "Possessed Pygmy eats another pygmy's face.", "hint": "Face your fears!"},
+        {"event_id": "PossessedPygmyPummelPygmy", "sacrifice_id": "ThetanPummeled", "gift_id": null, "gem_id": 0, "description": "Possessed Pygmy pummels pygmy.", "hint": "This pygmy has punch!"},
+        {"event_id": "PossessedPygmyJumpOff", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Possessed Pygmy jumps off.", "hint": "Jumping off point."},
+        {"event_id": "PossessedPygmiesBrawl", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Possessed Pygmies brawl.", "hint": "Get ready to rumble!"},
+        {"event_id": "PossessedPygmiesThrowPunch", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Possessed pygmy throws punch.", "hint": "Fist of fury!"},
+        {"event_id": "PossessedPygmiesGetHit", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Possessed Pygmy gets punched.", "hint": "Take it on the chin."},
+        {"event_id": "PossessedPygmiesSlapFight", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Possessed Pygmies slap fight.", "hint": "What a slap in the face."},
+        {"event_id": "SpawnTimeGem", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Spawn aqua time gem.", "hint": "It's TIME to find an aqua gem!"},
+        {"event_id": "SpawnLocustGem", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Spawn green locust gem.", "hint": "Find the 'locus' of the green gem."},
+        {"event_id": "SpawnDanceGem", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Spawn purple dance gem.", "hint": "Bust a move for the purple gem."},
+        {"event_id": "SpawnPlagueGem", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Spawn the yellow plague gem.", "hint": "Just sick looking for yellow gem."},
+        {"event_id": "SpawnPurificationGem", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Spawn blue purification gem.", "hint": "Scour the temple for the blue gem."},
+        {"event_id": "SpawnClosetGem", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Spawn the red thetan gem.", "hint": "Search storage areas for the red gem."},
+        {"event_id": "SpawnXenuGem", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Spawn silver Xenu gem.", "hint": "The silver gem is hidden in the attic!"},
+        {"event_id": "GemInWrongPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place gem on wrong pedestal.", "hint": "Match gem color with wrong symbol."},
+        {"event_id": "ThrowGemAway", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Get rid of gem.", "hint": "Be uncareful with your new jewelerly."},
+        {"event_id": "TimeGemInPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place aqua time gem on time pedestal.", "hint": "This hour glass is aqua."},
+        {"event_id": "LocustGemInPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place green locust gem on locust pedestal.", "hint": "Flying bugs prefer green!"},
+        {"event_id": "DanceGemInPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place purple dance gem on the dance pedestal.", "hint": "Purple is popular at the disco."},
+        {"event_id": "PlagueGemInPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place the yellow plague gem on the plague pedestal.", "hint": "Yellow is the color of the plague discharge!"},
+        {"event_id": "PurificationGemInPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place blue purification gem on the purification pedestal.", "hint": "Feeling clean and pure, but a little blue."},
+        {"event_id": "ClosetGemInPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place red closet gem on the closet pedestal.", "hint": "Red with anger, hide in the closet."},
+        {"event_id": "XenuGemInPedestal", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Place silver gem on the Xenu Pedestal.", "hint": "Xenu sees things in black and white!"},
+        {"event_id": "SunShowsUp", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Girl Pygmy, Sun, arrives.", "hint": "Holy smokes, where did SHE come from?"},
+        {"event_id": "SunDiesAPrematureDeath", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Sun snatched by Xenu at last minute.", "hint": "God giveth, god taketh away."},
+        {"event_id": "EndApocalypse", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Apocalypse averted. World still exists.", "hint": "You can stop the end!"}
+      ],
+      "level_ups": [
+        {"event_id": "ExpelThetansFromPygmy", "sacrifice_id": "ExplodeFromThetanBirth", "gift_id": null, "description": "Cause pygmy to explode Thetans.", "max_points": 20000},
+        {"event_id": "PossessedPygmyEatPygmyFace", "sacrifice_id": "BittenToDeath", "gift_id": null, "description": "Possessed Pygmy eats another pygmy's face.", "max_points": 20000},
+        {"event_id": "XenuPuppetShow", "sacrifice_id": null, "gift_id": null, "description": "Xenu performs a puppet show with half pygmies.", "max_points": 20000}
+      ]
+    },
+    {
+      "id": "Episode48",
+      "episode_number": "48",
+      "idol_id": "Oyster God",
+      "idol_name": "Oyster God",
+      "idol_title": "God of hidden treasures.",
+      "power_description": "[PrimaryValue] defense against total damage and reflect [SecondaryValue] of it back at the opponent for [TurnCount]",
+      "power_short_description": "Total Defense + Reflect Damage - [TurnCount]",
+      "icon_texture": "EpisodeIcon48",
+      "idol_texture": "EpisodeIdol48",
+      "realm": "oceanus",
+      "attack": "counter",
+      "attack_style": "energy",
+      "episode_title": "Call of Booty",
+      "initial_selection_slot": -1,
+      "damage_per_level": 20.0,
+      "health_per_level": 50.0,
+      "power_turn_count": 4,
+      "enemy_idols": [
+        {"episode_id": "Episode48", "level": 19},
+        {"episode_id": "Episode29", "level": 19},
+        {"episode_id": "Episode34", "level": 19},
+        {"episode_id": "Episode10", "level": 19}
+      ],
+      "realm_powers": [
+        {"power": "total_defense", "base_value": 0.1, "value_per_level": 0.02},
+        {"power": "attack_reflect_damage", "base_value": 0.5, "value_per_level": 0.01}
+      ],
+      "challenges": [
+        {"event_id": "CollectBooty", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Collect a treasure.", "hint": "You're gonna get rich!"},
+        {"event_id": "WearWaterwings", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Put on Water Wings.", "hint": "It's time to wing it!"},
+        {"event_id": "PlayCallOfBooty", "sacrifice_id": null, "gift_id": null, "gem_id": 0, "description": "Play Call of Booty.", "hint": "Let's go on a hunt!"},
+        {"event_id": "WaterWingsDrowned", "sacrifice_id": "WaterWingsDrowned", "gift_id": null, "gem_id": 0, "description": "Drown at ocean surface.", "hint": "What's up?"},
+        {"event_id": "EatenByClam", "sacrifice_id": "EatenByClam", "gift_id": null, "gem_id": 0, "description": "Eaten by oyster.", "hint": "Shut your trap!"},
+        {"event_id": "ImpregnatedByBlob", "sacrifice_id": "ImpregnatedByBlob", "gift_id": null, "gem_id": 0, "description": "Impregnated by sea blob.", "hint": "Tenta kills!"},
+        {"event_id": "Stoned", "sacrifice_id": "Stoned", "gift_id": null, "gem_id": 0, "description": "Turned to stone by mine.", "hint": "Do you mined?"},
+        {"event_id": "RunOutOfBreath", "sacrifice_id": "RunOutOfBreath", "gift_id": null, "gem_id": 0, "description": "Run out of air.", "hint": "Respiration expiration"}
+      ],
+      "level_ups": [
+        {"event_id": "NoPeeScore", "sacrifice_id": null, "gift_id": null, "description": "Get good scores in Call of Booty mini-game.", "max_points": 20000},
+        {"event_id": "EatenByClam", "sacrifice_id": "EatenByClam", "gift_id": null, "description": "Eaten by Oyster", "max_points": 20000}
+      ]
+    }
+  ]
+}

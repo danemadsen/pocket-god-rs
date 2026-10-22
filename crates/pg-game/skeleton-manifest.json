@@ -1,0 +1,1397 @@
+[
+ {
+  "class": "AdBlockerLogic",
+  "module": "logic/idol_ui_widgets/ad_blocker_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/idol_ui_widgets/ad_blocker_logic"
+  ]
+ },
+ {
+  "class": "AnchorLogic",
+  "module": "logic/underwater_baitmaster_laser/anchor_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_baitmaster_laser/anchor_logic"
+  ]
+ },
+ {
+  "class": "AntHillLogic",
+  "module": "logic/island_anthill/ant_hill_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_anthill/ant_hill_logic"
+  ]
+ },
+ {
+  "class": "AntLogic",
+  "module": "logic/island_anthill/ant_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_anthill/ant_logic"
+  ]
+ },
+ {
+  "class": "ApeAltarLogic",
+  "module": "logic/ape_ritual/ape_altar_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ape_ritual/ape_altar_logic"
+  ]
+ },
+ {
+  "class": "ApeBongoLogic",
+  "module": "logic/ape_ritual/ape_bongo_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ape_ritual/ape_bongo_logic"
+  ]
+ },
+ {
+  "class": "ApeLogic",
+  "module": "logic/ape_ritual/ape_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ape_ritual/ape_logic"
+  ]
+ },
+ {
+  "class": "ApeTorchLogic",
+  "module": "logic/ape_ritual/ape_torch_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ape_ritual/ape_torch_logic"
+  ]
+ },
+ {
+  "class": "ApeWenchLogic",
+  "module": "logic/ape_ritual/ape_wench_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ape_ritual/ape_wench_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseCalendarLogic",
+  "module": "logic/apocalypse_temples/apocalypse_calendar_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_calendar_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseCloudLogic",
+  "module": "logic/apocalypse_temples/apocalypse_cloud_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_cloud_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseGemLogic",
+  "module": "logic/apocalypse_temples/apocalypse_gem_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_gem_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseGemPedestalLogic",
+  "module": "logic/apocalypse_temples/apocalypse_gem_pedestal_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_gem_pedestal_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseRoomFaderLogic",
+  "module": "logic/apocalypse_temples/apocalypse_room_fader_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_room_fader_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseTempleDoorLogic",
+  "module": "logic/apocalypse_temples/apocalypse_temple_door_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_temple_door_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseTempleFountainLogic",
+  "module": "logic/apocalypse_temples/apocalypse_temple_fountain_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_temple_fountain_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseTimeTempleLeverLogic",
+  "module": "logic/apocalypse_temples/apocalypse_time_temple_lever_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_time_temple_lever_logic"
+  ]
+ },
+ {
+  "class": "ApocalypseTimeTemplePlatformLogic",
+  "module": "logic/apocalypse_temples/apocalypse_time_temple_platform_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_temples/apocalypse_time_temple_platform_logic"
+  ]
+ },
+ {
+  "class": "BananaLogic",
+  "module": "logic/ape_monkeys/banana_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ape_monkeys/banana_logic"
+  ]
+ },
+ {
+  "class": "BananaTreeLogic",
+  "module": "logic/ape_monkeys/banana_tree_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ape_monkeys/banana_tree_logic"
+  ]
+ },
+ {
+  "class": "BatLogic",
+  "module": "logic/sky_weather/bat_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_weather/bat_logic"
+  ]
+ },
+ {
+  "class": "BattleAlertLogic",
+  "module": "logic/battle/battle_alert_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/battle/battle_alert_logic"
+  ]
+ },
+ {
+  "class": "BattleEnergyBallLogic",
+  "module": "logic/battle/battle_energy_ball_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/battle/battle_energy_ball_logic"
+  ]
+ },
+ {
+  "class": "BirdLogic",
+  "module": "logic/ocean_birds/bird_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ocean_birds/bird_logic"
+  ]
+ },
+ {
+  "class": "BirdPooLogic",
+  "module": "logic/ocean_birds/bird_poo_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ocean_birds/bird_poo_logic"
+  ]
+ },
+ {
+  "class": "BonFireLogic",
+  "module": "logic/island_core/bon_fire_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_core/bon_fire_logic"
+  ]
+ },
+ {
+  "class": "BonusPackManager",
+  "module": "managers/bonus_pack_manager/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/bonus_pack_manager/bonus_pack",
+   "managers/bonus_pack_manager/mod"
+  ]
+ },
+ {
+  "class": "BoulderLogic",
+  "module": "logic/island_objects/boulder_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_objects/boulder_logic"
+  ]
+ },
+ {
+  "class": "ChainSpearLogic",
+  "module": "logic/underwater_stage/chain_spear_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_stage/chain_spear_logic"
+  ]
+ },
+ {
+  "class": "ChallengeManager",
+  "module": "managers/challenge_manager/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/challenge_manager/challenge_match",
+   "managers/challenge_manager/challenge_scoring",
+   "managers/challenge_manager/mod"
+  ]
+ },
+ {
+  "class": "ChumBucketLogic",
+  "module": "logic/underwater_baitmaster_laser/chum_bucket_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_baitmaster_laser/chum_bucket_logic"
+  ]
+ },
+ {
+  "class": "ChumLogic",
+  "module": "logic/underwater_baitmaster_laser/chum_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_baitmaster_laser/chum_logic"
+  ]
+ },
+ {
+  "class": "ClosetTempleClosetDoorLogic",
+  "module": "logic/apocalypse_locust_closet_xenu/closet_temple_closet_door_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/closet_temple_closet_door_logic"
+  ]
+ },
+ {
+  "class": "ClosetTempleCouchLogic",
+  "module": "logic/apocalypse_locust_closet_xenu/closet_temple_couch_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/closet_temple_couch_logic"
+  ]
+ },
+ {
+  "class": "ClosetTempleThetanMeterLogic",
+  "module": "logic/apocalypse_locust_closet_xenu/closet_temple_thetan_meter_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/closet_temple_thetan_meter_logic"
+  ]
+ },
+ {
+  "class": "CloudLogic",
+  "module": "logic/sky_weather/cloud_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_weather/cloud_logic"
+  ]
+ },
+ {
+  "class": "CoconutLogic",
+  "module": "logic/island_core/coconut_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_core/coconut_logic"
+  ]
+ },
+ {
+  "class": "CrackHoleLogic",
+  "module": "logic/theruns/crack_hole_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/theruns/crack_hole_logic"
+  ]
+ },
+ {
+  "class": "DanceBalloonBundleLogic",
+  "module": "logic/apocalypse_dance/dance_balloon_bundle_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_dance/dance_balloon_bundle_logic"
+  ]
+ },
+ {
+  "class": "DanceBalloonLogic",
+  "module": "logic/apocalypse_dance/dance_balloon_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_dance/dance_balloon_logic"
+  ]
+ },
+ {
+  "class": "DanceDanceExecutionLogic",
+  "module": "logic/apocalypse_dance/dance_dance_execution_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_dance/dance_dance_execution_logic"
+  ]
+ },
+ {
+  "class": "DanceDanceExecutionScreenLogic",
+  "module": "logic/apocalypse_dance/dance_dance_execution_screen_logic",
+  "super": "BCScreenLogic",
+  "files": [
+   "logic/apocalypse_dance/dance_dance_execution_screen_logic"
+  ]
+ },
+ {
+  "class": "DebugScreen",
+  "module": "managers/debug_screen/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/debug_screen/debug_screen",
+   "managers/debug_screen/mod"
+  ]
+ },
+ {
+  "class": "DiscoBallLogic",
+  "module": "logic/apocalypse_dance/disco_ball_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_dance/disco_ball_logic"
+  ]
+ },
+ {
+  "class": "DiscoLightsLogic",
+  "module": "logic/apocalypse_dance/disco_lights_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_dance/disco_lights_logic"
+  ]
+ },
+ {
+  "class": "DoodleCloudLogic",
+  "module": "logic/misfit_oogajump/doodle_cloud_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/misfit_oogajump/doodle_cloud_logic"
+  ]
+ },
+ {
+  "class": "DreamBubbleLogic",
+  "module": "logic/misfit_oogajump/dream_bubble_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/misfit_oogajump/dream_bubble_logic"
+  ]
+ },
+ {
+  "class": "EpisodeAlertLogic",
+  "module": "logic/idol_ui_widgets/episode_alert_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/idol_ui_widgets/episode_alert_logic"
+  ]
+ },
+ {
+  "class": "FailBoatLogic",
+  "module": "logic/battle/fail_boat_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/battle/fail_boat_logic"
+  ]
+ },
+ {
+  "class": "FingerTrailLogic",
+  "module": "logic/sky_powers/finger_trail_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_powers/finger_trail_logic"
+  ]
+ },
+ {
+  "class": "FireworkLogic",
+  "module": "logic/sky_weather/firework_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_weather/firework_logic"
+  ]
+ },
+ {
+  "class": "FishLogic",
+  "module": "logic/ocean_fishing/fish_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ocean_fishing/fish_logic"
+  ]
+ },
+ {
+  "class": "FishingBobLogic",
+  "module": "logic/ocean_fishing/fishing_bob_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ocean_fishing/fishing_bob_logic"
+  ]
+ },
+ {
+  "class": "FishingPoleLogic",
+  "module": "logic/ocean_fishing/fishing_pole_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ocean_fishing/fishing_pole_logic"
+  ]
+ },
+ {
+  "class": "GameServer",
+  "module": "managers/game_server/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/game_server/game_center_server",
+   "managers/game_server/mod"
+  ]
+ },
+ {
+  "class": "GameUiManager",
+  "module": "managers/game_ui_manager/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/game_ui_manager/game_ui_points",
+   "managers/game_ui_manager/mod"
+  ]
+ },
+ {
+  "class": "GlacierLogic",
+  "module": "logic/ice_island/glacier_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ice_island/glacier_logic"
+  ]
+ },
+ {
+  "class": "GoGoCageLogic",
+  "module": "logic/apocalypse_dance/go_go_cage_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_dance/go_go_cage_logic"
+  ]
+ },
+ {
+  "class": "GodIdolLogic",
+  "module": "logic/battle/god_idol_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/battle/god_idol_logic"
+  ]
+ },
+ {
+  "class": "GodPersona",
+  "module": "persona/god_persona",
+  "super": "Persona",
+  "files": [
+   "persona/god_persona"
+  ]
+ },
+ {
+  "class": "HealthBarLogic",
+  "module": "logic/ice_island/health_bar_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ice_island/health_bar_logic"
+  ]
+ },
+ {
+  "class": "HurricaneLogic",
+  "module": "logic/sky_powers/hurricane_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_powers/hurricane_logic"
+  ]
+ },
+ {
+  "class": "HurricaneModel",
+  "module": "logic/sky_powers/hurricane_model",
+  "super": "BCDisplayObject",
+  "files": [
+   "logic/sky_powers/hurricane_model"
+  ]
+ },
+ {
+  "class": "IceHoleLogic",
+  "module": "logic/ice_island/ice_hole_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ice_island/ice_hole_logic"
+  ]
+ },
+ {
+  "class": "IceMonsterLogic",
+  "module": "logic/ice_island/ice_monster_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ice_island/ice_monster_logic"
+  ]
+ },
+ {
+  "class": "IceTreeLogic",
+  "module": "logic/ice_island/ice_tree_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ice_island/ice_tree_logic"
+  ]
+ },
+ {
+  "class": "IcicleLogic",
+  "module": "logic/ice_island/icicle_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ice_island/icicle_logic"
+  ]
+ },
+ {
+  "class": "IdolBattleRealmEffectLogic",
+  "module": "logic/idol_ui_widgets/idol_battle_realm_effect_logic",
+  "super": "BCLogic",
+  "files": [
+   "logic/idol_ui_widgets/idol_battle_realm_effect_logic"
+  ]
+ },
+ {
+  "class": "IdolIconLogic",
+  "module": "logic/idol_ui_widgets/idol_icon_logic",
+  "super": "BCLogic",
+  "files": [
+   "logic/idol_ui_widgets/idol_icon_logic"
+  ]
+ },
+ {
+  "class": "IdolManager",
+  "module": "managers/idol_manager/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/idol_manager/idol_battle",
+   "managers/idol_manager/idol_episodes",
+   "managers/idol_manager/idol_multiplayer",
+   "managers/idol_manager/mod"
+  ]
+ },
+ {
+  "class": "IdolPedestalLogic",
+  "module": "logic/battle/idol_pedestal_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/battle/idol_pedestal_logic"
+  ]
+ },
+ {
+  "class": "IdolScreenLogic",
+  "module": "logic/idol_screen/idol_screen_logic/mod",
+  "super": "BCScreenLogic",
+  "files": [
+   "logic/idol_screen/idol_screen_logic/mod",
+   "logic/idol_screen/idol_screen_logic/part_1",
+   "logic/idol_screen/idol_screen_logic/part_2"
+  ]
+ },
+ {
+  "class": "IdolSelectionIconLogic",
+  "module": "logic/idol_ui_widgets/idol_selection_icon_logic",
+  "super": "BCLogic",
+  "files": [
+   "logic/idol_ui_widgets/idol_selection_icon_logic"
+  ]
+ },
+ {
+  "class": "IglooLogic",
+  "module": "logic/ice_island/igloo_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ice_island/igloo_logic"
+  ]
+ },
+ {
+  "class": "IslandObjectLogic",
+  "module": "logic/misfit_oogajump/island_object_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/misfit_oogajump/island_object_logic"
+  ]
+ },
+ {
+  "class": "JellyfishLogic",
+  "module": "logic/underwater_stage/jellyfish_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_stage/jellyfish_logic"
+  ]
+ },
+ {
+  "class": "KongStatueLogic",
+  "module": "logic/konkeydong/kong_statue_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/konkeydong/kong_statue_logic"
+  ]
+ },
+ {
+  "class": "KonkeyDongBeetleLogic",
+  "module": "logic/konkeydong/konkey_dong_beetle_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/konkeydong/konkey_dong_beetle_logic"
+  ]
+ },
+ {
+  "class": "KonkeyDongBoulderLogic",
+  "module": "logic/konkeydong/konkey_dong_boulder_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/konkeydong/konkey_dong_boulder_logic"
+  ]
+ },
+ {
+  "class": "KonkeyDongLadderLogic",
+  "module": "logic/konkeydong/konkey_dong_ladder_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/konkeydong/konkey_dong_ladder_logic"
+  ]
+ },
+ {
+  "class": "KonkeyDongLogic",
+  "module": "logic/konkeydong/konkey_dong_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/konkeydong/konkey_dong_logic"
+  ]
+ },
+ {
+  "class": "KonkeyDongPickLogic",
+  "module": "logic/konkeydong/konkey_dong_pick_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/konkeydong/konkey_dong_pick_logic"
+  ]
+ },
+ {
+  "class": "KonkeyDongPlatformLogic",
+  "module": "logic/konkeydong/konkey_dong_platform_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/konkeydong/konkey_dong_platform_logic"
+  ]
+ },
+ {
+  "class": "LaserGunLogic",
+  "module": "logic/underwater_baitmaster_laser/laser_gun_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_baitmaster_laser/laser_gun_logic"
+  ]
+ },
+ {
+  "class": "LaserSharkLogic",
+  "module": "logic/underwater_baitmaster_laser/laser_shark_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_baitmaster_laser/laser_shark_logic"
+  ]
+ },
+ {
+  "class": "LaserTargetLogic",
+  "module": "logic/underwater_baitmaster_laser/laser_target_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_baitmaster_laser/laser_target_logic"
+  ]
+ },
+ {
+  "class": "LavaLogic",
+  "module": "logic/island_objects/lava_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_objects/lava_logic"
+  ]
+ },
+ {
+  "class": "LightningLogic",
+  "module": "logic/sky_powers/lightning_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_powers/lightning_logic"
+  ]
+ },
+ {
+  "class": "LightningModel",
+  "module": "logic/sky_powers/lightning_model",
+  "super": "BCDisplayObject",
+  "files": [
+   "logic/sky_powers/lightning_model"
+  ]
+ },
+ {
+  "class": "LocustLogic",
+  "module": "logic/apocalypse_locust_closet_xenu/locust_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/locust_logic"
+  ]
+ },
+ {
+  "class": "LocustModel",
+  "module": "logic/apocalypse_locust_closet_xenu/locust_model",
+  "super": "BCDisplayObject",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/locust_model"
+  ]
+ },
+ {
+  "class": "LocustQueenLogic",
+  "module": "logic/apocalypse_locust_closet_xenu/locust_queen_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/locust_queen_logic"
+  ]
+ },
+ {
+  "class": "MagnifyingBeamModel",
+  "module": "logic/island_anthill/magnifying_beam_model",
+  "super": "BCDisplayObject",
+  "files": [
+   "logic/island_anthill/magnifying_beam_model"
+  ]
+ },
+ {
+  "class": "MagnifyingGlassLogic",
+  "module": "logic/island_anthill/magnifying_glass_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_anthill/magnifying_glass_logic"
+  ]
+ },
+ {
+  "class": "MapPaperLogic",
+  "module": "logic/idol_ui_widgets/map_paper_logic",
+  "super": "BCLogic",
+  "files": [
+   "logic/idol_ui_widgets/map_paper_logic"
+  ]
+ },
+ {
+  "class": "MapScreen",
+  "module": "managers/map_screen/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/map_screen/map_screen",
+   "managers/map_screen/mod"
+  ]
+ },
+ {
+  "class": "MatchAndMessage",
+  "module": "managers/match_and_message/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/match_and_message/idol_multiplayer",
+   "managers/match_and_message/mod"
+  ]
+ },
+ {
+  "class": "MonkeyLogic",
+  "module": "logic/ape_monkeys/monkey_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ape_monkeys/monkey_logic"
+  ]
+ },
+ {
+  "class": "MoonLogic",
+  "module": "logic/sky_weather/moon_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_weather/moon_logic"
+  ]
+ },
+ {
+  "class": "MoronBeeLogic",
+  "module": "logic/moronpests_quiz/moron_bee_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/moronpests_quiz/moron_bee_logic"
+  ]
+ },
+ {
+  "class": "MoronDuckLogic",
+  "module": "logic/moronpests_quiz/moron_duck_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/moronpests_quiz/moron_duck_logic"
+  ]
+ },
+ {
+  "class": "MoronPestsQuestionScreenLogic",
+  "module": "logic/moronpests_quiz/moron_pests_question_screen_logic",
+  "super": "BCScreenLogic",
+  "files": [
+   "logic/moronpests_quiz/moron_pests_question_screen_logic"
+  ]
+ },
+ {
+  "class": "MoronSnakeLogic",
+  "module": "logic/moronpests_chase/moron_snake_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/moronpests_chase/moron_snake_logic"
+  ]
+ },
+ {
+  "class": "MoronTurtleLogic",
+  "module": "logic/moronpests_chase/moron_turtle_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/moronpests_chase/moron_turtle_logic"
+  ]
+ },
+ {
+  "class": "NewsManager",
+  "module": "managers/news_manager/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/news_manager/mod",
+   "managers/news_manager/news"
+  ]
+ },
+ {
+  "class": "NoPeeClamLogic",
+  "module": "logic/nopee/no_pee_clam_logic",
+  "super": "NoPeeObjectLogic",
+  "files": [
+   "logic/nopee/no_pee_clam_logic"
+  ]
+ },
+ {
+  "class": "NoPeeFishLogic",
+  "module": "logic/nopee/no_pee_fish_logic",
+  "super": "NoPeeObjectLogic",
+  "files": [
+   "logic/nopee/no_pee_fish_logic"
+  ]
+ },
+ {
+  "class": "NoPeeLogic",
+  "module": "logic/nopee/no_pee_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/nopee/no_pee_logic"
+  ]
+ },
+ {
+  "class": "NoPeeMapItemLogic",
+  "module": "logic/nopee/no_pee_map_item_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/nopee/no_pee_map_item_logic"
+  ]
+ },
+ {
+  "class": "NoPeeMapLogic",
+  "module": "logic/nopee/no_pee_map_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/nopee/no_pee_map_logic"
+  ]
+ },
+ {
+  "class": "NoPeeMapScreenLogic",
+  "module": "logic/nopee/no_pee_map_screen_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/nopee/no_pee_map_screen_logic"
+  ]
+ },
+ {
+  "class": "NoPeeMineLogic",
+  "module": "logic/nopee/no_pee_mine_logic",
+  "super": "NoPeeObjectLogic",
+  "files": [
+   "logic/nopee/no_pee_mine_logic"
+  ]
+ },
+ {
+  "class": "NoPeeObjectLogic",
+  "module": "logic/nopee/no_pee_object_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/nopee/no_pee_object_logic"
+  ]
+ },
+ {
+  "class": "NoPeeParticleLogic",
+  "module": "logic/nopee/no_pee_particle_logic",
+  "super": "NoPeeObjectLogic",
+  "files": [
+   "logic/nopee/no_pee_particle_logic"
+  ]
+ },
+ {
+  "class": "NoPeePillarLogic",
+  "module": "logic/nopee/no_pee_pillar_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/nopee/no_pee_pillar_logic"
+  ]
+ },
+ {
+  "class": "NoPeeSeaBlobLogic",
+  "module": "logic/nopee/no_pee_sea_blob_logic",
+  "super": "NoPeeObjectLogic",
+  "files": [
+   "logic/nopee/no_pee_sea_blob_logic"
+  ]
+ },
+ {
+  "class": "NoPeeTreasureLogic",
+  "module": "logic/nopee/no_pee_treasure_logic",
+  "super": "NoPeeObjectLogic",
+  "files": [
+   "logic/nopee/no_pee_treasure_logic"
+  ]
+ },
+ {
+  "class": "OceanLogic",
+  "module": "logic/sky_weather/ocean_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_weather/ocean_logic"
+  ]
+ },
+ {
+  "class": "OctoStatueLogic",
+  "module": "logic/island_objects/octo_statue_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_objects/octo_statue_logic"
+  ]
+ },
+ {
+  "class": "OneShotAnimLogic",
+  "module": "logic/idol_ui_widgets/one_shot_anim_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/idol_ui_widgets/one_shot_anim_logic"
+  ]
+ },
+ {
+  "class": "OutHouseLogic",
+  "module": "logic/island_objects/out_house_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_objects/out_house_logic"
+  ]
+ },
+ {
+  "class": "PainDrainPlatformLogic",
+  "module": "logic/underwater_paindrain/pain_drain_platform_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_paindrain/pain_drain_platform_logic"
+  ]
+ },
+ {
+  "class": "PathModel",
+  "module": "logic/underwater_baitmaster_laser/path_model",
+  "super": "BCDisplayObject",
+  "files": [
+   "logic/underwater_baitmaster_laser/path_model"
+  ]
+ },
+ {
+  "class": "Persona",
+  "module": "persona/persona",
+  "super": "NSObject",
+  "files": [
+   "persona/persona"
+  ]
+ },
+ {
+  "class": "PiranhaLogic",
+  "module": "logic/underwater_baitmaster_laser/piranha_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_baitmaster_laser/piranha_logic"
+  ]
+ },
+ {
+  "class": "PocketGodAppDelegate",
+  "module": "managers/pocket_god_app_delegate/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/pocket_god_app_delegate/app_delegate",
+   "managers/pocket_god_app_delegate/mod"
+  ]
+ },
+ {
+  "class": "PocketGodViewController",
+  "module": "controller/mod",
+  "super": "UIViewController",
+  "files": [
+   "controller/apocalypse",
+   "controller/app_platform",
+   "controller/boot_and_frame",
+   "controller/god_powers",
+   "controller/island_features",
+   "controller/island_locations",
+   "controller/managers_bridge",
+   "controller/menus_and_screens",
+   "controller/minigames",
+   "controller/mod",
+   "controller/pygmies",
+   "controller/sky_weather",
+   "controller/stats_and_achievements",
+   "controller/touch_input",
+   "controller/world_object_events",
+   "controller/world_registry"
+  ]
+ },
+ {
+  "class": "PygmyBottomLogic",
+  "module": "pygmy_extras/pygmy_bottom_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "pygmy_extras/pygmy_bottom_logic"
+  ]
+ },
+ {
+  "class": "PygmyLogic",
+  "module": "pygmy/mod",
+  "super": "SpriteLogic",
+  "files": [
+   "pygmy/apocalypse_1",
+   "pygmy/apocalypse_2",
+   "pygmy/charlie_story",
+   "pygmy/containers_and_catchers",
+   "pygmy/ghost_zombie_vampire",
+   "pygmy/island_hazards_1",
+   "pygmy/island_hazards_2",
+   "pygmy/island_hazards_3",
+   "pygmy/island_life_1",
+   "pygmy/island_life_2",
+   "pygmy/minigames",
+   "pygmy/mod",
+   "pygmy/pygmy_behaviour_items",
+   "pygmy/pygmy_core_frame",
+   "pygmy/pygmy_touch_drag",
+   "pygmy/underwater_nopee"
+  ]
+ },
+ {
+  "class": "PygmyPersona",
+  "module": "persona/pygmy_persona",
+  "super": "Persona",
+  "files": [
+   "persona/pygmy_persona"
+  ]
+ },
+ {
+  "class": "RainbowLogic",
+  "module": "logic/sky_powers/rainbow_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_powers/rainbow_logic"
+  ]
+ },
+ {
+  "class": "RainbowModel",
+  "module": "logic/sky_powers/rainbow_model",
+  "super": "BCDisplayObject",
+  "files": [
+   "logic/sky_powers/rainbow_model"
+  ]
+ },
+ {
+  "class": "SharkLogic",
+  "module": "logic/ocean_creatures/shark_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ocean_creatures/shark_logic"
+  ]
+ },
+ {
+  "class": "SkinPackManager",
+  "module": "managers/skin_pack_manager/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/skin_pack_manager/mod",
+   "managers/skin_pack_manager/skin_pack_state",
+   "managers/skin_pack_manager/skin_pack_store"
+  ]
+ },
+ {
+  "class": "SnowBallLogic",
+  "module": "logic/ice_island/snow_ball_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ice_island/snow_ball_logic"
+  ]
+ },
+ {
+  "class": "SpearLogic",
+  "module": "logic/island_objects/spear_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_objects/spear_logic"
+  ]
+ },
+ {
+  "class": "SpearStatueLogic",
+  "module": "logic/underwater_stage/spear_statue_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_stage/spear_statue_logic"
+  ]
+ },
+ {
+  "class": "SpiderLogic",
+  "module": "logic/monsters/spider_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/monsters/spider_logic"
+  ]
+ },
+ {
+  "class": "SpiderTreeLogic",
+  "module": "logic/monsters/spider_tree_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/monsters/spider_tree_logic"
+  ]
+ },
+ {
+  "class": "SpriteLogic",
+  "module": "logic/island_core/sprite_logic",
+  "super": "BCLogic",
+  "files": [
+   "logic/island_core/sprite_logic"
+  ]
+ },
+ {
+  "class": "StormCloudLogic",
+  "module": "logic/sky_weather/storm_cloud_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_weather/storm_cloud_logic"
+  ]
+ },
+ {
+  "class": "StoryManager",
+  "module": "managers/story_manager/mod",
+  "super": "NSObject",
+  "files": [
+   "managers/story_manager/mod",
+   "managers/story_manager/story_data",
+   "managers/story_manager/story_playback",
+   "managers/story_manager/story_screens_1",
+   "managers/story_manager/story_screens_2"
+  ]
+ },
+ {
+  "class": "SunLogic",
+  "module": "logic/sky_weather/sun_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_weather/sun_logic"
+  ]
+ },
+ {
+  "class": "SwordFishLogic",
+  "module": "logic/ocean_creatures/sword_fish_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/ocean_creatures/sword_fish_logic"
+  ]
+ },
+ {
+  "class": "TRexEggLogic",
+  "module": "logic/monsters/t_rex_egg_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/monsters/t_rex_egg_logic"
+  ]
+ },
+ {
+  "class": "TRexLogic",
+  "module": "logic/monsters/t_rex_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/monsters/t_rex_logic"
+  ]
+ },
+ {
+  "class": "TempleDoorLogic",
+  "module": "logic/battle/temple_door_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/battle/temple_door_logic"
+  ]
+ },
+ {
+  "class": "TestLogic",
+  "module": "logic/idol_ui_widgets/test_logic",
+  "super": "BCLogic",
+  "files": [
+   "logic/idol_ui_widgets/test_logic"
+  ]
+ },
+ {
+  "class": "TheRunsPlatformLogic",
+  "module": "logic/theruns/the_runs_platform_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/theruns/the_runs_platform_logic"
+  ]
+ },
+ {
+  "class": "TheRunsRockLogic",
+  "module": "logic/theruns/the_runs_rock_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/theruns/the_runs_rock_logic"
+  ]
+ },
+ {
+  "class": "TheRunsStalactiteLogic",
+  "module": "logic/theruns/the_runs_stalactite_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/theruns/the_runs_stalactite_logic"
+  ]
+ },
+ {
+  "class": "TheRunsTurdLogic",
+  "module": "logic/theruns/the_runs_turd_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/theruns/the_runs_turd_logic"
+  ]
+ },
+ {
+  "class": "ThetanLogic",
+  "module": "logic/apocalypse_locust_closet_xenu/thetan_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/thetan_logic"
+  ]
+ },
+ {
+  "class": "TileDrainLogic",
+  "module": "logic/underwater_paindrain/tile_drain_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_paindrain/tile_drain_logic"
+  ]
+ },
+ {
+  "class": "TilePlugLogic",
+  "module": "logic/underwater_paindrain/tile_plug_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_paindrain/tile_plug_logic"
+  ]
+ },
+ {
+  "class": "TribePersona",
+  "module": "persona/tribe_persona",
+  "super": "Persona",
+  "files": [
+   "persona/tribe_persona"
+  ]
+ },
+ {
+  "class": "TsunamiLogic",
+  "module": "logic/underwater_stage/tsunami_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_stage/tsunami_logic"
+  ]
+ },
+ {
+  "class": "UnderwaterSceneryLogic",
+  "module": "logic/underwater_stage/underwater_scenery_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_stage/underwater_scenery_logic"
+  ]
+ },
+ {
+  "class": "UnderwaterTempleLogic",
+  "module": "logic/underwater_stage/underwater_temple_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_stage/underwater_temple_logic"
+  ]
+ },
+ {
+  "class": "UnderwaterTempleSymbolLogic",
+  "module": "logic/underwater_stage/underwater_temple_symbol_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/underwater_stage/underwater_temple_symbol_logic"
+  ]
+ },
+ {
+  "class": "VolcanoLogic",
+  "module": "logic/island_objects/volcano_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_objects/volcano_logic"
+  ]
+ },
+ {
+  "class": "WaterWingsLogic",
+  "module": "logic/nopee/water_wings_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/nopee/water_wings_logic"
+  ]
+ },
+ {
+  "class": "WhirlPoolLogic",
+  "module": "logic/sky_powers/whirl_pool_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/sky_powers/whirl_pool_logic"
+  ]
+ },
+ {
+  "class": "WhirlPoolModel",
+  "module": "logic/sky_powers/whirl_pool_model",
+  "super": "BCDisplayObject",
+  "files": [
+   "logic/sky_powers/whirl_pool_model"
+  ]
+ },
+ {
+  "class": "WoodLogic",
+  "module": "logic/island_core/wood_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/island_core/wood_logic"
+  ]
+ },
+ {
+  "class": "XenuLogic",
+  "module": "logic/apocalypse_locust_closet_xenu/xenu_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/xenu_logic"
+  ]
+ },
+ {
+  "class": "XenuTempleLogic",
+  "module": "logic/apocalypse_locust_closet_xenu/xenu_temple_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/apocalypse_locust_closet_xenu/xenu_temple_logic"
+  ]
+ },
+ {
+  "class": "ZombieGraveLogic",
+  "module": "logic/monsters/zombie_grave_logic",
+  "super": "SpriteLogic",
+  "files": [
+   "logic/monsters/zombie_grave_logic"
+  ]
+ }
+]

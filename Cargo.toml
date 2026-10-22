@@ -1,0 +1,67 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "1.48.2"
+edition = "2024"
+rust-version = "1.99"
+publish = false
+
+[workspace.dependencies]
+pg-assets = { path = "crates/pg-assets" }
+pg-engine = { path = "crates/pg-engine" }
+pg-game = { path = "crates/pg-game" }
+pg-platform = { path = "crates/pg-platform" }
+pg-render = { path = "crates/pg-render" }
+pg-ui = { path = "crates/pg-ui" }
+pocket-god = { path = "crates/pocket-god" }
+
+# `wav`: pg-platform hands Bevy the click-fixed samples as WAV (pg_engine::sound).
+bevy = { version = "0.20.0", default-features = false, features = [
+    "2d",
+    "bevy_audio",
+    "flac",
+    "wav",
+    "png",
+    "touch",
+    "mouse",
+    "keyboard",
+] }
+claxon = "0.4.3"
+# pg-platform tests: bevy_audio's rodio, for audio sinks without an output device.
+rodio = { version = "0.22.2", default-features = false }
+jni = "0.21.1"
+chrono = { version = "0.4.45", default-features = false, features = ["clock", "std", "wasmbind"] }
+js-sys = "0.3.106"
+ndk-sys = "0.6.0"
+sys-locale = "0.3.2"
+wasm-bindgen = "0.2.129"
+web-sys = "0.3.106"
+webbrowser = "1.2.4"
+bevy_egui = { version = "0.43.1", default-features = false, features = [
+    "render",
+    "default_fonts",
+    "open_url",
+    "manage_clipboard",
+] }
+bevy_app = "0.20.0"
+bevy_ecs = "0.20.0"
+bevy_math = "0.20.0"
+glam = "0.33"
+image = { version = "0.25", default-features = false, features = ["png"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+quick-xml = "0.42.0"
+miniz_oxide = "0.8.9"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+# Gradle (AGP) can only strip native libraries with an NDK version configured, so the
+# Android library drops its symbol table when it is linked.
+[profile.release.package.pocket-god-android]
+strip = "symbols"

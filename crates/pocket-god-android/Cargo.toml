@@ -1,0 +1,18 @@
+[package]
+name = "pocket-god-android"
+description = "Android entry point: the native library GameActivity loads"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[lib]
+# Must match `android.app.lib_name` in android/app/src/main/AndroidManifest.xml.
+name = "pocket_god_android"
+crate-type = ["cdylib"]
+
+[dependencies]
+# Audio needs nothing extra: cpal 0.17 plays through AAudio (API 26+) via the `ndk` crate,
+# and GameActivity's C++ glue links libc++ statically, so no libc++_shared.so is needed.
+bevy = { workspace = true, features = ["android-game-activity"] }
+pocket-god.workspace = true

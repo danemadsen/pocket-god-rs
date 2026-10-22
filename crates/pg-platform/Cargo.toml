@@ -1,0 +1,50 @@
+[package]
+name = "pg-platform"
+description = "Bevy bridges for the platform services of pg-engine: frame driver, screen, input, audio, motion, storage and OS requests"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+bevy.workspace = true
+chrono.workspace = true
+claxon.workspace = true
+pg-assets.workspace = true
+pg-engine.workspace = true
+pg-render.workspace = true
+
+# Desktop: the system browser.
+[target.'cfg(not(any(target_arch = "wasm32", target_os = "android")))'.dependencies]
+webbrowser.workspace = true
+
+# Desktop and Android: the OS locale.
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+sys-locale.workspace = true
+
+# Android: the accelerometer (NDK sensor API), and the display rotation, vibrator and URL
+# intents through JNI.
+[target.'cfg(target_os = "android")'.dependencies]
+jni.workspace = true
+ndk-sys.workspace = true
+
+# Tests: rodio players without an output device stand in for the sinks Bevy's audio output
+# attaches to voices.
+[dev-dependencies]
+rodio.workspace = true
+
+# Web: DeviceMotionEvent, localStorage, window.open, navigator.vibrate / language.
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+js-sys.workspace = true
+wasm-bindgen.workspace = true
+web-sys = { workspace = true, features = [
+    "DeviceMotionEvent",
+    "DeviceAcceleration",
+    "Event",
+    "EventTarget",
+    "Navigator",
+    "Screen",
+    "ScreenOrientation",
+    "Storage",
+    "Window",
+] }

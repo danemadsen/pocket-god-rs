@@ -1,0 +1,3405 @@
+<storyList>
+
+
+
+        <story>
+
+            <storyTitle><![CDATA[CALL OF BOOTY]]></storyTitle>
+
+            <storyEnvironment delay="1" location="SandIsland" weather="Clear" timeOfDay="Day"/>
+
+            <storyCharacter delay="0.05" state="Idle">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="0.05" state="Idle">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+
+
+
+            <storyCaption delay="4"><![CDATA[One sunny day on Oog Island and Klik is mesmerised by something in the ocean....]]></storyCaption>
+
+            <storyCharacter delay="3" state="Confused">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Hey Nooby. There's something shiny in the water.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2.5" state="Happy">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Nooby loves shiny things!]]></storyCharacterDialog>
+            </storyCharacter>
+
+
+            <storyCharacter delay="2" state="FreakedOut">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[It could be treasure.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="FreakedOut">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[If only we could get at it.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="VeryHappy">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Nooby get it!]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="1" state="KnockOffIsland">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="1" state="Idle">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="3" state="Angry">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[We can't swim, remember?]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="Fart">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Oh yeah.]]></storyCharacterDialog>
+            </storyCharacter>
+
+
+            <storyCharacter delay="2" state="VeryHappy">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Nooby forgot.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="3" state="Confused">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Plus we can't go underwater in story mode.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2.5" state="VeryConfused">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[That IS kind of lame.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2.5" state="VeryHappy">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[But I have an idea!]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="3" state="Happy">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[I invented water wings so we can finally swim!]]></storyCharacterDialog>
+            </storyCharacter>
+
+
+            <storyCharacter delay="2.25" state="VeryConfused">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Don't you mean, TEELA invented them?]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="Angry">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Maybe in the comic.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="1.5" state="Happy">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Here, try them.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="Waterwings">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2.5" state="VeryHappy">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[It worked!]]></storyCharacterDialog>
+            </storyCharacter>
+
+
+
+
+            <storyCharacter delay=".5" state="Idle">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="Happy">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Did you find the booty?]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="Confused">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Nooby didn't find bootsies . . .]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="Happy">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[But Nooby saw treasure!]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="Confused">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[So where is it?]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="1.5" state="FreakedOut">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Before Nooby swims to treasure . . .]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="3.5" state="Scared">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[...A squishy fishy put baby squishy fishy in Nooby's tummy.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="3" state="Confused">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[I don't like the sound of THAT.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="1.75" state="VeryHappy">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Nooby try again!]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="Waterwings">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="3.5" state="Crying">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Now Nooby touch big spikey ball and turned to stone.]]></storyCharacterDialog>
+        </storyCharacter>
+
+<storyCharacter delay="1.25" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Typical.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="1.75" state="VeryHappy">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Nooby try one more time!]]></storyCharacterDialog>
+        </storyCharacter>
+
+<storyCharacter delay="2" state="Sad">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[No, Nooby. It's no use.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2.5" state="FreakedOut">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[It's just too dangerous to go treasure hunting.]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2.5" state="VeryAngry">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[You'd have to be an idiot go go down there again!]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="2" state="VeryAngry">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[Is being rich really THAT important?]]></storyCharacterDialog>
+            </storyCharacter>
+
+
+            <storyCharacter delay=".5" state="VeryConfused">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay=".5" state="VeryConfused">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+
+            <storyCaption delay="2.5"><![CDATA[Klik and Nooby spend 15 seconds wondering if it's important to be rich.]]></storyCaption>
+
+
+
+
+
+            <storyCharacter delay=".5" state="Waterwings">
+                <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+            <storyCharacter delay="4" state="Waterwings">
+                <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+                <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+            </storyCharacter>
+
+
+        </story>
+
+
+
+           <story>
+
+
+        <storyTitle><![CDATA[APOCALYPSE, OW!]]></storyTitle>
+
+        <storyEnvironment delay="1" location="ApocalypseIsland" weather="Cloudy" timeOfDay="Sunset"/>
+
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="4"><![CDATA[At long last...All seven Apocalypse Temple symbols are revealed!]]></storyCaption>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hey guys, is it me, or does the clock look different somehow?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ Fascinating! All seven symbols are glowing.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ The Apocalypse has arrived!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ Oooh, Nooby not knows what pocket lips are...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Happy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...but it sounds pretty cool to Nooby!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Gross Nooby. It's not POCKET LIPS, it's...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Focus guys. We have to visit the new chamber!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3.5" state="Hot">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm concerned that this new Apocalypse Temple chamber...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...will be highly dangerous.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I didn't realize there were any other kind of Apocalypse chambers.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyEnvironment delay="1" location="ClosetTemple" weather="Clear" timeOfDay="Night"/>
+
+        <storyCaption delay="4"><![CDATA[Beyond the disco, the Pygmies find a chamber with a mysterious closet.]]></storyCaption>
+
+        <storyCharacter delay="1.75" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[This is...different.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ Oooh, Oooh! Nooby hears a non-tribe pygmy's voice...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...on the other side of that big door!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.7" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Looks like some sort of closet to me.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I didn't realize apocalypse temples CAME with storage.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh, hey...I feel weird!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Something's. Happening!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The sky is black, darkness looms.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[So listen all, or seal your doom...]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3.8" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Uh, Klik. What's with the nursery rhyme?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Ooh, Nooby love nursery rhymes...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The itsy bitsy spider went up the water spout]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Shhh! Listen!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[First you must seek a friend]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[A brand new friend to start the end.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[His name is Tom and he's bat poo crazy.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[He's on a mission to find his baby.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.7" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Klik, What are you going on about?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[New friend? Baby?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[From the chamber of time?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[From only innocence can one spawn]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The evil alien god Xenu from beyond.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.52" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ He desires only to end our world]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Before the coming of a girl.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="2.8" state="Confused">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What's a girl?]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Shhhh. Nooby. Maybe there's a clue how to stop this!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The flames that burn upon the temple]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Must go out but it's not that simple.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Only with gems can you end the heat,]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But each gem has only one correct seat.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.8" state="Yawn">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nooby wonders if this nursery rhyme is much longer.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3.5" state="NosePick">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Yeah, this is so boring.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And finally when with tasks completed,]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The evil Xenu will be defeated.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Yay! Defeated. The end right?]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="4" state="VeryHappy">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ Sounds like poetry slam is now over...]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="2.5" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[142 more verses to be recited,]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Prophecy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It'll take all day, aren't you excited?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I can't take any more'!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="JumpToDeath">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nooby tired of rhymes too!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="JumpToDeath">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Lasered">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="5"><![CDATA[Whew...sorry guys. Possessed Prophecy Klik was starting to bore the heck out of us.]]></storyCaption>
+        <storyCaption delay="5"><![CDATA[So! The apocalypse is upon us! Make sure you check out the Challenge of the Gods to learn about all the fun apocalypse tasks you can play with.]]></storyCaption>
+        <storyCaption delay="4"><![CDATA[There are many hidden surprises. details in our help and our blog:\nwww.boltcreative.com!
+]]></storyCaption>
+
+        <storyCaption delay="4"><![CDATA[The end is here!]]></storyCaption>
+
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[GERMS OF ENDEARMENT]]></storyTitle>
+        <storyEnvironment delay="1" location="LocustTemple" weather="Clear" timeOfDay="Night"/>
+
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="4"><![CDATA[In the Locust Room, deep inside the Apocalypse Temple, another doorway has opened...]]></storyCaption>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It seems another door has opened.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That one at the bottom of the screen.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Bottom of the what?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Yawn">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Never mind.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Anyway, I'm sure whatever is through that door is all kinds of awesome.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[By all means, let's go in.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I think I sense sarcasm.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay="1" location="PlagueTemple" weather="Clear" timeOfDay="Night"/>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="3"><![CDATA[In the Plague Room lies the Fountain of Death...]]></storyCaption>
+
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Boy, that is one UGLY fountain!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Sick">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hey Klik, suddenly I don't feel so hot.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="Sneeze2">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="Happy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Gesundheit!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.8" state="Cough">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Excuse you!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.8" state="Barf">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Gross!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I guess you're really sick!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Sick">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[No, I'm o.k. really. I'm totally...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="DieFromPlague">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Crying">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Uh oh! I think this fountain is carrying a deadly plague!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Crying">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm outta here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay="1" location="PurificationTemple" weather="Clear" timeOfDay="Night"/>
+        <storyCaption delay="4"><![CDATA[In the very next room, the Purification Room, lies the Fountain of Purification.]]></storyCaption>
+
+
+        <storyCharacter delay="3" state="Suspicious">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[No germs in here. Good!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Suspicious">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Germs are bad. Gotta get rid of them.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="CleanHands">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Germs on my skin!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="SprayPurell">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Germs in the air!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Suspicious">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Go away, microbes. Go away!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="PurificationDeath">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="2"><![CDATA[And the moral of this story is...]]></storyCaption>
+        <storyCaption delay="2"><![CDATA[...hmmm...]]></storyCaption>
+        <storyCaption delay="3"><![CDATA[...Let me get back to you on that one.]]></storyCaption>
+
+        <storyCaption delay="4"><![CDATA[The end is near!]]></storyCaption>
+
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[DANCE DANCE EXECUTION]]></storyTitle>
+        <storyEnvironment delay="1" location="ApocalypseIsland" weather="Clear" timeOfDay="Night"/>
+
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="4"><![CDATA[On Apocalypse Island, the Pygmies are awaiting their doom, when...]]></storyCaption>
+
+        <storyCharacter delay="2.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Everybody follow Nooby!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nooby found a shiny sparkly room in temple!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh, goodie. Another horrible death trap.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scratch">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Well, let's get it over with.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay=".1" location="DanceTemple" weather="Clear" timeOfDay="Night"/>
+
+
+        <storyCaption delay="3.5"><![CDATA[By way of the Time Chamber and Locust Room, the Pygmies find the Dance Room. ]]></storyCaption>
+
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Happy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[See! New room! And it's shiny and sparkly!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh, what fresh hell is this?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What? I'ts groovy dooby in here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Dance">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I feel like dancing!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Me too!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nooby love dancing!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Guys, this is too good to be true.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Somehow we're all gonna die in here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Such is the way of the universe.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But I refuse to be a Dooby Downer!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[If you can't beat 'em.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyEvent delay="6" state="Dance"/>
+
+        <storyCharacter delay="1" state="Lasered">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Lasered">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Lasered">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Lasered">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="6"><![CDATA[Looks like the story got cut short. Well, be sure and try the platform to play the all-new mini-game Dance Dance Execution!]]></storyCaption>
+
+        <storyCaption delay="6"><![CDATA[And see those balloons on the side? When Pygmies breathe their gas, they sound like a certain David who went to the Dentist, the YouTube sensation!]]></storyCaption>
+
+        <storyCaption delay="2.5"><![CDATA[And check out the Dance Pack 3 in the Skin Pack Store! ]]></storyCaption>
+
+        <storyCaption delay="6"><![CDATA[It includes The Elaine Dance, Double Dream Hands, Bad Zombie and the Pygmy Theme written and performed by Parry Gripp! 99cents, cheap!]]></storyCaption>
+
+        <storyCaption delay="3"><![CDATA[Keep an eye on story mode. The end is near!]]></storyCaption>
+
+        <storyCharacter delay="3" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="2"><![CDATA[Oh, Nooby. Give it a rest.]]></storyCaption>
+
+        <storyCharacter delay="5" state="Sad">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[THE PERFECT SWARM]]></storyTitle>
+        <storyEnvironment delay="1" location="ApocalypseIsland" weather="Clear" timeOfDay="Night"/>
+
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="4"><![CDATA[Back on Apocalypse Island...]]></storyCaption>
+
+
+        <storyCharacter delay="2.5" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hey, Klak!I got something to show you! Follow me!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Confused">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh, why not?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Confused">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm sure you aren't leading me to a certain death.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay=".1" location="TimeTemple" weather="Clear" timeOfDay="Night"/>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="2.5"><![CDATA[In the Chamber of Time...]]></storyCaption>
+
+        <storyCharacter delay="2.5" state="Yawn">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Big deal, it's the Time Chamber.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Check it out, the second door isn't blocked now!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh, great. Why not go in?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm sure it leads somewhere awesome.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay=".1" location="LocustTemple" weather="Clear" timeOfDay="Night"/>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="3.5"><![CDATA[Klak and Ooga enter a horribly disgusting goopy room with a big gross bloated locust queen.]]></storyCaption>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Yuck! I think I'm going to throw up.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And it smells terrible in here.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But you love terrible smells.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh that's right. I do!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Uh, Booga, don't look now...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...But there's a big bug in here.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Happy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That's not just a big bug..that's the locust queen!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Happy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[She's REALLY disgusting!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm so glad that makes you happy.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Happy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[If she gets enough to eat...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryHappy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[She'll give birth to a swarm of deadly locusts!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Crying">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I hate bugs.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[They buzz around your head.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[They get in your mouth.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[They eat you alive.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[They toss you around.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And they turn you into a mutant bug!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryConfused">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Wait, what now?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Okay, a locust isn't going to turn you into a...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="LocustMutate">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Confused">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Well I'll be darned.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="LocustMutate">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="3"><![CDATA[To be continued. Keep an eye on story mode.]]></storyCaption>
+
+        <storyCaption delay="4"><![CDATA[The end is near.]]></storyCaption>
+
+
+    </story>
+
+
+    <story>
+
+
+        <storyTitle><![CDATA[KILLING TIME]]></storyTitle>
+        <storyEnvironment delay="1" location="ApocalypseIsland" weather="Clear" timeOfDay="Day"/>
+
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="5"><![CDATA[Klik and Ooga find themselves on yet another mysterious island with a temple that holds a weird clock-thing.]]></storyCaption>
+
+
+        <storyCharacter delay="2.5" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Here we are on yet another mysterious island.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Look! A temple with a weird clock-thing!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryConfused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I wonder what it's ticking down to?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Maybe we should go inside and investigate.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scratch">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[By go inside, do you mean cut to the inside and we drop from ceiling?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="Yawn">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[How else?]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyEnvironment delay="1" location="TimeTemple" weather="Clear" timeOfDay="Sunset"/>
+
+        <storyCharacter delay="0.05" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="3"><![CDATA[Inside the Chamber of Time.]]></storyCaption>
+
+        <storyCharacter delay="2.5" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I think this is some sort of chamber of time.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[How did you guess that? The caption?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="3"><![CDATA[In this room, Klik and Ooga find a lever that manipulates a platform.]]></storyCaption>
+
+        <storyCaption delay="3"><![CDATA[And a time-displacement energy emanates from below.]]></storyCaption>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Um, thanks, caption box. That was convenient information.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But, we got it from here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="3"><![CDATA[Oh, okay, just trying to be helpful.]]></storyCaption>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Anyway, depending on the platform position, different effects are felt.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Effects? What kind of effects?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Maybe it switches you with a past-self.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or perhaps a future self.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or a version of yourself that moves through time differently.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or even a version from an alternate timeline.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Alternate timeline? Uh oh.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I once heard that the gods were considering. . .]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...changing our skin color so we would be "ginger" pygmies!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Yikes! Glad THAT didn't happen!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[How did the gods get a crazy idea like that?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3.5" state="Fart">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I don't know, maybe some group in New Zealand complained?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="SkirtFall2">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Where's New Zealand? And what would they complain about?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="SkirtFall1">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I dunno. But I will say...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[You're not getting ME on that platform! I'm outta here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".1" state="JumpToDeath">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Wait for me!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="JumpToDeath">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="3"><![CDATA[Are they gone?]]></storyCaption>
+
+        <storyCaption delay="1.5"><![CDATA[Good!]]></storyCaption>
+
+        <storyCaption delay="3"><![CDATA[To be continued. Keep an eye on story mode.]]></storyCaption>
+
+        <storyCaption delay="4"><![CDATA[The end is near.]]></storyCaption>
+
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[12 DAYS OF FISHMAS]]></storyTitle>
+        <storyEnvironment delay="1" location="IceIsland" weather="Clear" timeOfDay="Sunset"/>
+
+
+        <storyCaption delay="5"><![CDATA[Once again, the Pygmies celebrate the twelve days of Fishmas!]]></storyCaption>
+
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[On the 12th Day of Fishmas]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The Gods Bestowed On Me...]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="2" state="Scared">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[12 sharks a zapping,]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[11 ghosts a haunting,]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="ChestBeat">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[10 piranhas chewin',]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="2" state="Scratch">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[9 monkeys ripping,]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="2" state="Yawn">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[8 T-Rex molars,]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[7 Double rainbows,]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Crying">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[6 electrocutions,]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[5 body parts!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Fart">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[4 dodo turds,]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="Hot">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[3 pygmies fried,]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="NosePick">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[2 rotting fish,]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="Crying">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[and brain damage from a coconut tree!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyEvent delay=".1" state="ActivateRainbow"/>
+
+        <storyCaption delay="3"><![CDATA[MERRY FISHMAS EVERYBODY!  And a happy Hanu-coconut!]]></storyCaption>
+
+        <storyCharacter delay=".1" state="Explode">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="Explode">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEvent delay="1" state="DeactivateRainbow"/>
+
+
+    </story>
+
+    <story>
+
+        <storyTitle><![CDATA[I STING THE BODY ELECTRIC]]></storyTitle>
+        <storyEnvironment delay="1" location="RockIsland" weather="Clear" timeOfDay="Sunset"/>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="5"><![CDATA[One day, Booga and Nooby are on dry land...and not in the water, which would make a lot more sense.]]></storyCaption>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hey Nooby, don't get close to the water...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Why?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The last time I went diving, I found a coral reef...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Happy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Coral Reef? What's that?]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ I'd take you, but Dave and Allan haven't made it so Story Mode works under water.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Who's Davenallan? what's a Story Mode? I'm confused!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ Forget it. Anyway, the reef is full of jellyfish!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nooby loves jellyfish! It goes great with peanutbutterfish!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[See ya!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="KnockOffIsland">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Peanutbutterfish!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...sounds....]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...so....]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[YUMMY! Nooby, wait for me!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="KnockOffIsland">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="5"><![CDATA[Sorry, folks, there is no peanutbutterfish in this update. Maybe next time!]]></storyCaption>
+
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[BATTLE OF THE GODS]]></storyTitle>
+        <storyEnvironment delay="1" location="GodIsland" weather="Cloudy" timeOfDay="Night"/>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="6"><![CDATA[It was a dark and stormy night on God Island...]]></storyCaption>
+
+        <storyCharacter delay="3" state="Hot">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Whew! I'm BEAT!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[How come?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Yawn">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Battling the gods! It sure takes a lot out of you.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Is that what goes on in that temple? Ohhhhh!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Right! When the pedestals have idols on them...]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="FixHair">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...One of us goes in and battles the gods!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What are the idols for?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Happy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Those are what gives us cool battle abilities!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryHappy">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That sounds awesome!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[If by 'awesome', you mean 'EXTREMELY PAINFUL' then you're right.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="ChestBeat">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Sweet! Can't wait to kick some god butt!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Flick">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Dance">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Looks like he's off to a good start!]]></storyCharacterDialog>
+        </storyCharacter>
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[CHALLENGE OF THE GODS]]></storyTitle>
+        <storyEnvironment delay="1" location="GodIsland" weather="Cloudy" timeOfDay="Night"/>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="6"><![CDATA[The Pygmies travel to the mysterious God Island where they find strange structures left by a long-dead civilization.]]></storyCaption>
+
+        <storyCharacter delay="2" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[This sure is a mysterious island.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And what are these strange structures left by a long-dead civilization?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It looks like something is supposed to rest on the pedestals.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hmmmm. According to the heiroglypics on the tomb...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[There are hidden secrets in all of the locations of this realm...]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyEnvironment delay="0.5" location="SandIsland" weather="Clear" timeOfDay="Sunset"/>
+        <storyEnvironment delay="0.5" location="RockIsland" weather="Clear" timeOfDay="Day"/>
+        <storyEnvironment delay="0.5" location="GraveyardIsland" weather="Clear" timeOfDay="Night"/>
+        <storyEnvironment delay="0.5" location="IceIsland" weather="Cloudy" timeOfDay="Sunset"/>
+        <storyEnvironment delay="0.5" location="ApeIsland" weather="Clear" timeOfDay="Night"/>
+        <storyEnvironment delay="0.5" location="MisfitIsland" weather="Clear" timeOfDay="Sunset"/>
+        <storyEnvironment delay="0.5" location="GodIsland" weather="Cloudy" timeOfDay="Night"/>
+
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="1.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What! What just happened?!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It seems there are gods that are connected...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[To of these trials we endure!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And when idols of these all-powerful gods are placed on the pedestals...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[We will learn the dark secret of the temple!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Wow. That sounds DANGEROUS!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[We better get outta here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Flick">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Where are you going, coward ?!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[There's no dangere here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FallInCrack">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[TWO and a half PYGMIES]]></storyTitle>
+        <storyEnvironment delay="1" location="SandIsland" weather="Sunny" timeOfDay="Day"/>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="6"><![CDATA[One sunny day, a strange Pygmy arrives on the island of Oog...]]></storyCaption>
+
+        <storyCharacter delay=".5" state="CharlieIdle">
+            <storyCharacterName><![CDATA[Charlie]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Whoa, who are you?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="CharlieImATotalFrickinRockStar">
+            <storyCharacterName><![CDATA[Charlie]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm a total freakin' rock star from Mars!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="NosePick">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[ohhhh-kayyyy. But do you have a name?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4.5" state="CharlieVaticanAssasinWarlock">
+            <storyCharacterName><![CDATA[Charlie]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm a Vatican Assasin Warlock!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="2.5" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That's neat. Magic is cool...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="CharlieOneSpeedOneGear">
+            <storyCharacterName><![CDATA[Charlie]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I have one speed, one gear...GO!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[This conversation isn't making any sense.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="CharlieTigerBlood">
+            <storyCharacterName><![CDATA[Charlie]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I've got Tiger Blood and Adonis DNA!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Whaoa. Did you just turn into a TIGER!?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm getting outta here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FallInCrack">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="CharlieWinning">
+            <storyCharacterName><![CDATA[Charlie]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Winning!]]></storyCharacterDialog>
+        </storyCharacter>
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[THE MORON PESTS]]></storyTitle>
+        <storyEnvironment delay="1" location="MisfitIsland" weather="Sunny" timeOfDay="Sunset"/>
+
+        <storyCharacter delay="0.1" state="Yawn">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="6"><![CDATA[Klak dreams of a strange island, the Island of Misfit Crossovers!]]></storyCaption>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Whoa man, I'm dreaming again!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[This dream land is weird, and I can't wake up!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Yawn">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh, hey Klak. What's shaking?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEvent delay="4" state="Earthquake"/>
+
+        <storyCharacter delay="2" state="Angry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Watch it! We're dreaming!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Angry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And anything can happen!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Angry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[So cool it with the shaking talk!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Happy">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Awesome! I love this dream!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryHappy">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Last time I was here, a snake swallowed me whole!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[WHAAAAAT?!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And I found myself INSIDE the snake!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryHappy">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And I was chased by an angry turtle, bees, and rubber ducks!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[They kept asking me to press colored buttons...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That's a terrible dream!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[From now on, keep me outta your dreams!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But Klak-dude, this is YOUR dream.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh, right, then check this out...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEvent delay="1" state="ActivateRainbow"/>
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Now its a GOOD dream!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".1" state="FallInCrack">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FallInCrack">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+    </story>
+
+    <story>
+
+        <storyTitle><![CDATA[KONKEY DONG]]></storyTitle>
+        <storyEnvironment delay="1" location="ApeIslandTree" weather="Cloudy" timeOfDay="Night"/>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="6"><![CDATA[One day, a strange new object appears on Ape Mountain..]]></storyCaption>
+
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nooby feels like eyes are watching him.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What could it be?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Yawn">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh, its just another one of those mysterious idols.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Scratch">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[If we're caught in its grip, it probably means certain death.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="NosePick">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[You know...the usual.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Crying">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But Nooby doesn't like certain death!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="VeryHappy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Thank the gods! I've returned!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What happened?!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scratch">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh. Not much. I got caught in the grip of that gorilla idol.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="NosePick">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Then I was taken by the great gorilla by the name of...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="NosePick">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...Konkey Dong!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Sneeze">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[He tortured and caged me...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Yawn">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The usual.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nooby doesn't want to be taken by Konkey Dong!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="JumpToDeath">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="NosePick">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Think he'd be used to that type of thing by now!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="0.5" state="Explode">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Explode">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+    </story>
+
+    <story>
+
+        <storyTitle><![CDATA[DOUBLE RAINBOW ACROSS THE SKY]]></storyTitle>
+        <storyEnvironment delay="1" location="SANDISLAND" weather="Clear" timeOfDay="Day"/>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="3"><![CDATA[It was just an average day on the Island of Oog, when suddenly...]]></storyCaption>
+
+        <storyEvent delay="1" state="ActivateRainbow"/>
+
+        <storyCharacter delay="5" state="DoubleRainbow1">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Double rainbow, oh my god. Its a double rainbow all the way.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="NosePick">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Yeah, that's pretty neat.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="DoubleRainbow2">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Whoaa. So intense.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hmmm. I guess.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="DoubleRainbow5">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What does this mean?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What do you mean, what does this mean?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Its just a rainbow!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="DoubleRainbow4">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Whoa!!!!! OMG! OMG!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Are you ok?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="DoubleRainbow6">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Its starting to look like a triple rainbow!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[No it doesn't! Are you crazy?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I have an idea!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Let's stop talking about the double rainbow...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...Before you blow a gasket!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Sad">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[You're right, I'll stop...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Sad">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...talking...about...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Sad">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...the...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="7" state="DoubleRainbow3">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[OMG, its full on double rainbow all the way across the sky!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Explode">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Angry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Explode">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEvent delay="1" state="DeactivateRainbow"/>
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[MONKEY SEE MONKEY CHEW]]></storyTitle>
+        <storyEnvironment delay="1" location="ApeIslandTree" weather="Clear" timeOfDay="Sunset"/>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="6"><![CDATA[Klik has journeyed to Ape Mountain with Booga to stare at the view and ponder existence.]]></storyCaption>
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[This pondering existence is tiring.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Yawn">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What's 'pondering?']]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Pondering is thinking, numb skull!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="NosePick">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Oh! I try to avoid that whenever possible.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Well, its making my head hurt!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I need some BRAIN FOOD!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Fart">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[BRAIN food? Oh no!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[You're a zombie!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And we aren't even in the graveyard!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[No No No! I meant potassium!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It assists neuron activity.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scratch">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Potassium doesn't sound very tasty!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Potassium is in BANANAS!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryHappy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Bananas! Bananas!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Dance">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[B-A-N-A-N-A-S!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hold up! The last time I picked a banana...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...Monkeys came. and they played catch with me..]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Scared">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...ripped my face off..]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...and threw me off the cliff!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...and then chowed on my banana!!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[You have a point...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Guess I"m better off...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Crying">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[NOT pondering my existence!!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Bananas! Bananas!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Dance">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[B-A-N-A-N-A-S!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="1" state="JumpToDeath">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[A PYGMY A DAY KEEPS THE APE AWAY]]></storyTitle>
+        <storyEnvironment delay="1" location="ApeIsland" weather="Sunny" timeOfDay="Day"/>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.1" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="6"><![CDATA[Klik and Nooby visit the peak of Ape Mountain, beyond the Pygmy Graveyard.]]></storyCaption>
+
+        <storyCharacter delay="4" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The view here is soooo pretty!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But Nooby, this is where pygmies perform an ancient sacrifice ritual!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay="1" location="ApeIsland" weather="Cloudy" timeOfDay="Day"/>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[SACRIFICE RITUAL?!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The horror! Fear overwhelming me!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Goodbye cruel world!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="JumpToDeath">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That was weird.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[First the torches are lit.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Then, a pygmy is strung up on the Claw Altar...]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="1" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[NOT THE CLAW ALTAR!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="JumpToDeath">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.0" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Another pygmy winds him up on that winch...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[WINCH?!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="JumpToDeath">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="0.5" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Um...yeah...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Then another pygmy plays the bongo drum...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1.5" state="FreakedOut">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[B-B-BONGO DRUM?!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="JumpToDeath">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[This calls the Giant Ape...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...and the Pygmy on the altar is eaten!!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3.5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Did you hear me? Giant Ape? Scary, right?!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="4" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Yay! Can I keep the Ape as a pet?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="JumpToDeath">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+    </story>
+
+
+    <story>
+        <storyTitle><![CDATA[CRACK IS WACK!]]></storyTitle>
+        <storyEnvironment delay="2" location="Sand Island" weather="Cloudy" timeOfDay="Sunset"/>
+
+
+        <storyCharacter delay=".1" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".1" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay=".1" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".1" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCaption delay="6"><![CDATA[One morning, the pygmies are getting ready for a busy day of getting themselves killed.]]></storyCaption>
+
+        <storyCharacter delay="3" state="Yawn">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Klik! Last night I had a terrible dream]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Dreams are often manifestations of deep-seated internal conflict.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Tell me, and I will analyze it!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I dreamt that the gods shook the world!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Ahhh! Earthquakes represent uncertainty....]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryHappy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Standing on shaky ground! You see?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEvent delay="4" state="Earthquake"/>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That was no manifestation of internal conflict!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It was a premonition!]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What else was in the dream, Ooga!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Well, in the dream, god pressed a finger against the island.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Scared">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Then the earth opened up...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...and swallowed Klak!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FallInCrack">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="FreakedOut">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Then Nooby!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Me? Yay! I was in your dream!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FallInCrack">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Sad">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Let me guess...then me.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[No, you just exploded.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Explode">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Happy">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And then I got an ice cream sundae.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FallInCrack">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It was worth a try.]]></storyCharacterDialog>
+        </storyCharacter>
+
+    </story>
+
+
+    <story>
+        <storyTitle><![CDATA[SHAKE SHAKE SHAKE!]]></storyTitle>
+        <storyEnvironment delay="2" location="Sand Island" weather="Sunny" timeOfDay="Night"/>
+
+
+        <storyCharacter delay=".1" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".1" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".1" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".1" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="8"><![CDATA[One evening, Klik is giving a dance lesson to Klak, Boga and Nooby...an ancient and powerful tribal dance, passed down through generations.]]></storyCaption>
+        <storyCaption delay="6"><![CDATA[It is accompanied by a mysterious chant, spoken rhythmically with cryptic and profound meaning!]]></storyCaption>
+
+        <storyCharacter delay="3" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[My milk shake brings all the boys to the yard,]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[and they're like...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Its better than yours!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Darn right!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Dance">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Its better than yours!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I could teach you]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But I have to charge!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEvent delay="5" state="Dance"/>
+
+        <storyCaption delay="4"><![CDATA[Suddenly, they feel the awesome power of the milkshake dance!]]></storyCaption>
+        <storyEnvironment delay="0" location="Sand" weather="Cloudy" timeOfDay="Sunset"/>
+
+        <storyEvent delay="4" state="Earthquake"/>
+
+        <storyEvent delay="1.5" state="SharkSnap"/>
+
+        <storyEvent delay="1.5" state="SharkSnap"/>
+
+        <storyEvent delay="1.5" state="SharkSnap"/>
+
+        <storyCharacter delay="1" state="Flick">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Flick">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Flick">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Sad">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="6" state="Crying">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[So much for charging for my milkshake!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="KnockOffIsland">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+    </story>
+
+
+    <story>
+        <storyTitle><![CDATA[WHAT'S THE STORY, MORNING GORY?]]></storyTitle>
+        <storyEnvironment delay="2" location="Sand Island" weather="Sunny" timeOfDay="Day"/>
+        <storyCaption delay="4"><![CDATA[Just another uneventful day on Oog Island!]]></storyCaption>
+
+        <storyCharacter delay=".5" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="3" state="Happy">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hey guys, what's up?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That's strange...Did you just speak?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Confused">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Hey, yeah. We've never done that before!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryHappy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It must be a new gift from the gods!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryHappy">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The gift of language!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Angry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or maybe it's another trick that will result in our ultimate demise!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm with Ooga! I fear change!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Speaking of change...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Sad">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Have you noticed the plug in the underwater ruins?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Crying">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[The ruins we visit whenever we are swept away by Tsunami?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="FixHair">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nope Haven't seen it yet.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I guess we'll see it after the next tsunami.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[. . .]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Right, well anyway, when you go there.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Try pulling the plug!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCaption delay="8"><![CDATA[To be continued. . .]]></storyCaption>
+    </story>
+
+
+    <story>
+        <storyTitle><![CDATA[GAS WHO?]]></storyTitle>
+        <storyEnvironment delay="2" location="RockIsland" weather="Sunny" timeOfDay="Day"/>
+
+        <storyCaption delay="4"><![CDATA[It's a beautiful day on Dinosaur Island...]]></storyCaption>
+
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Happy">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It sure is a beautiful day on Dinosaur Island!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Fart">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="FixHair">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Yup! It sure is beautiful!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Fart">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Angry">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[. . .]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Fart">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Fart">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Fart">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="VeryAngry">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Do you mind !!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="ChestBeat">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Stop farting! You are grossing me out !!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Sad">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm sorry !]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Crying">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Booga sorry !]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Crying">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Booga won't break wind any more !]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Crying">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I promise !]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Sad">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It's okay, Booga.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Happy">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Thanks for your cooperation!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="VeryHappy">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Booga won't be gross !]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="NosePick">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="NosePick">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="1" state="Scratch">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="SkirtFall1">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Fart">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="10" state="Angry">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[. . .]]></storyCharacterDialog>
+        </storyCharacter>
+
+    </story>
+
+
+    <story>
+        <storyTitle><![CDATA[TOUR OF THE ISLANDS]]></storyTitle>
+        <storyEnvironment delay="2" location="SandIsland" weather="Sunny" timeOfDay="Day"/>
+
+        <storyCaption delay="4"><![CDATA[One sunny afternoon on Oog Island...]]></storyCaption>
+
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Yawn">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm bored.]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="4" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[There's nothing to do here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Sure there is!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Get flicked into the volcano...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="VeryConfused">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Become ant food...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Happy">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Maybe even get bonked on the head by a coconut!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Forget that! I'm outta here!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay="0" location="RockIsland" weather="Clear" timeOfDay="Sunset"/>
+        <storyCaption delay="3"><![CDATA[The pygmies arrive on Dinosaur Island...]]></storyCaption>
+
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Happy">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Now we're on Dinosaur Island! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Crying">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Where you can get eaten by a dinosaur if you disturb the baby.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Happy">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or here we can build a fire to get warm! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="VeryAngry">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Only to be cooked to a crisp ourselves!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Good point. Let's move on! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay="0" location="GraveyardIsland" weather="Clear" timeOfDay="Night"/>
+        <storyCaption delay="3"><![CDATA[In the spooky Pygmy Graveyard...]]></storyCaption>
+
+        <storyCharacter delay="4" state="Sad">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Whoaaa... It's kind of spooky here. ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="VeryConfused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Isn't this where pygmies get turned into zombies?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Crying">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[When you die here, you become a g-g-ghost! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Crying">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And I sure don't want to see what made that spider web!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Crying">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Ahhhhhhhhhhh!!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Crying">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Ahhhhhhhhhh!!!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay="0" location="IceIsland" weather="Cloudy" timeOfDay="Sunset"/>
+        <storyCaption delay="3"><![CDATA[On the arctic ice island...]]></storyCaption>
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Cold">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It's c-c-c-cold here! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Cold">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That's not all! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Cold">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[There's a giant ice monster somewhere! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Cold">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[But if you can make an ice hole, you can ice fish! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Cold">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[And get eaten by an ice squid! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Cold">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or hit by an ice geyser! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Cold">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[At least we can warm up in the igloo! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Cold">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It only fits one at a time! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay="6" state="Cold">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I guess there's only one place left to go!!!! ]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyEnvironment delay="4" location="SandIsland" weather="Clear" timeOfDay="Day"/>
+
+        <storyCaption delay="4"><![CDATA[Back on Oog Island...]]></storyCaption>
+
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="1" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="7" state="Yawn">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm bored.]]></storyCharacterDialog>
+        </storyCharacter>
+
+    </story>
+
+
+    <story>
+
+        <storyTitle><![CDATA[DANCING WITH THE ARSE]]></storyTitle>
+        <storyEnvironment delay="2" location="IceIsland" weather="Sunny" timeOfDay="Night"/>
+
+
+        <storyCaption delay="4"><![CDATA[One chilly night on the Ice Island...]]></storyCaption>
+
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Nooby, what are you doing?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I'm dancing!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="VeryAngry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[I can see that! But why?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It makes Nooby warm!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="VeryConfused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[That's actually pretty smart.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Like this?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Not quite! More like this.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Now how am I doing?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[You're way off! See how I move my hips?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[how about this?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[You're off the beat]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[???]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Dance">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[You're getting cold]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Dance">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Hot">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[. . .]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Scratch">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Come to think of it, you had it right at the beginning.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Angry">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="4" state="Explode">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+    </story>
+
+    <story>
+
+        <storyTitle><![CDATA[WELCOME TO POCKET GOD!]]></storyTitle>
+        <storyEnvironment delay="2" location="SandIsland" weather="Clear" timeOfDay="Day"/>
+        <storyCaption delay="4"><![CDATA[On a remote island, deep in the prehistoric past, 6 pygmies drop out of the sky.]]></storyCaption>
+        <storyCharacter delay="0" state="Idle">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Idle">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Idle">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay=".5" state="Idle">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Idle">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Idle">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[We're alive again!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Angry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Big deal. We're always dying, then we come back.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[We do seem to be trapped in some kind of groundhog day.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="VeryConfused">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[What's a groundhog?]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Angry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[It doesn't matter! Somewhere out there...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[..is the god of this island and at any moment...]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="VeryAngry">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[...we could be thrown in the water!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Sad">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or flicked into the volcano!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Crying">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or fed to the sharks!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Happy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Or fed coconuts! Or maybe even fish!]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="2" state="Confused">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[True.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="3" state="Confused">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[Well, yeah. Coconuts and fish ARE good.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="6" state="VeryHappy">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[See! I'm right! I guess it's not ALL bad.]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Explode">
+            <storyCharacterName><![CDATA[OOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Explode">
+            <storyCharacterName><![CDATA[NOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Explode">
+            <storyCharacterName><![CDATA[KLIK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+
+        <storyCharacter delay=".5" state="Explode">
+            <storyCharacterName><![CDATA[BOOGA]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay=".5" state="Explode">
+            <storyCharacterName><![CDATA[DOOBY]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+        <storyCharacter delay="5" state="Explode">
+            <storyCharacterName><![CDATA[KLAK]]></storyCharacterName>
+            <storyCharacterDialog><![CDATA[]]></storyCharacterDialog>
+        </storyCharacter>
+
+    </story>
+
+
+</storyList>

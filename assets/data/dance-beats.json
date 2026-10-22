@@ -1,0 +1,2436 @@
+{
+  "groups": [
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 4, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 4, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 4, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 4, "left": true, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 4, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 4, "left": false, "down": true, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 4, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 4, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 3, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 3, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 3, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 3, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 3, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 3, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 3, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 3, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 3, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 3, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 3, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 3, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 3, "left": true, "down": false, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": false,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        }
+      ]
+    },
+    {
+      "random_segment": true,
+      "segments": [
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false}
+          ]
+        },
+        {
+          "beats": [
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false}
+          ]
+        },
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false}
+          ]
+        },
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        },
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true}
+          ]
+        },
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true}
+          ]
+        },
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false}
+          ]
+        },
+        {
+          "beats": [
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": false, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": true, "down": false, "up": true, "right": false},
+            {"duration": 1, "left": false, "down": true, "up": false, "right": true},
+            {"duration": 2, "left": false, "down": false, "up": true, "right": false}
+          ]
+        }
+      ]
+    }
+  ]
+}

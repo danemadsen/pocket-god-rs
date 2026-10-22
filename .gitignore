@@ -1,2 +1,15 @@
 tmp
 .DS_Store
+target
+tools
+
+# Web build output (scripts/build-web.sh)
+web/pkg/
+
+# Android build output (scripts/build-android.sh)
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/app/src/main/jniLibs/
+android/local.properties

@@ -1,0 +1,13 @@
+pub mod no_pee_clam_logic;
+pub mod no_pee_fish_logic;
+pub mod no_pee_logic;
+pub mod no_pee_map_item_logic;
+pub mod no_pee_map_logic;
+pub mod no_pee_map_screen_logic;
+pub mod no_pee_mine_logic;
+pub mod no_pee_object_logic;
+pub mod no_pee_particle_logic;
+pub mod no_pee_pillar_logic;
+pub mod no_pee_sea_blob_logic;
+pub mod no_pee_treasure_logic;
+pub mod water_wings_logic;

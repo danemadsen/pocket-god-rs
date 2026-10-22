@@ -1,0 +1,9 @@
+pub mod apocalypse_calendar_logic;
+pub mod apocalypse_cloud_logic;
+pub mod apocalypse_gem_logic;
+pub mod apocalypse_gem_pedestal_logic;
+pub mod apocalypse_room_fader_logic;
+pub mod apocalypse_temple_door_logic;
+pub mod apocalypse_temple_fountain_logic;
+pub mod apocalypse_time_temple_lever_logic;
+pub mod apocalypse_time_temple_platform_logic;

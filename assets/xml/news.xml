@@ -1,0 +1,434 @@
+<news>
+
+    #### ALLAN, please dont post news stories in this file, I accidently uploaded a news file with a url that caused a lot of devices to crash. update the news file that is in the server folder instead.
+
+<!--<newsItem order="88" id="PocketShopT-shirtPromo120919" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="MonkeyPromoNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketshopnews121411">-->
+
+    <newsItem linkUrl="http://bit.ly/16RKCpU" imageExt="raw16" imageFileName="OogaJumpNewsIcon" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" newsItemId="2013-04-10_12-26-00" order="96">
+        <newsTitle><![CDATA[Ooga Jump x10!]]></newsTitle>
+        <newsTease><![CDATA[Allan and Dave decided to take one of the most popular mini-games in Pocket God, OOGA JUMP... and make it into a brand new game!]]></newsTease>
+        <newsArticle><![CDATA[Wanting to put their own twist on the game and differentiate it, they came up with a new game mechanic in addition to the jumping which will make it faster, more frenetic and more challenging and all around more fun! And suffice it to say that they weren't satisfied with your standard death of falling off the screen; there are additional new flourishes that lay well outside the jumper paradigm, plus there's that recognizable Pocket God groove, multiplied by a million. This was worth waiting for. Tap the image to find out more!]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="94" linkUrl="http://bit.ly/VMp7AW" imageExt="raw16" imageFileName="BlindBoxNewsIcon" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" newsItemId="2012-12-18_11-04-04">
+        <newsTitle><![CDATA[Pocket God Toy Commercial!]]></newsTitle>
+        <newsTease><![CDATA[Check out this hilarious video about the bestselling Pocket God Figurines by Funko! (Tap the image on the left to play.)]]></newsTease>
+        <newsArticle><![CDATA[Be sure to check out the figures at the Pocket Shop and get one for Fishmas! Or better yet, get 'm ALL!! Bolt Creative collaborated with Scott Young Media for the video, and Marc Cholette for the audio and voice work.]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="93" id="PGFacebookPageNewsArticle" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="PGFacebookPageNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/PGFBPage">
+        <newsTitle><![CDATA[Check out PG's Official Facebook page!]]></newsTitle>
+        <newsTease><![CDATA[Did you know Pocket God has its own Facebook page?  If you didn't, come check it out and start connecting with fellow Pocket God fanatics!]]></newsTease>
+        <newsArticle><![CDATA[If you join us at facebook.com/PocketGodGame, you can stay on top of major announcements regarding the Pocket God iOS app, including clues and info about new episodes.  You can also get updates about latest developments in the Pocket God comic!  We've also got some cool contests, like the Blind Box Bonanza, plus links to games, fan art and fan videos!  Most of all, you can feel special by being a part of the Pocket God Facebook clique!  Deify yourself now and join us at  https://www.facebook.com/PocketGodGame!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="92" id="BarnesNobleNewsArticle121106" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="BarnesAndNobleNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/BnNStoreLoc">
+        <newsTitle><![CDATA[Pygmies invade Barnes & Noble!]]></newsTitle>
+        <newsTease><![CDATA[Funko's fantastic new vinyl Pocket God figures and Mysterio Minis are now available at your local Barnes and Noble!]]></newsTease>
+        <newsArticle><![CDATA[If you've wanted a real-life Pygmy figure of your own to lord it over, Barnes and Noble is the place to go!  They not only have the four collectible vinyl Pygmies (Screaming Pygmy, Zombie Pygmy, Cute Pygmy and the indescribable Moon Witch) but they also have the "Blind Box" Mysterio Mini figures, sixteen in all!  You never know which one you'll get!  Come to one of the over 680 Barnes and Noble stores in the U.S. and bring home a devoted Pygmy today!  Go to www.barnesandnoble.com to find the location closest to you!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="91" id="2012TeesNewsArticle121030" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="2012TeesNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketshopnews121411">
+        <newsTitle><![CDATA[New Tee's at the Pocket Shop!]]></newsTitle>
+        <newsTease><![CDATA[If you can't get enough Pygmy in your life, check out our new supreme cotton T-shirt designs!  On top of that, we've also got Funko's new vinyl figures!]]></newsTease>
+        <newsArticle><![CDATA[The Pocket Shop debuts a line of suave and excellent Pygmywear for the well-dressed Pocket God fan.  Our dynamic designs include the "Killing Time" poster and Sharks with Frickin' Laser Beams Attached to Their Heads making appearances on T-shirts in a variety of colors and sizes!  In addition, Funko's new Pocket God figures, particularly the Blind Box Mysterio Minis (you never know which one you'll get), are patiently waiting for you as well!  Get some cool swag for yourself, or do your early Christmas shopping for the Pygmy-aniac on your list!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="89" id="BlindBoxNewsArticle" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="BlindBoxNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/BBContest121016">
+        <newsTitle><![CDATA[New Contest: Blind Box Bonanza!]]></newsTitle>
+        <newsTease><![CDATA[To celebrate Pocket God's new vinyl Mysterio Mini figures, we introduce the BLIND BOX BONANZA, a contest featuring over $3,000 in prizes!]]></newsTease>
+        <newsArticle><![CDATA[Are you creative? Do you like to have fun?  What sort of crazy situations could you put your vinyl Pygmy figures in?  If you take a picture of it and send it to us, you could be one of over a hundred winners!  We're offering a boatload (that's more than a raftload!) of awesome prizes, including trade paperbacks, T-shirts, plushies and Apple Gift Cards to the zaniest, cleverest photos of your Mysterio Minis!  Get in on the Blind Box Bonanza today.  For more details, check out the Pocket Blog at http://www.boltcreative.com/?p=1920!]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="88" id="PlagueVideoNewsArticle120928" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="PlagueVideoNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/kotaku_review_20120926">
+        <newsTitle><![CDATA[New Episode 46 Update Video!]]></newsTitle>
+        <newsTease><![CDATA[We'll be there for you!  To accompany our brand new update, "Germs of Endearment", Bolt Creative has assembled a new video that mocks a well-known TV series!]]></newsTease>
+        <newsArticle><![CDATA[If you missed that episode of 'Friends' where the cast transforms into a random group of Pygmies and dies of a mysterious disease, now you can catch it in all its glory!  Uh, the 'Friends' video, not the disease.  Anyway, meet the usual gang of Pygmies as they become infected with microbes, get cured, and make a gorilla throw up, all to the lively strains of the Rembrandts!  Matt LeBlanc has never looked so short and oval-headed.  When you're done checking that out, read Kotaku's awesome review of the new update!  And if you haven't obtained the new episode yet... get it now!]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="87" id="Issue18NewsArticle120919" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Issue18NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[PG Comic Issue 18 is out now!]]></newsTitle>
+        <newsTease><![CDATA[In Part 4 of "Gem Cell Research," the female tribe loses a Pygmy... while gaining more danger than they bargained for!]]></newsTease>
+        <newsArticle><![CDATA[At the end of Part Three, Teela looked to be in serious trouble!  Now, it appears she may be truly gone for good.  There's still hope, however, as Klik and the other Pygmies rush to save her by using the power of the new Gem!  Meanwhile, Linsee has to face the enormity of what she's done, and Moon appears to have obtained a new lease on life.  Plus, the seaweed monster isn't through with them!  Can the Pygmies save Teela... and themselves?  Find out today! Only 99 cents!  Plus, the new FREE Pygmy Peril is available as well!  Check it out!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="86" id="PygmyThemeVideoNewsArticle120821" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="PygmyThemeVideoNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/PygmyThemeVideo">
+        <newsTease><![CDATA[Parry Gripp's catchy as heck Pygmy Theme, has an awesome video made by Allan Dye! Tap the icon to check it out! (Also available as digital download.)]]></newsTease>
+        <newsArticle><![CDATA["Pygmies!  They live in paradise, they're Pygmies! You'd think it would be nice..." to have your own recording of this song, right?  Especially if you've seen Allan's video for the song at youtube.com/boltcreative and discovered how hard Pygmies can rock!  Well, now, for 99 cents, you can purchase your own copy of  the Pygmy theme playable on your computer, tablet, iPod or Android!  Check it out on iTunes, Amazon or Google Play!  And don't forget to keep coming back for more Pocket God songs as we upload them!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="85" id="Issue17NewsArticle120808" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Issue17NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[PG Issue 17 available now!]]></newsTitle>
+        <newsTease><![CDATA[Part 3 of Gem Cell Research features both Pygmy tribes getting serious - with serious, unintended consequences!]]></newsTease>
+        <newsArticle><![CDATA[After Nooby's attack by a plant monster, the two Pygmy tribes decide it's time to train themselves for potential battle!  In the meantime, Klik and Teela are working on fixing the gem.  Everything's not perfect, however, as some of the female tribe still have their own issues... culminating in dire circumstances!  This issue of the Pocket God comic promises to be the cliffhanger to end all cliffhangers!  As usual, it's only 99 cents.  Don't miss out on more Pygmy adventure!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="84" id="PygmyThemeNewsArticle120718" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="PygmyThemeNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/PygmyThemeSong">
+        <newsTitle><![CDATA[Get your own Pygmy Theme now!]]></newsTitle>
+        <newsTease><![CDATA[Parry Gripp's catchy as heck Pygmy Theme is now available as a digital download on iTunes!   Get it now and help the pygmies top the charts!!]]></newsTease>
+        <newsArticle><![CDATA["Pygmies!  They live in paradise, they're Pygmies! You'd think it would be nice..." to have your own recording of this song, right?  Since the release of Dance Dance Execution and the accompanying earworm of Parry Gripp's Pygmy Theme, we've had many requests for a digital song download!  Well, now, for 99 cents, you can purchase your own copy of  the Pygmy theme from iTunes, playable on your computer or iPod!  Keep checking in as the song should be available soon on Amazon, Google Play and Zune. Also, look out for more Pocket God songs as we upload them!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="83" id="FathersDayComicNewsArticle120613" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="FathersdayComicNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketshopnews121411">
+        <newsTitle><![CDATA[PG comic free till Dad's Day!]]></newsTitle>
+        <newsTease><![CDATA[Beginning June 13, 2012, APE Entertainment is making the Pocket God comic app free until Father's Day, June 17, 2012!]]></newsTease>
+        <newsArticle><![CDATA[In honor of dads everywhere, APE Entertainment is giving away the Pocket God Comic app, with issue #1 included, for free until the end of the day, Sunday!  Take this opportunity to visit Ooga, Nooby, Klik, and company in the winner of the 'Best Comic App' award from the 2011 Best App Ever Awards.   Each comic is in full color, and includes the free newsletter "The Pygmy Peril."  The first issue is free and each successive issue is 99 cents each.  Don't miss your opportunity to check out the fantastical comic realm of the Pocket God Pygmies!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="82" id="Digest2and3NewsArticle120531" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Digest2and3NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketshopnews121411">
+        <newsTitle><![CDATA[New Pocket God Paperbacks!]]></newsTitle>
+        <newsTease><![CDATA[APE Entertainment brings you the latest two story arcs, "Tale of Two Pygmies" and "A Quest Called Tribe" in new paperback digest editions!!]]></newsTease>
+        <newsArticle><![CDATA[These collections combine the two recent Pygmy adventures into two full-color volumes.  In "Tale of Two Pygmies", Ooga and Klik prove that "a tribe divided, itself can not stand" as their tensions over the vanished Gem of Life bring war to the island!  In "A Quest Called Tribe", the Pygmies are conscripted to help Sun, a female Pygmy, find the rest of her tribe.  "A Quest Called Tribe" also includes issue 9, "Infestation!"   Both editions come in special Ultra-Pro comic collector bags.  Check out the exciting adventures of the Pygmies -- in print form!]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="81" id="TouchArcadeNewsArticle120519" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="TouchArcadeNewsIcon" imageExt="raw16" linkUrl="http://itunes.apple.com/us/app/toucharcade-best-new-games/id509945427?mt=8">
+        <newsTitle><![CDATA[TouchArcade has a new iOS app!]]></newsTitle>
+        <newsTease><![CDATA[TouchArcade, host to many of Dave's "State of the Island" reports, recently unveiled their mobile site and have followed it up with a new iOS app!]]></newsTease>
+        <newsArticle><![CDATA[This app features TouchArcade's reviews and news for reading on the go. Also included is a reference for past reviews, sortable by category, price, and rating. You can turn on notifications to be notified every time a new post is published.  There's even a Hot New Games section, both in a sidebar on the main screen and in its own special area!  And don't forget, there's mobile access to the forums, so you can always find the latest State of the Island when you need it!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="80" id="Issue16NewsArticle120511" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Issue16NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[Pocket God #16 out now!]]></newsTitle>
+        <newsTease><![CDATA[Part 2 of "Gem Cell Research" continues as the Tribes decide to venture into the ocean to save the female tribe's Gem of Life!]]></newsTease>
+        <newsArticle><![CDATA[Klik and Teela discover they need a laser in order to repair the girls' gem.  But the only local character with a laser has a menu that simply reads "Pygmy"!  Will they use Ooga's fishing advice or will they have to take more direct action?  Meanwhile, Linsee sloshes her way into an embarrassing basket of trouble, and Nooby makes friends with a frighteningly weedy new menace! This issue mixes heroism, unity, and bloodthirsty barracudas in a way you've very likely never seen before. Now available from APE Entertainment! Check it out!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="79" id="PygmyPeril16NewsArticle120418" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Peril16NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[The Pygmy Peril #16 is out!]]></newsTitle>
+        <newsTease><![CDATA[This issue features the Olympygs, a new competition for Pocket God players to submit their high scores!]]></newsTease>
+        <newsArticle><![CDATA[Ever wanted to brag about your score in one of Pocket God's mini-games?  Now's your chance!  You'll find details within The Pygmy Peril, along with a new Developer's Corner, where we introduce a new Pygmy to the Bolt Creative Tribe.  Of course, as always, there's some awesome letters and fan art, as well as another edition of the Little Green Men, where we learn that patience is a virtue.  And, oh, yes, the Pygmy Peril conducts an interview with the most nefarious villain in the tribe's history, and we're not talking about the splattery Dodo!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="78" id="Issue15NewsArticle120411" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Comic15NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[Pocket God Issue 15 Out Now!]]></newsTitle>
+        <newsTease><![CDATA[Part 1 of "Gem Cell Research," the new story arc featuring the Pygmies on the girl Pygmy tribe's island, is available now from APE Entertainment!]]></newsTease>
+        <newsArticle><![CDATA[In this issue, the boys share their nit-picks about the girls' island, and the girls aren't sure about letting their new guests stay for long. However, Klik and Teela have their own agenda: to find a way to rebuild the girl Pygmies' gem.  On top of that, there's a mysterious monster menacing them from the ocean!  This issue also features the Pygmy Peril, with "FAN ART!" aplenty, as well as the Developer's Corner, where Allan talks about the ideas behind the girl Pygmies!  Get it now while it's hot!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="77" id="OogaPlushNewsArticle" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="OogaPlushNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketshopnews121411">
+        <newsTitle><![CDATA[Get Your Ooga Plush Now!]]></newsTitle>
+        <newsTease><![CDATA[At long last, the Ooga plush toys you've been waiting for are now available at the Pocket Shop, ready to devote themselves to their real-world gods!]]></newsTease>
+        <newsArticle><![CDATA[If you've wanted to grab Pygmies from your iOS or your Android and pull them, kicking, screaming and flailing into the real world, this is as close as you're going to get to it!  We now have Ooga plushes for sale in the Pocket Shop, easily identifiable by the convenient name tag and the look of abject terror on their faces as they anticipate fiery godly vengeance.  Ten inches tall, these make great gifts, or you can even buy one for yourself to display on your bedside table to remind you of just how godlike you are.  Only $14.99!  Buy now!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="76" id="ComicIssue14NewsArticle120315" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Issue14NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[Para-Abnormal Activity!]]></newsTitle>
+        <newsTease><![CDATA[It's here! The issue full of ghosts and terrors and secrets... and quirky girl Pygmies! "Ghosts, a mystery, and a dubious murder make this an ooky-spooky, extra-kooky issue of Pocket God."]]></newsTease>
+        <newsArticle><![CDATA[Our heroes discover a mysterious island where, for some Pygmies of the past, death was permanent - but it certainly didn't mean an eternal rest, either! As for proof - Moon and Klak witness what permanent death was like... up close and personal! In their attempts to rescue the tribes, Klik and Teela become unwilling recipients of a ghostly message, and Linsee becomes a willing recipient of fermented coconut milk. What does it mean, and where will it all lead?]]></newsArticle>
+    </newsItem>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
+<!--<newsItem order="75" id="PocketShopMonkeyTeePromo120301" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="MonkeyPromoNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketshopnews121411">                                                                                                                                                                                                                                                                                  -->
+<!--    <newsTitle><![CDATA[Monkey Business!]]></newsTitle>                                                                                                                                                                                                                                                                                                                                                                                                                                                        -->
+<!--    <newsTease><![CDATA[On sale this week: Get a Monkey On Your BACK! Literaly - well it's as close as you would like to get. And now at 20% off! Offer expires on March 8 2012.]]></newsTease>                                                                                                                                                                                                                                                                                                                -->
+<!--    <newsArticle><![CDATA[Have you been drooling over the awesome PG T-Shirts? And you nearly saved up the chum to get it? Then this is your chance! Head over to pocketshop.boltcreative.com (or tap the image to the left), klik on the banner and select your size. Enter discount code Monkey1 for the kids sizes, and Monkey2 for the adult sizes. P.s. Don't forget to checkout the trade paperback version of "The Gem of Life"; it contains the entire first comic arc for just $9.95!]]></newsArticle>-->
+<!--</newsItem>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    -->
+
+    <newsItem order="72" id="BoltCreativeNewsArticle111219" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="BCdotComLaunchNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/BCdotComLaunch121911">
+        <newsTitle><![CDATA[A new Home for PG on the web!]]></newsTitle>
+        <newsTease><![CDATA[Checkout the new Bolt Creative site! Browse through page after page of Pocket God content; download wallpapers or simply check the latest news on our blog.]]></newsTease>
+        <newsArticle><![CDATA[Bolt Creative's new website contains all the icons, wallpapers, videos, episode descriptions and links you need to get your daily Pocket God fix - not to mention the Pocket Blog!  Get access to all the Pocket God games and comics, and buy your much-needed Pocket God swag at the appropriately-named Pocket Shop.  This is also the place to go if you need tech support, or find out about the insane people who work hard to bring you those Pocket God updates.  Check it out now at www.boltcreative.com.]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="71" id="BestComicAppEverNewsArticle120110" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="BestComicAppNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/bestcomicapp011012">
+        <newsTitle><![CDATA[PG nominated Best Comic App!]]></newsTitle>
+        <newsTease><![CDATA[The Pocket God comic has been nominated for Best Comic App in the 2011 Best App Ever awards, the winner of which will be decided by you!]]></newsTease>
+        <newsArticle><![CDATA[Sponsored by 148Apps, this nomination is great recognition for all the hard work the people at APE Entertainment, as well as Allan and Dave, put into making the Pocket God comic the high-quality work that it is.  Let's get together and show how much we appreciate their efforts. Vote today at http://www.bestappever.com/ (or click the image on the left)!  Voting closes on January 25, 2012, so hurry!  Thanks, everyone!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="70" id="XmasPocketShopArticle111225" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="XMasPocketShopNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketshopnews121411">
+         <newsTitle><![CDATA[Last minute Christmas shopping?]]></newsTitle>
+         <newsTease><![CDATA[Check out the Pocket Shop! Get your Pocket God swag here, including T-shirts, comics and the Pocket God figurine!]]></newsTease>
+         <newsArticle><![CDATA[Have you been wanting a Pocket God T-shirt, but not known where to get one?  Come to the Pocket Shop!  We take major credit cards and PayPal, and ship to anywhere in the United States!  Keep looking for new items as they come in.  Get that late Christmas present for the Pocket God fan who previously was so hard to shop for!  Check it out at http://pocketshop.boltcreative.com!]]></newsArticle>
+    </newsItem>
+
+     <newsItem order="69" id="Issue12and13NewsArticle111220" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Comic12and13NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/PGComic12and13">
+        <newsTitle><![CDATA[PG Comic Issues 12 and 13 available now!]]></newsTitle>
+        <newsTease><![CDATA[A Quest Called Tribe comes to a conclusion in the latest issues of the Pocket God comic!]]></newsTease>
+        <newsArticle><![CDATA[What do the mysterious figures who surrounded Nooby at the end of Issue 11 want?  What does Newbie have planned for the two tribes, and how is the Gem of Life involved?  Electrifying dangers claw at our heroes as they journey to the mysterious ruins to discover the answers.  Along the way, their tenuous tribal alliances are tested, and Klik questions his beliefs about the nature of their world.  Once their journey is over, neither tribe will ever be the same.  Read both issues for the exciting climax of "A Quest Called Tribe!"  Also available is Pygmy Peril 12, featuring the Little Green Men!]]></newsArticle>
+     </newsItem> 
+                                                                       
+     <newsItem order="68" id="FishmasNewsArticle111217" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Fishmas2011NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/fishmasvideo121711">
+         <newsTitle><![CDATA[New Fishmas video for 2011!]]></newsTitle>
+         <newsTease><![CDATA[Get extra-merry this year when you hear about "The Twelve Days of Fishmas!"]]></newsTease>
+         <newsArticle><![CDATA[Allan has outdone himself to make sure this year's Fishmas video is filled with the warm, cheery violence you expect from Pocket God.  Watch the new Fishmas card on YouTube!  Then, check out the updated Fishmas skinpack with the pygmies singing "The Twelve Days of Fishmas".  If you haven't bestowed all the godly gifts mentioned in the song to your pygmies, Santa might just come and fish-slap you.  Season's greetings to gods everywhere!]]></newsArticle>
+     </newsItem>
+
+    <newsItem order="67" id="ComingSoonTheRunsNewsArticle111215" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="RunsAnnouncementNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/runsannouncement121511">
+        <newsTitle><![CDATA[The Runs - A new game by Bolt Cretive]]></newsTitle>
+        <newsTease><![CDATA[Coming soon: A brand new Pocket God Game based on The Runs! The minigame introduced in Crack is Wack has gotten bigger and better!]]></newsTease>
+        <newsArticle><![CDATA[Now, Pygmies are made to run and jump through multiple levels at breakneck speed, with familiar and unfamiliar dangers at every turn!  Inspired by the running game Canabalt, The Runs expands the underground universe to a whole "tropical world" of island and volcano perils to avoid.  This game will be available for the iOS late February or early March, so be prepared for exciting challenges, as each level gets harder and the action gets faster!]]></newsArticle>
+    </newsItem>
+
+<!--old items-->
+
+    <newsItem order="66" id="PocketShopArticle" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="NewPocketShopNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketshopnews121411">
+        <newsTitle><![CDATA[The Pocket Shop has now gone live!]]></newsTitle>
+        <newsTease><![CDATA[Get your Pocket God swag here, including T-shirts, comics and the Pocket God figurine!]]></newsTease>
+        <newsArticle><![CDATA[Have you been wanting a Pocket God T-shirt, but not known where to get one?  Come to the Pocket Shop!  We take major credit cards and PayPal, and ship to anywhere in the United States!  Keep looking for new items as they come in.  This is also a great place to Christmas shop for that Pocket God fan who previously was so hard to shop for.  Check it out at http://pocketshop.boltcreative.com!]]></newsArticle>
+    </newsItem>
+                        
+    <newsItem order="65" id="FreeComicAppArticle111207" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="FreeComicNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicFree120611">
+        <newsTitle><![CDATA[Issue 11 Is Out, + App is FREE till Sunday!]]></newsTitle>
+        <newsTease><![CDATA['A Quest Called Tribe' continues in Issue 11!  Plus, for a limited time, the first issue of the Pocket God comic is free!]]></newsTease>
+        <newsArticle><![CDATA[At the end of the last issue, Sun had led the Pygmies to a mysterious underwater temple.  However, we discover in this issue that the temple is surrounded by peculiar new dangers of its own!   As the Pygmies evade a particularly terrifying tormentor, they make a discovery about the Gem of Life... and about Newbie!  If you haven't yet immersed yourself in the Pocket God world of adventure, start at the beginning!  The Pocket God comic app, featuring Issue 1, is free until December 11.  Take this opportunity to check it out now at http://bit.ly/pgcomicFree120611!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="64" id="FrimaSpaceShooterPromo111130" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="FrimaAppPromoNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/frimapromo113011">
+        <newsTitle><![CDATA[A Space Shooter for Free!]]></newsTitle>
+        <newsTease><![CDATA[Take Control of the Mighty USS Eradicator and Blast Alien Scum!                                      "Amazing...!" - IGN.]]></newsTease>
+        <newsArticle><![CDATA[From the developers of Pocket God on Facebook, A Space Shooter for Free delivers hilarious, irreverent action with a price that's hard to beat!  The critically acclaimed Space Shooter franchise, with more than 600,000 downloads is available on your iPhone and iPad! Combining retro-style shoot 'em up gameplay, high-resolution graphics and intuitive controls, A Space Shooter for Free provides hours of alien-blasting entertainment.                       *** Want to upgrade to the BIG ASS version? For just 99 cents, you can upgrade your game, allowing you to fight additional bosses and unlock devastating special weapons. ***]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="63" id="SayYourPrayersArticle111126" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="FacebookTurkeyNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgfb112611">
+        <newsTitle><![CDATA[Pocket God Facebook: Say Your Prayers!]]></newsTitle>
+        <newsTease><![CDATA[In the latest Facebook global challenge, Facebook users must sacrifice 550,000 Pygmies to avenge the deaths of the turkeys they've eaten!]]></newsTease>
+        <newsArticle><![CDATA[A new Chubby Turkey is flying over the island.  When lightning strikes it, it falls to the island for a hungry Pygmy to feast upon.  However, it turns out that's not a good idea, as two vengeful turkeys immediately fly in to peck their tormentors to death!  In fact, the Harvester has offered a challenge to all Facebook users:  Sacrifice 550,000 Pygmies to the vengeful turkeys by the morning of November 30, and every Pocket God Facebook player will gain a brand new idol!  Join in today, and show some Pygmies what not to be thankful for.]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="62" id="FacebookPumpkinArticle111025" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="FacebookPumpkinNewsIcon" imageExt="raw16" linkUrl="http://bitly.com/pgfb101811">
+        <newsTitle><![CDATA[Attack of the Killer Pumpkin!]]></newsTitle>
+        <newsTease><![CDATA[Now on Facebook, you can take the Jack-o-Pygmy challenge by growing a magic pumpkin plant that can sacrifice pygmies in one of two ways!]]></newsTease>
+        <newsArticle><![CDATA[Look in the store for the special pumpkin.  This unique vegetable will allow you to grow a pumpkin plant.  Let a pygmy eat a pumpkin from this creeping vine, and he will turn into a pumpkin himself for another pygmy to feast upon.  Or you can go the more direct route by picking a pumpkin, letting it grow larger, and squashing a pygmy with it.  Win the special Jack-o-Pygmy idol by helping your fellow Facebook players sacrifice 250,000 pygmies with pumpkins! Be sure to spawn your friends and sacrifice them to the pumpkin god! Once that's done, click the RIP icon on their picture and taunt them on their Facebook wall!]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="61" id="ComicIssue8News110803" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="ComicIssue8NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[Pygmies at War!]]></newsTitle>
+        <newsTease><![CDATA[Now on the app store, the shocking conclusion to the PG Comic series Tale of Two Pygmies, that introduces an all-new Pygmy!]]></newsTease>
+        <newsArticle><![CDATA[When we last left the tribe, the rivalry between Klik and Ooga has heated up to a full-on war when the Gem of Life is discovered missing. But all is not what it seems and it will take an act of self-sacrifice to bring new truths to light. Is someone manipulating them behind the scenes?  The series ends with more than one shocking revelation and sets the stage for their biggest adventure yet.  And don't forget,  if you only buy ONE comic, you are entitled to our free publication The Pygmy Peril that discusses all things Pocket God! Check it out today!]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="60" id="ComiconNews110715" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="ComiconNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/comicconnews071911">
+        <newsTitle><![CDATA[Pocket God at San Diego Comic Con!]]></newsTitle>
+        <newsTease><![CDATA[If you're coming to San Diego Comic-con, stop by the Ape Comics Booth (#1804) to meet creators and get PG swag!]]></newsTease>
+        <newsArticle><![CDATA[It's that time of year again...and the creators of Pocket God (Dave and Allan) will be hanging out at the Ape Booth from 1 to 3 every day! We'll have brand new posters to give away....plus for sale will be comics, t-shirts and figures! We sign anything you want. We've even signed iPods for the very-committed! The big question: Will the code word "summer squash" get you anything this year? Well stop by and find out!]]></newsArticle>
+    </newsItem>
+    
+
+    <newsItem order="58" id="UranusEp5News110714" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="UranusEp5NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgunews020911">
+        <newsTitle><![CDATA[The Undead Invade Uranus!!]]></newsTitle>
+        <newsTease><![CDATA[Now on the app store! Episode 5 of Journey To Uranus: Planet of the Living Dead! spread a Zombies plague to the solar system!]]></newsTease>
+        <newsArticle><![CDATA[In the latest episode of JTU, we've added a new island to Earth, the Graveyard Island! To get there, all you need to do is drag a pygmy from Oog Island to the right. There, you find a mysterious grave that works just like the grave in Pocket God, but this time the Zombies are more resilient! Hand a non-zombie Pygmy the axe and he'll start warding off the zombie, chopping off various body parts. But they just keep coming! You can also take the zombies to space and other planets and experiment with existing functions. More zombie action to come in the next episode!]]></newsArticle>
+    </newsItem>
+    
+
+    <newsItem order="56" id="PixelPartyNews110623" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="PixelPartyNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/p1xlnews062311">
+        <newsTitle><![CDATA[Join the P1XL Party!!]]></newsTitle>
+        <newsTease><![CDATA[Now on the app store, our programming team for Journey To Uranus, P1XL, is proud to announce their retro-style iOS game P1XL Party!]]></newsTease>
+        <newsArticle><![CDATA[P1XL Party is a pixelated celebration of the spirit of classic video games!  Three games, with more to come in free updates, are included in this compilation.  This first release includes Splatform (a platformer/jumper), Wanderers (an action-rpg), and Marz (a shooter/bomber game).  And like Journey to Uranus, it begins with 3 full games with plans to add more! Future free updates already in development include other classic genres: puzzle, racing, strategy, and more.]]></newsArticle>
+    </newsItem>
+    
+
+    <newsItem order="55" id="JunkoNews110614" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="JunkoNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgjunko">
+        <newsTitle><![CDATA[Meet Dave's favorite manga artist!]]></newsTitle>
+        <newsTease><![CDATA[Meet Junko Mizuno, the manga artist who leant her surreal vision to the "Challenge of the Gods" poster. Tap the icon to check out more of her work!]]></newsTease>
+        <newsArticle><![CDATA[While attending San Diego comic-con in 2010, Dave met with one of his favorite artists, Junko Mizuno, and agreed that some day she'd make a poster for Pocket God. We decided that Episode 39, Challenge of the Gods, with the array of weird gods, was the perfect time. She is an amazing manga artist known for graphic novels including askew versions of known fairy tales, like the little mermaid, her distinctively surreal works of art and graphic posters such as the one she did for us. We thank her for the great art and encourage everyone to check out her work!]]></newsArticle>
+    </newsItem>
+    
+
+    <newsItem order="54" id="QuantumNews110609c" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="QuantumNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgunews020911">
+        <newsTitle><![CDATA[Please Help Pocket God get to #1]]></newsTitle>
+        <newsTease><![CDATA[Please Help Pocket God get to #1                       Pocket God: Journey To Uranus is now UNIVERSE-al and you can play on the iPhone and iPod Touch!]]></newsTease>
+        <newsArticle><![CDATA[Also new with Episode 4 is the new mini-game, Quantum Entanglement!  Drag a Pygmy to the hopelessly entangled Atom floating in space, to kick it off a scavenger hunt for all the entangled atoms. This is a time-driven memory game so pay attention, and look out for black holes!  Still with spectacular graphics on iPad, Pocket God JTU looks amazing on the retina display as well!  Battle evil dragons on Uranus, feed the volcano god on Earth, navigate the treacherous highways on Mercury and ward off evil robots in space!  And like Pocket God, more updates coming your way!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="49" id="QuantumNews110607" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="QuantumNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgunews020911">
+        <newsTitle><![CDATA[A Quantum Leap Forward!]]></newsTitle>
+        <newsTease><![CDATA[At long last, Journey To Uranus is UNIVERSE-al and can play on iPad, iPhone and iPod Touch! And for a limited time, only 99 cents! Get it today!]]></newsTease>
+        <newsArticle><![CDATA[Also new with Episode 4 is the new mini-game, Quantum Entanglement!  Drag a Pygmy to the hopelessly entangled Atom floating in space, to kick it off a scavenger hunt for all the entangled atoms. This is a time-driven memory game so pay attention, and look out for black holes!  Still with spectacular graphics on iPad, Pocket God JTU looks amazing on the retina display as well!  Battle evil dragons on Uranus, feed the volcano god on Earth, navigate the treacherous highways on Mercury and ward off evil robots in space!  And like Pocket God, more updates coming your way!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="48" id="RainbowNews110526" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="RainbowNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/doublerainbow060111">
+        <newsTitle><![CDATA[Double Rainbow All The Way Across The Sky!!]]></newsTitle>
+        <newsTease><![CDATA[Love to make the pygmies freak out about the Double Rainbow? Meet the man (or is it bear?) behind the sensation! Click the icon on the left!]]></newsTease>
+        <newsArticle><![CDATA[Last Fall, we added our homage to the famous internet meme, Double Rainbow, which originated from Paul Vasquez (a.k.a. Yosemite Bear) on his legendary YouTube video. We recently found out that some people thought that WE originated it and even went to his YouTube video and said so in the comments. We want to take this opportunity to give credit where credit is due. The Pygmies are only reciting the memorable words of Yosemite Bear and we thank him for letting us include them in PG! We encourage everyone to visit his website and check out his videos. He is up to all sorts of things: traveling the world, visiting Jimmy Kimmel, selling double-rainbow t-shirts, and even running for president! Go check out his site to find out more!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="44" id="InfestationNews110330" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="InfestationNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/lv4btp">
+        <newsTitle><![CDATA[The Island is Infested with Zombies!]]></newsTitle>
+        <newsTease><![CDATA[The Pygmies (along with a zombie monkey and a zombie T-REX) Join IDW's Infestation Series, now on the App Store!]]></newsTease>
+        <newsArticle><![CDATA[INFESTATION is IDW's hugely successful comic series that infects the TRANSFORMERS, G.I. JOE, Ghostbusters, and Star Trek universes with legions of undead. This unparalleled, never-before-seen event is now available digitally through the Apple App Store in the INFESTATION Comics app, made specially for the iPad, iPhone and iPod touch.  The Pygmies get involved when IDW's Britt, a vampire/zombie soldier, crosses over to the Pocket God universe and sees the mysterious power of the Gem of Life and decides to steal it. In the comic, we learn of Nooby's shameful secret, meet our new favorite character--the Zombie T-Rex, and fight legions of pygmy zombies. Check it out!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="43" id="Comic5News110330" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Comic5NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[The Story Continues...]]></newsTitle>
+        <newsTease><![CDATA[Now on the app store, Issue 6 of Pocket God, the comic! A whole new story begins, and sets the stage for the tribe's biggest adventure yet...]]></newsTease>
+        <newsArticle><![CDATA[Set after the events of "The Gem of Life", the Pygmies seem to have fallen back into their comfortable lives on Oog Island. Except Klik harbors jealousy and resentment toward Ooga and his "communion" with the almighty gods (the climax of "Gem of Life"). While Ooga tries to tell Klik the gods aren't quite what he expected, he does flaunt to Klik that he was the "hero who met the gods". After taking their rivalry out on each other in a "SquidBall" game gone awry, Klik is confronted with a new mystery that instills hope that he might have a connection with the gods after all. But will his petty jealousy become his undoing?]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="42" id="TradeNews110310" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="TradeNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/tradenews031011">
+        <newsTitle><![CDATA[Download Trade Nations, available on the App Store!]]></newsTitle>
+        <newsTease><![CDATA[Do you have what it takes?  Download Trade Nations and bring your Nation to greatness.]]></newsTease>
+        <newsArticle><![CDATA[Create your own small village and grow it into a sprawling city in Trade Nations! Harvest raw resources, refine them, and create goods to amass a fortune. Hire your friends to perform jobs to grow even faster. With tons of buildings and decorations to build and 20 different jobs for your villagers to perform, you can create an amazing city of your own.]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="41" id="CustomizeNews110308" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="CustomizeNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgnewsfb030811">
+        <newsTitle><![CDATA[Be the It Pygmy!]]></newsTitle>
+        <newsTease><![CDATA[Pocket God Facebook Episode 4: Dressed to Kill now brings you the long-awaited Pygmy customization!]]></newsTease>
+        <newsArticle><![CDATA[Pocket God Facebook continues to grow and add functionality! The latest update provides a brand new customization tool to give your tribe personality! You can now change pygmy hair color, hair bones, "boney tail", top-wear and skirt! New fashion accessories to come! Sign up on Facebook today!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="40" id="MoronTest3News110223" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="MoronTest2NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/tmtnews110223">
+        <newsTitle><![CDATA[Be a Moronite!]]></newsTitle>
+        <newsTease><![CDATA[Check out the original Moron Test, the inspiration for our latest crossover, Episode 37: The Moron Pests!]]></newsTease>
+        <newsArticle><![CDATA[A few months ago, the Moron Test released an update that included the "Ooga School" theme, that brought the Pygmies into the Moron Test. For episode 37, we've brought the MT characters (the turtle, rubber ducks, bees and snake) into Pocket God where, like the Moron Test, you are asked seemingly easy questions...but its harder than it looks! You have to read carefully to get them right. If you like THAT, be sure to check out the original Moron Test. It includes many tests for you to conquer, and then reconquer with better time. So if you are one of the hold-outs, go get their awesome app today!]]></newsArticle>
+    </newsItem>
+    
+
+    <newsItem order="38" id="BoogalooNews110209" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="BoogalooNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgunews020911">
+        <newsTitle><![CDATA[New God Powers on Uranus!]]></newsTitle>
+        <newsTease><![CDATA[PG Journey To Uranus: Episode 2, Electric Boogaloo is out now! This episode includes new god powers and pygmy naming and stats!!]]></newsTease>
+        <newsArticle><![CDATA[Now you have the power to change from day to night on both planets! You can also bring on cloudy weather, each planet having different results: On Earth, lightning, and on Uranus, toxic gas!  On Uranus, night brings out the nocturnal fire-breathing dragon. Also included is pygmy naming and stats. Plus there is a secret Easter egg on both planets. Can you find them?  Journey To Uranus was created specifically for iPad, so if you got one, be sure to check it out! Next episode: the planet Mercury!   ]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="37" id="FacebookEp3News110208" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="DodoNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/facebooknews111801">
+        <newsTitle><![CDATA[Pocket God Facebook continues to grow!]]></newsTitle>
+        <newsTease><![CDATA[Now up on Pocket God Facebook-- Episode 3: The Birds now has Pygmy naming, and the loveable Dodo! If you haven't signed up, why not?]]></newsTease>
+        <newsArticle><![CDATA[And let's not forget that Episode 2 brought with it God challenges! Use a power enough, and the gods will challenge you for points. You can invite friends to join in the challenge as well! As if you need one more reason for Pygmy killing, PG Facebook also has quests that help you gain points so you can acquire new powers, animals, idols and other items.  You can also spawn friends who play PG facebook and sacrifice them...then click their icon to taunt them on their wall! More features are coming, so click the image to check it out today!  ]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="36" id="PocketShopNews110207" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="PocketShopNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/shopnews122810">
+        <newsTitle><![CDATA[Pocket God Merchandise]]></newsTitle>
+        <newsTease><![CDATA[Super cool Pocket God Pygmy figures now for sale at the Pocket Shop! Supplies are limited so order now!]]></newsTease>
+        <newsArticle><![CDATA[It's been a long-time coming, but we finally have our first Pygmy toy up on our new site, the Pocket Shop! The figures are high quality PVC, painted by hand and individually checked. You can also buy the PHYSICAL Pocket God comics which are the same as the digital but with a bonus Pygmy Story. In Issue 1, we learn about the origin of the Laser Shark! Coming soon: Pygmy Plushes! ]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="35" id="FacebookNews110118" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="FacebookNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/facebooknews111801">
+        <newsTitle><![CDATA[Join the growing anti-social network!]]></newsTitle>
+        <newsTease><![CDATA[Have you checked out Pocket God Facebook yet? If you haven't, then why not? Its FREE and awesome. Check it out!]]></newsTease>
+        <newsArticle><![CDATA[Pocket God open beta started recently and is rapidly growing its community. Its like Pocket God, with some familiar features but also some new twists. There's a hungry Venus Fly Trap, and a gross tar pit...And a special fridge that has a special drink. Plus you can sacrifice (or gift) your friends! What kind of god will you be?  New episodes are in the works, so be sure to join, invite your friends, and start levelling up today! ]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="34" id="FishmasNews110104" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="FishmasNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/fishmasnew110104">
+        <newsTitle><![CDATA[Merry Fishmas Everyone!]]></newsTitle>
+        <newsTease><![CDATA[Bolt Creative wishes you a Merry Fishmas with this animated special. Click the image on the left to watch!]]></newsTease>
+        <newsArticle><![CDATA[Heavily inspired by the Pocket God comic series, meet Ooga, Klik, Nooby and the rest as they celebrate their own special holiday, Fishmas. Its a lot like Christmas, but with fish! Be sure to Twitter and Facebook a Merry Fishmas to all!]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="33" id="PocketShopNews101228" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="PocketShopNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/shopnews122810">
+        <newsTitle><![CDATA[Pocket God Merchandise]]></newsTitle>
+        <newsTease><![CDATA[Super cool Pocket God Pygmy figures now for sale at the Pocket Shop! Supplies are limited so order now!]]></newsTease>
+        <newsArticle><![CDATA[It's been a long-time coming, but we finally have our first Pygmy toy up on our new site, the Pocket Shop! The figures are high quality PVC, painted by hand and individually checked. You can also buy the PHYSICAL Pocket God comics which are the same as the digital but with a bonus Pygmy Story. In Issue 1, we learn about the origin of the Laser Shark! Coming soon: Pygmy Plushes! ]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="32" id="UranusSaleNews101221" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="UranusSaleNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgunews122010">
+        <newsTitle><![CDATA[A big sale on Uranus!]]></newsTitle>
+        <newsTease><![CDATA[Journey To Uranus is now having a limited time Christmas Sale for 80% off for the next 24 hours, so hurry!]]></newsTease>
+        <newsArticle><![CDATA[ Pocket God JTU goes where no Pygmy has gone before! Space! Drag them through the atmosphere and they find themselves floating around the solar system with a mysterious alien stalking them. Drag them to planets, or the alien to find the minigame at each location; A-Hole in Time, a tempest-like game, Dragons On Uranus, similiar to Joust, and Volcano Blast, a bit like Paper Toss, but with volcanos! New interactions, locations and mini games coming!]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="31" id="UranusNews101220" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="UranusNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgunews122010">
+        <newsTitle><![CDATA[Pygmies make their way to Uranus!]]></newsTitle>
+        <newsTease><![CDATA[The wait is over! Pocket God: Journey To Uranus, exclusively for the iPad is now available on the app store!]]></newsTease>
+        <newsArticle><![CDATA[In this all-new game, you can now take the Pygmies from their homeworld, Earth, to the cold depths of space and then Uranus, the gas planet! Like Pocket God, there is an interactive world, but this time around, we focused more on not-so-mini-games, some of which pay homage to old-school video games of yore.  A-Hole in time works much like that old arcade game, Tempest....and Dragons on Uranus has similiar game-play to Joust! Volcano Blast is somewhat like Paper-toss, but with volcanos! Like Pocket God, we will update with more interactivity in space and on the planets, and new games. Check it out today!]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="30" id="MoronTest2News101219" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="MoronTest2NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/tmtnews101219">
+        <newsTitle><![CDATA[Pocket God hanging with Morons?]]></newsTitle>
+        <newsTease><![CDATA[The Pygmies invade the Moron Test! The moron test has an all-new "Ooga Theme", a hilarious addition to the wildly successful Moron Test!]]></newsTease>
+        <newsArticle><![CDATA[Take the Moron Test with the "Ooga Theme" that includes elements from your favorite god app (that would bue us)....You'll find familiar characters, sound effects and even MUSIC! Now we're HUGE fans of the standard Moron Test music...it actually plays in our heads whenver we're trying to think....but ours works great too! Click the icon to check it out!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="29" id="Comic3News101202" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="Comic3NewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews120210">
+        <newsTitle><![CDATA[And the danger escalates!]]></newsTitle>
+        <newsTease><![CDATA[Searching for the mysterious temple, the Pygmies battle the T-Rex in Issue 3 of Pocket God the comic, now on the App Store!]]></newsTease>
+        <newsArticle><![CDATA[With Klik gone, and Booga barely hanging in there, the Pygmies find themselves on the run from the numerous dangers on the new island. Its one thing after another, and they wonder if they will ever find the Temple to restore the Gem of Life...and if they do, how many will still be alive? This is part 3 in the four part Pocket God Comic, "the Gem of Life". Issue 4 and a special holiday story "XMas Marks The Spot" are due out in December!]]></newsArticle>
+    </newsItem>
+
+
+    <newsItem order="28" id="LilPirateNews101112" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="PirateNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pirates111210">
+        <newsTitle><![CDATA[Lil Pirates available on the App Store!]]></newsTitle>
+        <newsTease><![CDATA[Arrr Maytee!  Are you felling the call of the high seas? Be sure to check out Capcom's free social game, Lil' Pirates!]]></newsTease>
+        <newsArticle><![CDATA[Lil' Pirates lets you recruit your own band of scurvy dogs and set upon the high seas seeking, adventure, treasure and camaraderie. Starting with a small ship and a tiny crew of scallywags, you'll transform your vessel and crew with hundreds of in-game items. Amass loot by undertaking special missions and jobs, challenge friends to combat, play mini games with the crew, bury booty to increase its value, and live the pirate life.]]></newsArticle>
+    </newsItem>
+    
+
+    <newsItem order="27" id="MrBillNews101026" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="MrBillNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/bill101026">
+        <newsTitle><![CDATA[Mr Bill, the game, now on the App Store!]]></newsTitle>
+        <newsTease><![CDATA[Love playing god? Check out the original "god" concept, Mr. Bill! In the game you fire the extremely reluctant protagonist, Mr. Bill, out of a cannon with inevitably disastrous results.]]></newsTease>
+        <newsArticle><![CDATA[Capcom, who worked with us on our BREW Games For Verizon, just released a new Halloween theme for Mr. Bill with 12 new levels. It's fun and hilarious and the whole games is only 99 cents, so be sure to take a look today!]]></newsArticle>
+    </newsItem>
+    
+
+    <newsItem order="26" id="PerilNews101023" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="ComicNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews102310">
+        <newsTitle><![CDATA[Now Up on the App Store!]]></newsTitle>
+        <newsTease><![CDATA[Pygmy Peril Issue 2 is now up on the App Store free for everyone who purchased the Pocket God Comic app!]]></newsTease>
+        <newsArticle><![CDATA[With Issue 3 of the comic on its way, the Pygmy Peril is meant to tie you over and provide some fun free content as well! In this issue we cover many subjects. In Ape's Editorial, a picture of the last contest winner, Louise Fouri, is included! PG Creator, Dave Castelnuovo, writes about the types of jobs one can get when getting into the game business. Artist Extraordinaire, Rolo Malada, reveals the secrets for designing the cast of Pygmies for the comic along with early sketches!  The editors of Ape Comics answers Pocket God letters and finally, Ape includes another awesome Little Green comic! Coming soon in November is Issue 3 of the Comic, and soon after will be Issue 3 of the Pygmy Peril that will include a bunch new free content!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="25" id="MannNews101013" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="UpdateSongNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/mannnews101310">
+        <newsTitle><![CDATA[Behind the Music!]]></newsTitle>
+        <newsTease><![CDATA[Meet the 'Mann' behind the Pocket God update song... Jonathan Mann, that is! Click the image on the left to check out his site and download the Pocket God Update Song!]]></newsTease>
+        <newsArticle><![CDATA[There has been a bunch of requests to put the Pocket God update song up on iTunes, but Jonathan already sells his music online... which includes "The Pocket God Update Song". As fellow independent-types, we definitely support his efforts and thank him for writing a song for us! For the last few years, he has been composing a song a day. Which is pretty hard. Not as hard as an update a week, but trust me...hard enough! Besides singing the woes of Pocket God app developers, he's known for singing about iPhone 4 antennaes, Mario, deers in his back yard, waterboarding and many other completely random subjects. The randomness just flows out of him and its awesome! Go check out his amazing stuff and hey, why not buy the song if you have a spare 99 cents? ]]></newsArticle>
+    </newsItem>
+    
+
+    <newsItem order="21" id="VerizonNews100901a" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="VerizonNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/brew100901a">
+        <newsTitle><![CDATA[The Pygmies Land on Verizon!]]></newsTitle>
+        <newsTease><![CDATA[Pocket God now available on Verizon Phones! Are you or your family on the Verizon Network? Check out Pocket God with all the familiar fun but with some new twists!]]></newsTease>
+        <newsArticle><![CDATA[Now you can play god on an all new platform. As a vengeful god, you have control of an active volcano, lightning storms, hungry animals and much more. Or give gifts to the pygmies in the form of fish, coconuts, dancing, etc. This version uses different controls but requires the same exploration, and you must unlock god powers as you go. Hints guide the way as you discover all the god powers available! Currently only available for phones that are BREW-based.]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="18" id="TrenchesNews" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="TrenchesNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/trenchnews081010">
+        <newsTitle><![CDATA[Pygmies in the Trenches]]></newsTitle>
+        <newsTease><![CDATA[Pygmy Zombies have escaped Pocket God and are invading Western Europe the Trenches! If you can't get enough of pygmy-zombie-killing, click the image on the left!]]></newsTease>
+    
+        <newsArticle><![CDATA[Thunder Game Works and Bolt Creative have cooperated in the latest app-crossover. In the latest update of the Trenches, the normal zombie horde has been replaced by pygmy zombies and adds a hilarious twist to the mega-hit tower defense game. In it, you are part of the British forces fighting an onslought of attacking enemies in World War I. Like Bolt, Thunder Game Works has dedicated themsleves to periodically providing exisiting and new customers with new and exciting content. If you haven't checked this app out, what are you waiting for?]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="17" id="ComicNews100803" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="ComicNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgcomicnews080310">
+        <newsTitle><![CDATA[Read it today!]]></newsTitle>
+        <newsTease><![CDATA[Pocket God Comic now available digitally on iTunes! Click image on the left to follow the adventures of the Pygmies in their first ever comic!]]></newsTease>
+        <newsArticle><![CDATA[In the first issue, we meet Ooga, Booga, Nooby, Dooby, Klik and Klak on their tiny island in the middle of an ancient and vast ocean. There, they find themselves at the mercy of the whims of unseen and mischevious gods while dealing with each other in their day to day lives. However, things get even more complicated when a mishap on the island threatens their very existence! Be sure to check it out!]]></newsArticle>
+    </newsItem>
+    
+    <newsItem order="14" id="TMTNews100618" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="MoronNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/tmtnews100618">
+        <newsTitle><![CDATA[Upcoming Moron Test Cross-Over]]></newsTitle>
+        <newsTease><![CDATA[Coming Soon! We're working with the guys at The Moron Test on a new cross over. The Pocket God Moron Test! In the mean time, click the image to check out their game!]]></newsTease>
+        <newsArticle><![CDATA[We recently met the guys at DistinctDev and found that we have a lot in common. Their game, The Moron Test has had just about the same level of success as Pocket God and they are really cool guys so we decided to work together on a collaboration. The Moron Test is the mega-hit brain teaser that has revealed the hidden moron in all of us. Click the image above to check it out! Don't think it will be easy to beat!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="11" id="CrackNews100519" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="CrackNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pocketgodsoti132">
+        <newsTitle><![CDATA[Next update submitted!]]></newsTitle>
+        <newsTease><![CDATA[Ep. 32, Crack is Wack is coming soon! Introducing new seismic activity and our biggest mini-game yet, "The Runs!" Click the image to read more!]]></newsTease>
+        <newsArticle><![CDATA[Programmer and Pocket God co-creator, Dave Castelnuovo, talks about the next update and all things Pocket God on Touch Arcade. Register and chime in! Also, be sure to monitor our blog (link below) for the latest updates.]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="10" id="DoodleNews100510" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="DoodleNewsIcon" imageExt="raw16" linkUrl="http://bit.ly/pgdoodle7">
+        <newsTitle><![CDATA[You got Doodle Jump in my Pocket God!]]></newsTitle>
+        <newsTease><![CDATA[Hey, you got Pocket God in my Doodle Jump! Did you know Ooga makes an appearance in the awesome game, Doodle Jump? Click the image to get it now!]]></newsTease>
+        <newsArticle><![CDATA[In the spring of 2009, during the San Francisco Game Developer's Conference, the guys of Bolt Creative, Dave and Allan met with Igor of Lima Sky. Igor said, hey, let's do a mashup of our games! We "jumped" at the chance, thus making iTunes history. Ever since, app store games have been doing similar crossovers. And it's all thanks to the think tank of Lima Sky! In Doodle Jump, type "Ooga" under "Your Name" and a Pocket God Pygmy replaces the iconic Doodler. Likewise, in Pocket God, drag a pygmy into the clouds to play "Ooga Jump" and the Doodler makes his own appearance! So if you don't have Doodle Jump yet...what's the holdup? ]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="1" id="TestNews1" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="TipsNewsIcon" imageExt="raw16" linkUrl="http://pocketgod.blogspot.com">
+        <newsTitle><![CDATA[First time playing Pocket God?]]></newsTitle>
+        <newsTease><![CDATA[Are you unsure of where to start? Pocket God is meant to be explored and experimented with. However, you can find guidance in the Help screen!]]></newsTease>
+        <newsArticle><![CDATA[Additionally, you can find hundreds of fan-made demonstration videos on YouTube that go over the seemigly endless god powers you can unleash as well as the many mini-games and micro-games. Drag the pygmy into the sky to play "Ooga Jump" (based on the hit game Doodle Jump). Or go to the Dinosaur island to build a fire, or battle the T-Rex. Go to the Pygmy Graveyard to turn Pygmies into zombies. Go to the Ice island to create an ice-hole, or defeat the ice monsster! Lastly, with each episode release, a complete description of the new features can be found on the Pocket Blog (link below). ]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="2" id="TestNews2" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="StoreNewsIcon" imageExt="raw16" linkUrl="launchStoreScreen">
+        <newsTitle><![CDATA[Personalize PG in the Custom Pack Store!]]></newsTitle>
+        <newsTease><![CDATA[Go to the community menu, and click the store icon to find customization packs like the Dance Pack or the Alien World Custom Pack!]]></newsTease>
+        <newsArticle><![CDATA[After 31-plus free updates, we are continuing to roll out free content. Want to show your appreciation? Or do you want to personalize Pocket God? Only 99 cents, each custom pack allows you to alter the Pocket God experience. The T-Rex pack allows you to customize the Tyrannosaurus. Make him a Pygmy T-Rex! The Halloween, Holiday and Alien World packs allow you to swap out familiar items with themed items. The dance pack allows you to change the Pygmy's tribal dance with dances like All the Single Ladies and Pants on the Ground! ]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="3" id="TestNews3" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="StoryNewsIcon" imageExt="raw16" linkUrl="launchStoryScreen">
+        <newsTitle><![CDATA[Have you tried Story Mode yet?]]></newsTitle>
+        <newsTease><![CDATA[In the Community menu, find the Story Mode icon. There, you can watch Pocket God stories or create your own! ]]></newsTease>
+        <newsArticle><![CDATA[Make the pygmies talk to each other, dance and much more! We've recently added the ability to trigger island events such as an earthquake or a tribal dance. Story Mode will evolve over time. Enhancements will include more island events, the ability to go underwater and the ability to share stories with friends using Open Feint!]]></newsArticle>
+    </newsItem>
+
+    <newsItem order="4" id="TestNews4" imageUrl="http://appdata.boltcreative.com.s3.amazonaws.com/news/" imageFileName="DefaultNewsIcon" imageExt="raw16">
+        <newsTitle><![CDATA[Welcome to Pocket God News!]]></newsTitle>
+        <newsTease><![CDATA[Introducing the all-new Pocket God News feature! Here, we will peridically post everything Pocket God, including updates and reminders as well as tips and tricks!]]></newsTease>
+        <newsArticle><![CDATA[News items may also include outside links to get more information! You can also find out more at at the Pocket Blog (link below). ]]></newsArticle>
+    </newsItem>
+
+</news>

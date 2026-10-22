@@ -1,0 +1,12 @@
+pub mod bonus_pack_manager;
+pub mod challenge_manager;
+pub mod debug_screen;
+pub mod game_server;
+pub mod game_ui_manager;
+pub mod idol_manager;
+pub mod map_screen;
+pub mod match_and_message;
+pub mod news_manager;
+pub mod pocket_god_app_delegate;
+pub mod skin_pack_manager;
+pub mod story_manager;

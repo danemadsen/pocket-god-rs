@@ -1,0 +1,17 @@
+[package]
+name = "pocket-god"
+description = "Pocket God: the app shared by every platform (library) plus the desktop and web executable"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+bevy.workspace = true
+bevy_egui.workspace = true
+pg-assets = { workspace = true, features = ["bevy"] }
+pg-engine.workspace = true
+pg-game.workspace = true
+pg-platform.workspace = true
+pg-render.workspace = true
+pg-ui.workspace = true

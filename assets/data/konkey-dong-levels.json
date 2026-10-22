@@ -1,0 +1,202 @@
+{
+  "levels": [
+    {
+      "id": "Level0",
+      "display_group": "KonkeyDongLevel1DisplayGroup",
+      "vegetation_object": "Vegetation",
+      "vegetation_behavior": "KonkeyDongVegetation1Init",
+      "level_width": 480.0,
+      "level_height": 320.0,
+      "kong_pos": [121.0, 255.0],
+      "start_pygmy_pos": [30.0, 17.0],
+      "platforms": [
+        {"object": "Platform1", "behavior": "KonkeyDongPlatform1Init", "start_platform": true, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform2", "behavior": "KonkeyDongPlatform3Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform3", "behavior": "KonkeyDongPlatform3Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform4", "behavior": "KonkeyDongPlatform2Init", "start_platform": false, "final_platform": true, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false}
+      ],
+      "ladders": [
+        {"object": "Ladder1", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder2", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder3", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": true}
+      ],
+      "picks": [
+        {"object": "Pick1", "loop_lock": 2}
+      ],
+      "beetles": [
+        {"object": "Beetle1", "loop_unlock": 1}
+      ]
+    },
+    {
+      "id": "Level1",
+      "display_group": "KonkeyDongLevel3DisplayGroup",
+      "vegetation_object": "Vegetation",
+      "vegetation_behavior": "KonkeyDongVegetation3Init",
+      "level_width": 500.0,
+      "level_height": 320.0,
+      "kong_pos": [121.0, 384.0],
+      "start_pygmy_pos": [30.0, 17.0],
+      "platforms": [
+        {"object": "Platform1", "behavior": "KonkeyDongPlatform1Init", "start_platform": true, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform2", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform3", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform4", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform5", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform6", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform7", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform8", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform9", "behavior": "KonkeyDongPlatform9Init", "start_platform": false, "final_platform": true, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false}
+      ],
+      "ladders": [
+        {"object": "Ladder1", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder2", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder3", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder4", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder5", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder6", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": true, "do_not_pass": false}
+      ],
+      "picks": [
+        {"object": "Pick1", "loop_lock": 2}
+      ],
+      "beetles": [
+        {"object": "Beetle1", "loop_unlock": 0},
+        {"object": "Beetle2", "loop_unlock": 0},
+        {"object": "Beetle3", "loop_unlock": 1},
+        {"object": "Beetle4", "loop_unlock": 2}
+      ]
+    },
+    {
+      "id": "Level4",
+      "display_group": "KonkeyDongLevel6DisplayGroup",
+      "vegetation_object": "Vegetation",
+      "vegetation_behavior": "KonkeyDongVegetation6Init",
+      "level_width": 900.0,
+      "level_height": 320.0,
+      "kong_pos": [121.0, 536.0],
+      "start_pygmy_pos": [30.0, 17.0],
+      "platforms": [
+        {"object": "Platform1", "behavior": "KonkeyDongPlatform5Init", "start_platform": true, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform2", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform3", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform4", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform5", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform6", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform7", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform8", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform9", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform10", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform11", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform12", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform13", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform14", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform20", "behavior": "KonkeyDongPlatform8Init", "start_platform": false, "final_platform": true, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false}
+      ],
+      "ladders": [
+        {"object": "Ladder1", "behavior": "KonkeyDongLadder2Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder2", "behavior": "KonkeyDongLadder3Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder3", "behavior": "KonkeyDongLadder2Init", "force_boulder_drop": false, "do_not_pass": false}
+      ],
+      "picks": [
+        {"object": "Pick1", "loop_lock": 4}
+      ],
+      "beetles": [
+        {"object": "Beetle1", "loop_unlock": 0},
+        {"object": "Beetle2", "loop_unlock": 0},
+        {"object": "Beetle3", "loop_unlock": 1}
+      ]
+    },
+    {
+      "id": "Level2",
+      "display_group": "KonkeyDongLevel5DisplayGroup",
+      "vegetation_object": "Vegetation",
+      "vegetation_behavior": "KonkeyDongVegetation5Init",
+      "level_width": 570.0,
+      "level_height": 320.0,
+      "kong_pos": [121.0, 660.0],
+      "start_pygmy_pos": [30.0, 17.0],
+      "platforms": [
+        {"object": "Platform1", "behavior": "KonkeyDongPlatform7Init", "start_platform": true, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform3", "behavior": "KonkeyDongPlatform8Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": true},
+        {"object": "Platform4", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform5", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform6", "behavior": "KonkeyDongPlatform7Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": true},
+        {"object": "Platform7", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform8", "behavior": "KonkeyDongPlatform5Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform9", "behavior": "KonkeyDongPlatform7Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": true},
+        {"object": "Platform10", "behavior": "KonkeyDongPlatform7Init", "start_platform": false, "final_platform": true, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false}
+      ],
+      "ladders": [
+        {"object": "Ladder1", "behavior": "KonkeyDongLadder2Init", "force_boulder_drop": true, "do_not_pass": false},
+        {"object": "Ladder2", "behavior": "KonkeyDongLadder4Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder3", "behavior": "KonkeyDongLadder4Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder4", "behavior": "KonkeyDongLadder2Init", "force_boulder_drop": true, "do_not_pass": false},
+        {"object": "Ladder5", "behavior": "KonkeyDongLadder2Init", "force_boulder_drop": true, "do_not_pass": false},
+        {"object": "Ladder6", "behavior": "KonkeyDongLadder4Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder7", "behavior": "KonkeyDongLadder4Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder8", "behavior": "KonkeyDongLadder4Init", "force_boulder_drop": true, "do_not_pass": false},
+        {"object": "Ladder9", "behavior": "KonkeyDongLadder4Init", "force_boulder_drop": true, "do_not_pass": false},
+        {"object": "Ladder10", "behavior": "KonkeyDongLadder2Init", "force_boulder_drop": true, "do_not_pass": false}
+      ],
+      "picks": [
+        {"object": "Pick1", "loop_lock": 2},
+        {"object": "Pick2", "loop_lock": 4},
+        {"object": "Pick3", "loop_lock": 3}
+      ],
+      "beetles": [
+        {"object": "Beetle1", "loop_unlock": 0},
+        {"object": "Beetle2", "loop_unlock": 0},
+        {"object": "Beetle3", "loop_unlock": 0},
+        {"object": "Beetle4", "loop_unlock": 0},
+        {"object": "Beetle5", "loop_unlock": 0},
+        {"object": "Beetle6", "loop_unlock": 0},
+        {"object": "Beetle7", "loop_unlock": 0},
+        {"object": "Beetle8", "loop_unlock": 0}
+      ]
+    },
+    {
+      "id": "Level3",
+      "display_group": "KonkeyDongLevel4DisplayGroup",
+      "vegetation_object": "Vegetation",
+      "vegetation_behavior": "KonkeyDongVegetation4Init",
+      "level_width": 950.0,
+      "level_height": 320.0,
+      "kong_pos": [420.0, 570.0],
+      "start_pygmy_pos": [30.0, 17.0],
+      "platforms": [
+        {"object": "Platform1", "behavior": "KonkeyDongPlatformW920Init", "start_platform": true, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform3", "behavior": "KonkeyDongPlatform1Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform4", "behavior": "KonkeyDongPlatform4Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform5", "behavior": "KonkeyDongPlatform4Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform6", "behavior": "KonkeyDongPlatform4Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform7", "behavior": "KonkeyDongPlatform3Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": true},
+        {"object": "Platform8", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform9", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform10", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": -100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform11", "behavior": "KonkeyDongPlatform6Init", "start_platform": false, "final_platform": false, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false},
+        {"object": "Platform12", "behavior": "KonkeyDongPlatformW920Init", "start_platform": false, "final_platform": true, "boulder_x_pos_vel": 100.0, "flip_boulder_x_pos_vel": false}
+      ],
+      "ladders": [
+        {"object": "Ladder1", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder2", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder3", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder4", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder5", "behavior": "KonkeyDongLadder1Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder6", "behavior": "KonkeyDongLadder3Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder7", "behavior": "KonkeyDongLadder3Init", "force_boulder_drop": false, "do_not_pass": false},
+        {"object": "Ladder8", "behavior": "KonkeyDongLadder4Init", "force_boulder_drop": true, "do_not_pass": false}
+      ],
+      "picks": [
+        {"object": "Pick1", "loop_lock": 1},
+        {"object": "Pick2", "loop_lock": 2},
+        {"object": "Pick3", "loop_lock": 3}
+      ],
+      "beetles": [
+        {"object": "Beetle1", "loop_unlock": 0},
+        {"object": "Beetle2", "loop_unlock": 0},
+        {"object": "Beetle3", "loop_unlock": 0},
+        {"object": "Beetle4", "loop_unlock": 0},
+        {"object": "Beetle5", "loop_unlock": 0}
+      ]
+    }
+  ]
+}

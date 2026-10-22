@@ -1,0 +1,15 @@
+[package]
+name = "pg-engine"
+description = "Port of Bolt Creative's BC engine: display tree, animation, sequences, logic framework, audio state and draw lists"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+bevy_app.workspace = true
+bevy_ecs.workspace = true
+bevy_math.workspace = true
+pg-assets.workspace = true
+serde.workspace = true
+serde_json.workspace = true

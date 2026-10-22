@@ -1,0 +1,8 @@
+{
+  "fonts": [
+    {"id": "Arial12Black", "folder": "../BoltLib/AppFonts", "file_name": "Arial12-Black", "ext": "png", "char_set": " !\"#$%&'()*+,-./0123456789:;<=>?@[\\]^_`{|}~ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"},
+    {"id": "Arial12", "folder": "../BoltLib/AppFonts", "file_name": "Arial12-White", "ext": "png", "char_set": " !\"#$%&'()*+,-./0123456789:;<=>?@[\\]^_`{|}~ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"},
+    {"id": "AnimatedGothicLite20", "folder": "../BoltLib/AppFonts", "file_name": "AnimatedGothicLite20-White", "ext": "png", "char_set": " !\"#$%&'()*+,-./0123456789:;<=>?@[\\]^_`{|}~ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"},
+    {"id": "Doop24Green", "folder": "../BoltLib/AppFonts", "file_name": "Doop24-Green", "ext": "png", "char_set": " L0123456789"}
+  ]
+}
